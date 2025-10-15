@@ -1,4 +1,14 @@
-h1 {border-bottom:none; padding-bottom:1rem; margin-bottom:0px; font-size:90%}
+/* 
+ * papers.css
+ * Jason Dykes
+ * 15/10/25
+ *
+ */
+
+ body {font-size:90%;}
+
+
+h1 {border-bottom:none; padding-bottom:1rem; margin-bottom:0px; font-size:90%; color:#f00}
 h2 {border-top:none; padding-top:2rem; border-top:none; font-size:90%}
 h3 {padding-top:1rem; font-size:90%}
 h4 {border-top:none; padding-top:1rem; border-top:none; font-size:90%}
@@ -6,4 +16,3 @@ h5 {margin-top:0.25rem; padding-top:0px; font-size:90%; color:#40404080; margin-
 h6 {padding:1rem; margin-top:0.5rem; padding-top:0.5rem; font-size:100%; color:#404040ff; font-style:italic; text-align:right; background-color:#c0c0c020; margin-bottom:0.5rem; padding-bottom:0.5rem;}
 hr {border:dashed 1px #c0c0c0; height:0px;border-width:1;color:#802020; border-bottom:none; border-left:none; border-right:none; width:90%; 
 }
-body {font-size:90%}
