@@ -83,3 +83,7 @@
 |**Creative** | We look for new and useful solutions, and are innovative in our thinking |
 |**Playful** | We enjoy what we do and have some fun along the way|
 |**Human** | We give each other the space to live|
+
+<style>
+    table, thead, tbody, tr, td, th {border:4px #fff solid}
+    </style>
