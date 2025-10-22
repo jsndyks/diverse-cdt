@@ -5,52 +5,43 @@
 ###### Can Flow Diagrams, Phancy Phrasing & Cartoon Captions help us with our research?
 
 
-### First Hour ... Who Are We?
+### First Hour ... Catch Up and Ouxun
 
-* **What is Research**?
-* What Makes Good Research?
-* What Makes a Good Researcher?
-  * » _RC log_ ...
-* Make a Research Question?
+* Logs : Make a Research Question?
   * » _RQ log_ ...
- 
+
+* A Paper - _Ouxun Jiang_
+ * First pass / Thorough Read / times / questions
+ * critique
+  * » _Discuss - claims, RQs_ ...
+
+ - claims, evidence, scope, reliability, transparency, transfer
 ---
 
-* **my journey**
-* your experience
-* **my position**
-  * » _Positionality draft_ ...
 
 
-### Second Hour ... Students & Schematics
+### Second Hour ... Models & Schematics
 
 * **Research Schematics** :
    1. Explain, Adapt / Agree, Use (Questions) 
    1. Claim, Evidence, Scope, Reliability, Transfer
-   2. The Lens PhD
-* Lens PhDs :
-   1. McCurdy;
-   2. Kerzner;
 
----
+* **Prof. Munzner**
+ 1. Processes &amp; Pitfalls
+ 2. Nested Model
 
-* A Paper - _Ouxun Jiang_
-  * » _Get A Coffee_ ...
-  * » _Read The Paper_ ...
+### Third Hour ... Papers
 
-
-### Third Hour ...
-
-* A Paper - _Ouxun Jiang_
-  * » _Discuss - claims, RQs_ ...
-
----
+* BallotMaps
 
 * ORCID - https://info.orcid.org/what-is-orcid/
   * » _Get ORCID_ ...
 
+* Vis Futures
 
-## Homework &amp; Prepararion
+--
+
+## Homework &amp; Preparation
 
 * Reading ..
   * » _Munzner : Processes &amp; Pitfalls_
