@@ -8,7 +8,7 @@ Describes an applied context which needed multivariate time series spatial data 
 
 #### Why is it indicative?
 
-I like doing applied work that benefits another community. I then like generalise from this to other applications.
+I like doing applied work that benefits another community. I then like to generalise from this to other applications.
 
 ---
 
