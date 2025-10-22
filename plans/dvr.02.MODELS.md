@@ -10,10 +10,18 @@
 * Logs : Make a Research Question?
   * » _RQ log_ ...
 
-* A Paper - _Ouxun Jiang_
+* A Paper - _Ouxun Jiang_ (50)
  * First pass / Thorough Read / times / questions
  * critique
   * » _Discuss - claims, RQs_ ...
+
+  - critical of existing work
+  - claims draw upon other work
+  - section 3 - existing work is complicated to interpret and apply
+
+  - app is attept to abstract and apply
+
+  - task taxonomy; literature; mapping --> online app
 
  - claims, evidence, scope, reliability, transparency, transfer
 ---
