@@ -4,50 +4,82 @@
 
 ###### Can Flow Diagrams, Phancy Phrasing & Cartoon Captions help us with our research?
 
-
 ### First Hour ... Catch Up and Ouxun
 
 * Logs : Make a Research Question?
   * » _RQ log_ ...
 
-* A Paper - _Ouxun Jiang_ (50)
- * First pass / Thorough Read / times / questions
- * critique
-  * » _Discuss - claims, RQs_ ...
+##### Ouxun Jiang ... paper (50)
 
-  - critical of existing work
-  - claims draw upon other work
-  - section 3 - existing work is complicated to interpret and apply
+ * First pass (shallow) / Thorough Read (deeper) -- times?
+ * critique  » _NoteBook_ definition
 
-  - app is attept to abstract and apply
+ * Questions?
+ » _**Z** : Discuss - claims, contributions, RQs_ ...
 
-  - task taxonomy; literature; mapping --> online app
+   - critical of existing work
+   - claims draw upon other work
+   - section 3 - existing work is complicated to interpret and apply
 
- - claims, evidence, scope, reliability, transparency, transfer
----
+  - **WebSite** is attempt to _abstract_ and _apply_ collated knowledge
+
+* approach
+  - sample --> task taxonomy;
+  - literature --> mapping --> WebSite
+
+* **consider**: claims, evidence, scope, reliability, transparency, transfer
 
 
+### Second Hour ... Models & Examples
 
-### Second Hour ... Models & Schematics
+##### **Prof. Munzner**
+ 1. **Processes &amp; Pitfalls**
+  - pimary contribution:
+    an **algorithm**, a **design**, a **system**, a **user study**, or a **model**.
+  » _**Z** :_ 
 
-* **Research Schematics** :
-   1. Explain, Adapt / Agree, Use (Questions) 
-   1. Claim, Evidence, Scope, Reliability, Transfer
+ 2. **Nested Model**
+ - figures / levels
+  **problem** ; **abstraction** (data/operation); **encoding**; **algorithm**;
+  » _**Z** :_ 
 
-* **Prof. Munzner**
- 1. Processes &amp; Pitfalls
- 2. Nested Model
+* » _Discuss - content / notes_ ...
+
+
+##### **BallotMaps**
+ - type?
+ - claims?
+ - homework : read / validation!
+  » _**Z** :_ 
+
 
 ### Third Hour ... Papers
 
-* BallotMaps
+##### **Research Schematics** :
+
+   1. Explain, Adapt / Agree, Use (Questions) 
+   1. Claim, Evidence, Scope, Reliability, Transfer
+
+##### **VIS 2025 - Area Models:**
+ https://ieeevis.org/year/2025/info/call-participation/area-model
+ * **Area 2**: Applications
+ * **Area 4**: Representations & Interaction
+   » _Show select one of each_ ...
+
+
+##### **Research Identity** :
 
 * ORCID - https://info.orcid.org/what-is-orcid/
   * » _Get ORCID_ ...
 
-* Vis Futures
+##### **Research Futures** :
 
---
+* **Willett** - Vis Futures
+   » _Select Your Superpower_ ...
+  * » _SP log_ ...
+
+
+---
 
 ## Homework &amp; Preparation
 
