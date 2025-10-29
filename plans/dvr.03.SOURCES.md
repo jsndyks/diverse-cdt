@@ -6,7 +6,12 @@
 
 ### First Hour ... Catch Up - BallotMaps, VIS &amp; SuperPowers
 
+_Let's spend a bit of time reflecting back on last week and discussing the work we have done since ..._
+
 - **SuperPower** : ZwiftKite PowerView CoffeeVision!
+  * » _Select Your Superpower_ ...
+  * » _SP log_ ...
+
 - **BallotMaps** : Nested Model
 - **IEEE VIS Area Model**
 - **John Guerra** - [Exploratory DataVis](https://johnguerra.co/viz/visPubNetwork/)
@@ -17,108 +22,60 @@ https://johnguerra.co/viz/ieeevis2025Papers/clusters.html
 
 ### Second Hour ... Search & Sources  
 
+_OK, so how do we find and keepo track of the existing work that has been done ..._
+
 ##### Scholar ... 
 
- * Accounts, Profiles
+ * find [https://scholar.google.com/](https://scholar.google.com/)
+ * Accounts, Profiles, Libraries
  * Extensions - PDF?
  * Alerts
 
 ##### SCOPUS
 
+ * Find - [https://www.scopus.com/](https://www.scopus.com/)
+ * Search - Systematic / Save / Share<br/>(Substantiate / Show Off!)
+
 ##### Zotero
 
+- [find](https://www.zotero.org)? 
 - [why](https://www.zotero.org/why)? 
 - register
 - shared Web library
 - Ouxun Jiang
-- add SuperPower
-- [connector](https://chromewebstore.google.com/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc)
+- add note : SuperPower
+- [connector](http://bit.ly/47tj29J)
 
 ##### Observable
 
-- use my references : Scholar Bib
+- use JWo [References and Citations](https://observablehq.com/@gicentre/references-class) capability
+
+```javaScript
+import {Refs} from "@gicentre/references-class"
+```
+
+```javaScript
+  bib = Refs.create(
+  await d3.text(
+    "https://jsndyks.github.io/diverse-cdt/bib/zoteroDIVERSE-CDT.bib"
+  )
+)
+```
+ 
+  - Bib - text
+  - Bib - online
+  - styling output
 
 ### Third Hour ... Structured Abstracts
 
-##### Scholar ... 
 
- * Accounts, Profiles
- * Extensions - PDF
- * Alerts
-
- * Questions?
- » _**Z** : Discuss - claims, contributions, RQs_ ...
-
-   - critical of existing work
-   - claims draw upon other work
-   - section 3 - existing work is complicated to interpret and apply
-
-  - **WebSite** is attempt to _abstract_ and _apply_ collated knowledge
-
-* approach
-  - sample --> task taxonomy;
-  - literature --> mapping --> WebSite
-
-* **consider**: claims, evidence, scope, reliability, transparency, transfer
-
-
-### Second Hour ... Models & Examples
-
-##### **Prof. Munzner**
- 1. **Processes &amp; Pitfalls**
-  - pimary contribution:
-    an **algorithm**, a **design**, a **system**, a **user study**, or a **model**.
-  » _**Z** :_ 
-
- 2. **Nested Model**
- - figures / levels
-  **problem** ; **abstraction** (data/operation); **encoding**; **algorithm**;
-  » _**Z** :_ 
-
-* » _Discuss - content / notes_ ...
-
-
-##### **BallotMaps**
- - type?
- - claims?
- - homework : read / validation!
-  » _**Z** :_ 
-
-
-### Third Hour ... Papers
-
-##### **Research Schematics** :
-
-   1. Explain, Adapt / Agree, Use (Questions) 
-   1. Claim, Evidence, Scope, Reliability, Transfer
-
-##### **VIS 2025 - Area Models:**
- https://ieeevis.org/year/2025/info/call-participation/area-model
- * **Area 2**: Applications
- * **Area 4**: Representations & Interaction
-   » _Show select one of each_ ...
-
-
-##### **Research Identity** :
-
-* ORCID - https://info.orcid.org/what-is-orcid/
-  * » _Get ORCID_ ...
-
-##### **Research Futures** :
-
-* **Willett** - Vis Futures
-   » _Select Your Superpower_ ...
-  * » _SP log_ ...
 
 
 ---
 
 ## Homework &amp; Preparation
 
-* Reading ..
-  * » _Munzner : Processes &amp; Pitfalls_
-  * » _Munzner : Nested Model_
-
+To Come!
 
 <!--- HTML / CSS--->
 
@@ -135,6 +92,7 @@ https://johnguerra.co/viz/ieeevis2025Papers/clusters.html
 - squiggle
  -->
 
+<!-- 
 ### Values
 | &nbsp; | &nbsp;                 |
 |   -:| -                    |
@@ -146,6 +104,7 @@ https://johnguerra.co/viz/ieeevis2025Papers/clusters.html
 |**Creative** | We look for new and useful solutions, and are innovative in our thinking |
 |**Playful** | We enjoy what we do and have some fun along the way|
 |**Human** | We give each other the space to live|
+ -->
 
 <style>
     table, thead, tbody, tr, td, th {border:4px #fff solid}
