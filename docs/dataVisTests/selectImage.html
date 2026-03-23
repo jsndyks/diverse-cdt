@@ -1,0 +1,23 @@
+<img id="viewer" alt="">
+<input id="slider" type="range" min="0" max="2" value="0">
+
+<script>
+  const images = [
+    "https://jsndyks.github.io/diverse-cdt/dataVisTests/img/00.title.png",
+    "https://jsndyks.github.io/diverse-cdt/dataVisTests/img/01.position.png",
+    "https://jsndyks.github.io/diverse-cdt/dataVisTests/img/02.order.png"
+  ];
+
+  const viewer = document.getElementById("viewer");
+  const slider = document.getElementById("slider");
+
+  function showImage(index) {
+    viewer.src = images[index];
+  }
+
+  showImage(0);
+
+  slider.addEventListener("input", function () {
+    showImage(Number(slider.value));
+  });
+</script>
