@@ -30,8 +30,9 @@ This is a _three session_ activity, that follows the _Education Papers Session_ 
 ---
 
 <details markdown=1>
+<summary>
 
-<summary> <h2>Session 01 - The Present</h2> 
+<h2>Session 01 - The Present</h2> 
 
 <h5>coordinated by <em>Cagatay Turkay</em></h5>
 
@@ -89,7 +90,8 @@ Prompts will be provided, for example ...
 ---
 
 <details>
-<summary> <h2>Session 02 - The Past</h2> 
+<summary>
+<h2>Session 02 - The Past</h2> 
 
 <h5>coordinated by <em>Jason Dykes</em></h5>
 
