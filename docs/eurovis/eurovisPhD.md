@@ -1,4 +1,4 @@
-# EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the PhD
+# EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the PhD XXX
 
 A focus on PhD study, skills and supervision for students and staff and involved in PhD Education to connect, share best practice and develop ideas for the future.
 
@@ -29,7 +29,7 @@ This is a _three session_ activity, that follows the _Education Papers Session_ 
 
 ---
 
-<details markdown="1">
+<details markdown=1>
 
 <summary> &laquo; <span style="color:#999;font-size:90%"><em>click for details!</em></span>
 
