@@ -29,7 +29,7 @@ This is a _three session_ activity, that follows the _Education Papers Session_ 
 
 ---
 
-<details markdown=1>
+<details markdown="1">
 <summary>
 
 <h2>Session 01 - The Present</h2> 
@@ -89,7 +89,7 @@ Prompts will be provided, for example ...
 
 ---
 
-<details>
+<details markdown="1">
 <summary>
 <h2>Session 02 - The Past</h2> 
 
@@ -128,7 +128,7 @@ Questions and discussion points from the morning activity will be seeded here.
 
 ---
 
-<details>
+<details markdown="1">
 <summary> <h2>Session 03 - The Future</h2> 
 
 <h5>coordinated by <em>Jason Dykes</em> &amp; <em>Marjahan Begum</em></h5>
