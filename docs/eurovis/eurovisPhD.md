@@ -1,4 +1,4 @@
-# EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the PhD XXX
+# EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the PhD
 
 A focus on PhD study, skills and supervision for students and staff and involved in PhD Education to connect, share best practice and develop ideas for the future.
 
@@ -156,7 +156,7 @@ Find out about the <a href="https://diverse-cdt.ac.uk/">DIVERSE-CDT</a> initiati
 
  - **the NoteBook PhD**<br/> _Jo Wood_ presents the programme and rationale, and innovations in the use of technology for PhD study;
  - **the Component PhD**<br/> _Cagatay Turkay_ outlines plans for partner engagement and PhD focus;
-- **the Cohort PhD***<br/>_Steph Wilson_ shares initiatives and learnings around diverse recruitment, support for students and cohort study;
+- **the Cohort PhD**<br/>_Steph Wilson_ shares initiatives and learnings around diverse recruitment, support for students and cohort study;
  - **PhD Discussion**<br/> _Jason Dykes_ and _Cagatay Turkay_ participate in a semi-open, semi-structured discussion facilitated by host _Bob Laramee_; 
 
 #### The Thinking
