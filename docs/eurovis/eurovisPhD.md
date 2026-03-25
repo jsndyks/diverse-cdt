@@ -31,7 +31,7 @@ This is a _three session_ activity, that follows the _Education Papers Session_ 
 
 <details markdown=1>
 
-<summary> **Session 01 - The Present** </summary>
+<summary> <h2>Session 01 - The Present</h2> </summary>
 
  &laquo; <span style="color:#999;font-size:90%"><em>click for details!</em></span> 
 
