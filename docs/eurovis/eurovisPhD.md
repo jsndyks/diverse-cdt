@@ -31,7 +31,9 @@ This is a _three session_ activity, that follows the _Education Papers Session_ 
 
 <details markdown=1>
 
-<summary> &laquo; <span style="color:#999;font-size:90%"><em>click for details!</em></span>
+<summary> The Present</summary>
+
+ &laquo; <span style="color:#999;font-size:90%"><em>click for details!</em></span> 
 
 ## 01 - The Present
 
@@ -45,7 +47,7 @@ An activity in which PhD students introduce themselves and we collectively contr
  * **Show &amp; Tell**
  * **Connect &amp; Chat**
 
-</summary>
+<!-- </summary> -->
 
 
 #### Show &amp; Tell
