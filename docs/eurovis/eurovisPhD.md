@@ -29,26 +29,26 @@ This is a _three session_ activity, that follows the _Education Papers Session_ 
 
 ---
 
-<details markdown=1>
+<details>
 
-<summary> <h2>Session 01 - The Present</h2> </summary>
+<summary> <h2>Session 01 - The Present</h2> 
 
- &laquo; <span style="color:#999;font-size:90%"><em>click for details!</em></span> 
+<h5>coordinated by <em>Cagatay Turkay</em></h5>
 
-## 01 - The Present
+<blockquote><b>The Present</b><br/>
+Present your ideas, share your graphic, meet and get to know the community
+</blockquote>
 
-##### coordinated by _Cagatay Turkay_
+<p>An activity in which PhD students introduce themselves and we collectively contribute, prioritise and answer questions about planning, doing, supporting and supervising PhDs.</p>
 
-> **The Present**
-> Present your ideas, share your graphic, meet and get to know the community
+<ul>
+<li><b>Show &amp; Tell</b></li>
+<li><b>Connect &amp; Chat</b></li>
+</ul>
 
-An activity in which PhD students introduce themselves and we collectively contribute, prioritise and answer questions about planning, doing, supporting and supervising PhDs.
+</summary>
 
- * **Show &amp; Tell**
- * **Connect &amp; Chat**
-
-<!-- </summary> -->
-
+---
 
 #### Show &amp; Tell
 
@@ -88,25 +88,27 @@ Prompts will be provided, for example ...
 
 ---
 
-<details markdown="1">
+<details>
+<summary> <h2>Session 02 - The Past</h2> 
 
-<summary> &laquo; <span style="color:#999;font-size:90%"><em>click for details!</em></span>
+<h5>coordinated by <em>Jason Dykes</em></h5>
 
-## 02 - The Past
+<blockquote><b>The Past</b><br/>
+A panel in which experiences of supervision are introduced and discussed
+</blockquote>
 
-##### hosted by _Jason Dykes_
-
-
-> **The Past**
-> A panel in which experiences of supervision are introduced and discussed.
-
+<p>
 Hear from and connect with a diverse panel of guest participants who have acquired PhDs, learn from their experiences of study and supervision and grill them with questions.
+</p>
 
- * **Panel Discussion**
- * **Open Discussion**
+<ul>
+<li><b>Panel Discussion</b></li>
+<li><b>Open Discussion</b></li>
+</ul>
 
 </summary>
 
+---
 
 ### Panel Discussion
 
@@ -124,23 +126,27 @@ Questions and discussion points from the morning activity will be seeded here.
 
 ---
 
-<details markdown="1">
+<details>
+<summary> <h2>Session 03 - The Future</h2> 
 
-<summary> &laquo; <span style="color:#999;font-size:90%"><em>click for details!</em></span>
+<h5>coordinated by <em>Jason Dykes</em> &amp; <em>Marjahan Begum</em></h5>
 
-## 03 - The Future
+<blockquote><b>Future</b><br/>
+Hear about initiatives and develop our collective thinking on the future of PhD education
+</blockquote>
 
-##### coordinated by _Jason Dykes_ &amp; _Marjahan Begum_
+<p>
+Find out about the <a href="https://diverse-cdt.ac.uk/">DIVERSE-CDT</a> initiative for PhD education and work towards developing, prioritising and answering the questions on OhD education that have evolved throughout the day.
+</p>
 
-> **The Future**
-> Hear about initiatives and develop our collective thinking on the future of PhD education.
-
-Find out about the [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/) initiative for PhD education and work towards developing, prioritising and answering the questions on OhD education that have evolved throughout the day.
-
- * **The Centre**
- * **The Thinking**
+<ul>
+<li><b>The Centre</b></li>
+<li><b>The Thinking</b></li>
+</ul>
 
 </summary>
+
+---
 
 #### The Centre
 
