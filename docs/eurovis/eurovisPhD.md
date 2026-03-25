@@ -29,14 +29,23 @@ This is a _three session_ activity, that follows the _Education Papers Session_ 
 
 ---
 
+<details>
+
+<summary> &laquo; click
+
 ## 01 - The Present
 
 ##### coordinated by _Cagatay Turkay_
 
 > **The Present**
-> Present your ideas, meet and get to know the community
+> Present your ideas, share your graphic, meet and get to know the community
 
 An activity in which PhD students introduce themselves and we collectively contribute, prioritise and answer questions about planning, doing, supporting and supervising PhDs.
+
+ * **Show &amp; Tell**
+ * **Connect &amp; Chat**
+
+</summary>
 
 
 #### Show &amp; Tell
@@ -48,13 +57,16 @@ This can be anything, submitted in advance, but might involve:
  * my approach to visualization / design
  * important to my PhD
  * why I love visualization
- * about me (or my cat)
+ * my favourite /least favourite data vis
+ * about me (or my data, or my cat)
  * Dear Data
+ * the future of visualization
  * something I care about
 
 Students can request a 1, 3 or 5 minute presentation during the submission and we do our best!
 
 Deadline  **01 May** - _after poster notifications_.
+
 
 ### Connect &amp; Chat
 
@@ -70,7 +82,13 @@ Prompts will be provided, for example ...
  * how can we improve PhD education in Data Visualization?
  * what have you always wanted to know about PhD students / supervisors?
 
+</details>
+
 ---
+
+<details>
+
+<summary>
 
 ## 02 - The Past
 
@@ -78,7 +96,15 @@ Prompts will be provided, for example ...
 
 
 > **The Past**
-> Hear from and connect with a diverse panel of guest participants who have acquired PhDs, learn from their experiences of study and supervision and grill them with questions.
+> A panel in which experiences of supervision are introduced and discussed.
+
+Hear from and connect with a diverse panel of guest participants who have acquired PhDs, learn from their experiences of study and supervision and grill them with questions.
+
+ * **Panel Discussion**
+ * **Open Discussion**
+
+</summary>
+
 
 ### Panel Discussion
 
@@ -92,14 +118,27 @@ Questions from the audience and discussion around these.
 
 Questions and discussion points from the morning activity will be seeded here. 
 
+</details>
+
 ---
+
+<details>
+
+<summary>
 
 ## 03 - The Future
 
 ##### coordinated by _Jason Dykes_ &amp; _Marjahan Begum_
 
 > **The Future**
-> Find out about the [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/) initiative and develop our collective thinking on the future of PhD education.
+> Hear about initiatives and develop our collective thinking on the future of PhD education.
+
+Find out about the [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/) initiative for PhD education and work towards developing, prioritising and answering the questions on OhD education that have evolved throughout the day.
+
+ * **The Centre**
+ * **The Thinking**
+
+</summary>
 
 #### The Centre
 
@@ -130,6 +169,8 @@ Examples may include :
 
 But please bring and develop your questions of your own for collective action.
 
+</details>
+
 ---
 **Jason Dykes**<br/>
-_18/03/26_
+_25/03/26_
