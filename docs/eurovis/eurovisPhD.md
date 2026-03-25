@@ -19,19 +19,19 @@ We plan activities that will connect and be useful for all three groups :
 
 This is a _three session_ activity, that follows the _Education Papers Session_ and precedes _EuroVIS Posters_, to make a full-day _Education Track_ during the main conference.
 
-|&nbsp;|&nbsp;|&nbsp;|
-|-:|--|--|
-|am|**session 01**|_Education Research Track_|reviewed conference papers|
- am|**session 02**|_PhD Ed - The Present_|chair _Cagatay Turkay_|
- pm|**session 03**|_PhD Ed - The Past_|chair _Jason Dykes_|
- pm|**session 04**|_PhD Ed - The Future_|chairs _Marjahan Begum_ &amp; _Jason Dykes_|
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
+|-:|--|--|--|
+|am|&nbsp;|_Education Research Track_|reviewed conference papers|
+ am|**session01**|_PhD Ed - The Present_|chair _Cagatay Turkay_|
+ pm|**session02**|_PhD Ed - The Past_|chair _Jason Dykes_|
+ pm|**session03**|_PhD Ed - The Future_|chairs _Marjahan Begum_ &amp; _Jason Dykes_|
  eve|**evening**|_EuroVIS Posters_ &amp; then _Education Chat_|local pub or café - TBC|
 
 ---
 
 <details>
 
-<summary> &laquo; click
+<summary> &laquo; <span style="color:#999;font-size:90%"><em>click for details!</em></span>
 
 ## 01 - The Present
 
@@ -88,7 +88,7 @@ Prompts will be provided, for example ...
 
 <details>
 
-<summary>
+<summary> &laquo; <span style="color:#999;font-size:90%"><em>click for details!</em></span>
 
 ## 02 - The Past
 
@@ -124,7 +124,7 @@ Questions and discussion points from the morning activity will be seeded here.
 
 <details>
 
-<summary>
+<summary> &laquo; <span style="color:#999;font-size:90%"><em>click for details!</em></span>
 
 ## 03 - The Future
 
@@ -174,3 +174,4 @@ But please bring and develop your questions of your own for collective action.
 ---
 **Jason Dykes**<br/>
 _25/03/26_
+
