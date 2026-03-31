@@ -1,4 +1,15 @@
-# EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the PhD
+## EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the PhD
+
+<style>
+    img {margin:4px; padding:2px; border:1px dashed #e0e0e0}
+    p {padding-top:0.5em; padding-bottom:0.5em}
+    h1 a {display:none}
+    .footer {color:rgba(0,0,0,0) !important; font-size:0px}
+    .footer a {color:rgba(0,0,0,0) !important; font-size:0px}
+    .footer #text {display:none !important; font-size:0px}
+    .footer a {display:none !important; font-size:0px}
+</style>
+
 
 A focus on PhD study, skills and supervision for students and staff and involved in PhD Education to connect, share best practice and develop ideas for the future ... with an update on a major UK initiative in PhD training.
 
@@ -82,8 +93,6 @@ Prompts will be provided, for example ...
  * what have you always wanted to know about PhD students / supervisors?
 --->
 
-</details>
-
 ---
 
 <h2>Session 02 - The Panel &amp; Priorities</h2> 
@@ -118,8 +127,6 @@ We will be recruiting excellent communicators, with complimentary experience who
 Questions from the audience and discussion around these.
 
 Questions and discussion points from the morning activity will be seeded here as we seek to uncover and prioritise activiites and initiatives that can improve PhD education for all parties.
-
-</details>
 
 
 <!---
