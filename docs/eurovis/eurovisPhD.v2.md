@@ -36,7 +36,9 @@ We plan activities that will connect and be useful for all three groups :
 <h5>coordinated by <em>Cagatay Turkay</em></h5>
 
 <blockquote>
+
 Meet the community and discuss and develop priorities for discussion around PhD education as well as hearing about [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/)
+
 </blockquote>
 
 <p>An activity in which PhD students introduce themselves, the EPSRC Doctoral Training Centre for Diversity in Data Visualization reports on progress and plans, and we collectively contribute, prioritise and answer questions about planning, doing, supporting and supervising PhDs.</p>
@@ -93,16 +95,18 @@ Prompts will be provided, for example ...
 
 ---
 
-<h2>Session 02 - The Panel &amp; Priorities</h2> 
+<h2>Session 02 - The Panel - Diversity &amp; Priority</h2> 
 
 <h5>coordinated by <em>Jason Dykes</em></h5>
 
 <blockquote>
-A diverse panel, in which PhD experiences are introduced and discussed and priorities for enhancing PhD education are identified.
+
+A diverse panel, in which PhD experiences are introduced and discussed and priorities for supporting, enhancing and extending PhD education are identified.
+
 </blockquote>
 
 <p>
-Hear from and connect with a diverse panel of guest participants who have acquired PhDs. Learn from their experiences of study and supervision and grill them with questions as we discuss and identify priorities for improving PhD study.
+Hear from and connect with a diverse panel of guest participants who have acquired PhDs. Learn from their experiences of study and supervision and grill them with questions as we discuss and identify priorities for improving and widening PhD study.
 </p>
 
 <ul>
@@ -124,7 +128,7 @@ We will be recruiting excellent communicators, with complimentary experience who
 
 Questions from the brainstorming exercise and discussion around these.
 
-We seek to uncover and prioritise activites and initiatives that can improve PhD education for all parties with _The Panel_.
+We seek to uncover and prioritise activites and initiatives that can improve and extend PhD education for all parties with _The Panel_.
 
 
 <!---
