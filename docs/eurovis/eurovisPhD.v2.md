@@ -36,14 +36,14 @@ We plan activities that will connect and be useful for all three groups :
 <h5>coordinated by <em>Cagatay Turkay</em></h5>
 
 <blockquote>
-Meet the community and discuss and develop priorities for discussion around PhD education as well as hearing about DIVERSE CDT
+Meet the community and discuss and develop priorities for discussion around PhD education as well as hearing about [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/)
 </blockquote>
 
 <p>An activity in which PhD students introduce themselves, the EPSRC Doctoral Training Centre for Diversity in Data Visualization reports on progress and plans, and we collectively contribute, prioritise and answer questions about planning, doing, supporting and supervising PhDs.</p>
 
 <ul>
 <li><b>Introductions</b> - current and prospective PhD students say hello (graphically)</li>
-<li><b>Updates</b> - what's going on at DIVERSE-CDT?</li>
+<li><b>Updates</b> - what's going on at [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/)?</li>
 <li><b>Brainstorming</b> - group work to connect, discuss and develop questions and priorities for the panel</li>
 </ul>
 
