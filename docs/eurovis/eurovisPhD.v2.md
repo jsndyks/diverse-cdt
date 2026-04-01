@@ -68,7 +68,7 @@ You can request a 1, 3 or 5 minute presentation during the submission and we do 
 
 Deadline **01 May 2026 (Anywhere on Earth)**
 
-Submissions are done [through this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfRlecXFRfDxf9SgmfccJmDEGJYRcz6c02BsAQ_LuViZ-KNTQ/viewform?usp=sharing&ouid=103543335356597978812).
+Submit your visual (PDF) and details [through this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfRlecXFRfDxf9SgmfccJmDEGJYRcz6c02BsAQ_LuViZ-KNTQ/viewform?usp=sharing&ouid=103543335356597978812).
 
 #### Updates
 
