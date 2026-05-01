@@ -1,4 +1,4 @@
-## EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the PhD
+## EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the VIS PhD
 
 <style>
     img {margin:4px; padding:2px; border:1px dashed #e0e0e0}
