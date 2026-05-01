@@ -37,7 +37,7 @@ We plan activities that will connect and be useful for all three groups :
 
 <blockquote>
 
-Meet the community and discuss and develop priorities for discussion around PhD education as well as hearing about [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/)
+Meet the community and discuss and develop priorities for discussion around PhD education as well as hearing about <a href="https://diverse-cdt.ac.uk/">DIVERSE-CDT</a>
 
 </blockquote>
 
@@ -45,7 +45,7 @@ Meet the community and discuss and develop priorities for discussion around PhD 
 
 <ul>
 <li><b>Introductions</b> - current and prospective PhD students say hello (graphically)</li>
-<li><b>Updates</b> - what's going on at [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/)?</li>
+<li><b>Updates</b> - what's going on at <a href="https://diverse-cdt.ac.uk/">DIVERSE-CDT</a></li>
 <li><b>Brainstorming</b> - group work to connect, discuss and develop questions and priorities for the panel</li>
 </ul>
 
@@ -70,7 +70,7 @@ You can request a 1, 3 or 5 minute presentation during the submission and we do 
 
 <del>Deadline **01 May 2026 (Anywhere on Earth)**</del>
 
-New Deadline **15 May 2026 (Anywhere on Earth)**
+New Deadline **31 May 2026 (Anywhere on Earth)**
 
 Submit your visual (PDF) and details [through this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfRlecXFRfDxf9SgmfccJmDEGJYRcz6c02BsAQ_LuViZ-KNTQ/viewform?usp=sharing&ouid=103543335356597978812).
 
@@ -171,5 +171,6 @@ But please bring and develop your questions of your own for collective action.
 ---
 **Jason Dykes**<br/>
 **Cagatay Turkay**<br/>
-_31/03/26_
+_01/04/26_
+<!-- _31/03/26_ -->
 
