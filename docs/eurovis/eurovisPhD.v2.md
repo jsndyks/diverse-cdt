@@ -1,8 +1,12 @@
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
 <img src="./img/euroVis2026.logolong01.png" width="100%">
 
 ## EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the VIS PhD
 
 <style>
+  body{font-family: 'Roboto', sans-serif;}
     img {margin:1px; padding:1px; border:0px dashed #e0e0e0}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
@@ -16,6 +20,8 @@
 
 
 A focus on PhD study, skills and supervision for students and staff and involved in PhD Education to connect, share best practice and develop ideas for the future ... with an update on a major UK initiative in PhD training.
+
+<hr style="height:0px; border-top:1px dashed #d0d0d0; background-color:#fff">
 
 ### Aims
 
@@ -172,11 +178,18 @@ But please bring and develop your questions of your own for collective action.
 
 --->
 
-<img src="./img/euroVis2026.logolong02.png" width="100%">
+<hr style="height:0px; border-top:1px dashed #d0d0d0; background-color:#fff">
+
+<div style="text-align:right;padding-right:5rem">
 
 **Jason Dykes**<br/>
 **Cagatay Turkay**<br/>
 _01/05/26_
 <!-- _31/03/26_ -->
 
-<img src="./img/euroVis2026.logolong01.png" width="100%">
+</div>
+
+
+<img src="./img/euroVis2026.logolong02.png" width="100%">
+
+
