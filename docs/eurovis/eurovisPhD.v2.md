@@ -1,13 +1,17 @@
+<img src="./img/euroVis2026.logolong01.png" width="100%">
+
 ## EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the VIS PhD
 
 <style>
-    img {margin:4px; padding:2px; border:1px dashed #e0e0e0}
+    img {margin:1px; padding:1px; border:0px dashed #e0e0e0}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
     .footer {color:rgba(0,0,0,0) !important; font-size:0px}
     .footer a {color:rgba(0,0,0,0) !important; font-size:0px}
     .footer #text {display:none !important; font-size:0px}
     .footer a {display:none !important; font-size:0px}
+    hr {height:10px; color:#f0c0c0; border:1px dashed #f0f0f0}
+    /* h2 {background-color:#50ff6030; color:#f0f0f030; padding:0.5rem 2rem 0.5rem 2rem} */
 </style>
 
 
@@ -28,7 +32,7 @@ We plan activities that will connect and be useful for all three groups :
 1. current PhD students
 1. academics (supervisors - current and future!). 
 
----
+<img src="./img/euroVis2026.logolong02.png" width="100%">
 
 
 <h2>Session 01 - Introductions, Updates &amp; Brainstorming</h2> 
@@ -95,7 +99,7 @@ Prompts will be provided, for example ...
  * what have you always wanted to know about PhD students / supervisors?
 --->
 
----
+<img src="./img/euroVis2026.logolong01.png" width="100%">
 
 <h2>Session 02 - The Panel - Diversity &amp; Priority</h2> 
 
@@ -124,7 +128,7 @@ Hear from and connect with a diverse panel of guest participants who have acquir
 
 A lively _panel discussion_ in which experiences of supervision are introduced and discussed, and open questions are addressed in a structured session with the old hands that will include plenty of audience participation!
 
-We will be recruiting excellent communicators, with complimentary experience who are diverse in terms of academic discipline, perspective and geography.
+The panel will be packed with excellent communicators, with complimentary experience, who are diverse in terms of academic discipline, perspective and geography.
 
 ### Open Discussion
 
@@ -168,9 +172,11 @@ But please bring and develop your questions of your own for collective action.
 
 --->
 
----
+<img src="./img/euroVis2026.logolong02.png" width="100%">
+
 **Jason Dykes**<br/>
 **Cagatay Turkay**<br/>
-_01/04/26_
+_01/05/26_
 <!-- _31/03/26_ -->
 
+<img src="./img/euroVis2026.logolong01.png" width="100%">
