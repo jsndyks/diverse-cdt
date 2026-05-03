@@ -183,7 +183,7 @@ But please bring and develop your questions of your own for collective action.
 <div style="text-align:right;padding-right:5rem">
 
 <b>Jason Dykes</b><br/>
-<b>Cagatay Turkay</b>><br/>
+<b>Cagatay Turkay</b><br/>
 <i>01/05/26</i>
 <!-- _31/03/26_ -->
 
