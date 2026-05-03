@@ -9,8 +9,12 @@
 <style>
   /* background-color:#56AC6840; */
     body{font-family: 'Roboto', sans-serif;  background-color: rgba(32 255 128 / 0.0)}
-    blockquote {border:none; background-color: rgba(32 255 128 / 0.4);
-      padding:1rem 4rem 1rem 4rem; margin:1rem 4rem 1rem 4rem; border-left:2px solid rgb(18,120,46); color:rgb(18, 120, 46)}
+    blockquote {
+      border:none; background-color: rgba(32 255 128 / 0.4);
+      padding:1rem 4rem 1rem 4rem; margin:1rem 0px 1rem 0px;
+      border-left:2px solid rgb(18,120,46);
+      color:rgb(18, 120, 46)
+      }
     img {margin:0px; padding:0px; border:none; background-color:rgba(32 255 128 / 0.0);}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
@@ -23,7 +27,8 @@
     .quote-box {
       display: flex;
       align-items: flex-start; /* aligns top edges */
-      gap: 10px; /* space between image and quote */
+      gap: 2px; /* space between image and quote */
+      padding-left:2rem;
     }
 
     .quote-box img {
@@ -32,7 +37,8 @@
     }
 
     .quote-box blockquote {
-      font-style: italic;
+      font-style: italic;       color:rgb(18, 120, 46);
+      padding:1rem 4rem 1rem 4rem; margin:1rem 0px 1rem 0px;
     }
 </style>
 
