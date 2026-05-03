@@ -8,8 +8,9 @@
 
 <style>
   /* background-color:#56AC6840; */
-  body{font-family: 'Roboto', sans-serif;  background-color: rgba(32 255 128 , 0.4)}
-  blockquote {border:none; background-color:rgb(32,255,128); padding:0.25rem 2rem 0.25rem 2rem; border-left:2px solid rgb(18,120,46);}
+    body{font-family: 'Roboto', sans-serif;  background-color: rgba(32 255 128 , 0.4)}
+    blockquote {border:none; background-color:rgb(32,255,128);
+      padding:0.25rem 2rem 0.25rem 2rem; border-left:2px solid rgb(18,120,46);}
     img {margin:2px; padding:2px; border:none; background-color:rgba(32 255 128 , 0.4)}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
