@@ -47,7 +47,12 @@
 </style>
 
 
+<div class="quote-box">
+  <img src="./img/arrows.004.png" alt="quote bullet">
+  <blockquote>
 A focus on PhD study, skills and supervision for students and staff and involved in PhD Education to connect, share best practice and develop ideas for the future ... with an update on a major UK initiative in PhD training.
+  </blockquote>
+</div>
 
 <hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(18,120,46)">
 
