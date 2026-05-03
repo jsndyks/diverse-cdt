@@ -49,7 +49,7 @@ A focus on PhD study, skills and supervision for students and staff and involved
   <img src="./img/arrows.001.png" alt="quote bullet">
   <blockquote>
 
-share experiences of and approaches to PhD education in ways that **support current PhD students**, **encourage future PhD students** and **inspire those supervising PhDs** and coordinating PhD programmes to develop networks, approaches and discourse that support this activity.
+share experiences of and approaches to PhD education in ways that <b>support current PhD students</b>, <b>encourage future PhD students</b>> and <b>inspire those supervising PhDs</b> and coordinating PhD programmes to develop networks, approaches and discourse that support this activity.
 
   </blockquote>
 </div>
@@ -60,7 +60,7 @@ We do so through ...
   <img src="./img/arrows.002.png" alt="quote bullet">
   <blockquote>
 
-A two-session track where we share and develop ideas and experiences about PhD training, hear about UK investment in data visualization research training, and aim to help our PhD students succeed in their studies and our PhD supervisors support them in doing so. 
+A two-session track where we <b>share and develop ideas</b> and experiences about PhD training, <b>discuss  investment</b> in data visualization research training in the UK, and aim to <b>help our PhD students</b> succeed in their studies and our PhD supervisors support them in doing so. 
 
   </blockquote>
 </div>
@@ -82,7 +82,7 @@ We plan activities that will connect and be useful for all three groups :
   <img src="./img/arrows.003.png" alt="quote bullet">
   <blockquote>
 
-Meet the community and discuss and develop priorities for discussion around PhD education as well as hearing about <a href="https://diverse-cdt.ac.uk/">DIVERSE-CDT</a>
+Meet the community and <b>discuss and develop priorities</b> for discourse around PhD education as well as hearing about <a href="https://diverse-cdt.ac.uk/">DIVERSE-CDT</a>
   
   </blockquote>
 </div>
@@ -151,7 +151,7 @@ Prompts will be provided, for example ...
   <img src="./img/arrows.004.png" alt="quote bullet">
   <blockquote>
 
-A diverse panel, in which PhD experiences are introduced and discussed and priorities for supporting, enhancing and extending PhD education are identified.
+A diverse panel, in which PhD <b>experiences are introduced and discussed</b> and priorities for supporting, enhancing and extending PhD education are identified.
 
   </blockquote>
 </div>
