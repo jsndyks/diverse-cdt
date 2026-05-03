@@ -39,7 +39,7 @@
     .quote-box blockquote {
       border:none;
       font-style: normal;       color:rgb(18, 120, 46);
-      padding:0.25rem 2rem 0.25rem 2rem;
+      padding:0.75rem 2rem 0.75rem 2rem;
       margin:0.25rem 0px 0.25rem 0px;
       border-left:2px solid rgb(18,120,46);
 
