@@ -3,10 +3,11 @@
 </head>
 <img src="./img/eurovisPhDlogo.004.png" width="80%" style="margin-left:10%;margin-right:10%">
 
-## EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the VIS PhD
+## EuroVIS 2026 - PhD Education Track &raquo; You, Me and the VIS PhD
+<!-- <br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the VIS PhD -->
 
 <style>
-  body{font-family: 'Roboto', sans-serif; background-color:#56AC6860}
+  body{font-family: 'Roboto', sans-serif; background-color:#56AC68}
     img {margin:1px; padding:1px; border:0px dashed #e0e0e0}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
