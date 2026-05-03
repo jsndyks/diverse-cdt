@@ -7,8 +7,8 @@
 <!-- <br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the VIS PhD -->
 
 <style>
-  body{font-family: 'Roboto', sans-serif; background-color:#56AC68}
-  blockquote {border:none; background-color:rgb(32,255,128)}
+  body{font-family: 'Roboto', sans-serif; background-color:#56AC6840}
+  blockquote {border:none; background-color:rgb(32,255,128); padding:4px}
     img {margin:2px; padding:2px; border:none}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
