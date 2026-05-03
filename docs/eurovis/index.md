@@ -8,7 +8,8 @@
 
 <style>
   body{font-family: 'Roboto', sans-serif; background-color:#56AC68}
-    img {margin:1px; padding:1px; border:0px dashed #e0e0e0}
+  blockquote {border:none; background-color:rgb(32,255,128)}
+    img {margin:2px; padding:2px; border:none}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
     .footer {color:rgba(0,0,0,0) !important; font-size:0px}
@@ -22,7 +23,7 @@
 
 A focus on PhD study, skills and supervision for students and staff and involved in PhD Education to connect, share best practice and develop ideas for the future ... with an update on a major UK initiative in PhD training.
 
-<hr style="height:0px; border-top:1px dashed #d0d0d0; background-color:#fff">
+<hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(18,120,46)">
 
 ### Aims
 
@@ -61,7 +62,7 @@ Meet the community and discuss and develop priorities for discussion around PhD 
 </ul>
 
 
-<hr style="height:0px; border-top:1px dashed #d0d0d0; background-color:#fff">
+<hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(18,120,46)">
 
 #### Introductions from PhD students 
 
@@ -128,8 +129,7 @@ Hear from and connect with a diverse panel of guest participants who have acquir
 </ul>
 
 
-<hr style="height:0px; border-top:1px dashed #d0d0d0; background-color:#fff">
-
+<hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(18,120,46)">
 
 ### Panel Discussion
 
@@ -179,7 +179,7 @@ But please bring and develop your questions of your own for collective action.
 
 --->
 
-<hr style="height:0px; border-top:1px dashed #d0d0d0; background-color:#fff">
+<hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(18,120,46)">
 
 <div style="text-align:right;padding-right:5rem">
 
