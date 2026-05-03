@@ -1,15 +1,15 @@
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<img src="./img/eurovisPhDlogo.004.png" width="80%" style="margin-left:10%;margin-right:10%">
+<img src="./img/eurovisPhDlogo.004.png" width="95%" style="margin-left:2.5%;margin-right:2.5%">
 
 ## EuroVIS 2026 - PhD Education Track &raquo; You, Me and the VIS PhD
 <!-- <br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the VIS PhD -->
 
 <style>
-  body{font-family: 'Roboto', sans-serif; background-color:#56AC6840}
-  blockquote {border:none; background-color:rgb(32,255,128); padding:4px}
-    img {margin:2px; padding:2px; border:none}
+  body{font-family: 'Roboto', sans-serif; background-color:#56AC6840; background-color: rgba(32,255,128 / 0.4)}
+  blockquote {border:none; background-color:rgb(32,255,128); padding:4px; border-left:2px solid rgb(18,120,46);}
+    img {margin:2px; padding:2px; border:none; background-color:}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
     .footer {color:rgba(0,0,0,0) !important; font-size:0px}
@@ -18,6 +18,21 @@
     .footer a {display:none !important; font-size:0px}
     hr {height:10px; color:#f0c0c0; border:1px dashed #f0f0f0}
     /* h2 {background-color:#50ff6030; color:#f0f0f030; padding:0.5rem 2rem 0.5rem 2rem} */
+    .quote-box {
+  display: flex;
+  align-items: flex-start; /* aligns top edges */
+  gap: 10px; /* space between image and quote */
+}
+
+.quote-box img {
+  width: 40px; /* adjust size */
+  height: auto;
+}
+
+.quote-box blockquote {
+  margin: 0;
+  font-style: italic;
+}
 </style>
 
 
@@ -29,29 +44,41 @@ A focus on PhD study, skills and supervision for students and staff and involved
 
 **This focused activity on PhD Education in Data Visualization aims to ...**
 
-> share experiences of and approaches to PhD education in ways that **support current PhD students**, **encourage future PhD students** and **inspire those supervising PhDs** and coordinating PhD programmes to develop networks, approaches and discourse that support this activity.
+<div class="quote-box">
+  <img src="./img/qArrow01.png" alt="quote icon">
+  <blockquote>
+share experiences of and approaches to PhD education in ways that **support current PhD students**, **encourage future PhD students** and **inspire those supervising PhDs** and coordinating PhD programmes to develop networks, approaches and discourse that support this activity.
+  </blockquote>
+</div>
 
 We do so through ...
 
-> A two-session track where we share and develop ideas and experiences about PhD training, hear about UK investment in data visualization research training, and aim to help our PhD students succeed in their studies and our PhD supervisors support them in doing so. 
+<div class="quote-box">
+  <img src="./img/qArrow02.png" alt="quote icon">
+  <blockquote>
+A two-session track where we share and develop ideas and experiences about PhD training, hear about UK investment in data visualization research training, and aim to help our PhD students succeed in their studies and our PhD supervisors support them in doing so. 
+  </blockquote>
+</div>
 
 We plan activities that will connect and be useful for all three groups :
 1. prospective PhD students
 1. current PhD students
 1. academics (supervisors - current and future!). 
 
-<img src="./img/eurovisPhDlogo.001.png" width="80%" style="margin-left:10%;margin-right:10%">
+<img src="./img/eurovisPhDlogo.001.png" width="95%" style="margin-left:2.5%;margin-right:2.5%">
 
 
 <h2>Session 01 - Introductions, Updates &amp; Brainstorming</h2> 
 
 <h5>coordinated by <em>Cagatay Turkay</em></h5>
 
-<blockquote>
 
+<div class="quote-box">
+  <img src="./img/qArrow03.png" alt="quote icon">
+  <blockquote>
 Meet the community and discuss and develop priorities for discussion around PhD education as well as hearing about <a href="https://diverse-cdt.ac.uk/">DIVERSE-CDT</a>
-
-</blockquote>
+  </blockquote>
+</div>
 
 <p>An activity in which PhD students introduce themselves, the EPSRC Doctoral Training Centre for Diversity in Data Visualization reports on progress and plans, and we collectively contribute, prioritise and answer questions about planning, doing, supporting and supervising PhDs.</p>
 
@@ -107,17 +134,18 @@ Prompts will be provided, for example ...
  * what have you always wanted to know about PhD students / supervisors?
 --->
 
-<img src="./img/eurovisPhDlogo.002.png" width="80%" style="margin-left:10%;margin-right:10%">
+<img src="./img/eurovisPhDlogo.002.png" width="95%" style="margin-left:2.5%;margin-right:2.5%">
 
 <h2>Session 02 - The Panel - Diversity &amp; Priority</h2> 
 
 <h5>coordinated by <em>Jason Dykes</em></h5>
 
-<blockquote>
-
+<div class="quote-box">
+  <img src="./img/qArrow04.png" alt="quote icon">
+  <blockquote>
 A diverse panel, in which PhD experiences are introduced and discussed and priorities for supporting, enhancing and extending PhD education are identified.
-
-</blockquote>
+  </blockquote>
+</div>
 
 <p>
 Hear from and connect with a diverse panel of guest participants who have acquired PhDs. Learn from their experiences of study and supervision and grill them with questions as we discuss and identify priorities for improving and widening PhD study.
@@ -191,7 +219,7 @@ But please bring and develop your questions of your own for collective action.
 </div>
 
 
-<img src="./img/eurovisPhDlogo.003.png" width="80%" style="margin-left:10%;margin-right:10%">
+<img src="./img/eurovisPhDlogo.003.png" width="95%" style="margin-left:2.5%;margin-right:2.5%">
 
 <!--
 YOU ME & THE VIS PHD
