@@ -11,7 +11,7 @@
     body{font-family: 'Roboto', sans-serif;  background-color: rgba(32 255 128 / 0.4)}
     blockquote {border:none; background-color:rgb(32,255,128);
       padding:0.5rem 4rem 0.5rem 4rem; border-left:2px solid rgb(18,120,46);}
-    img {margin:2px; padding:2px; border:none; background-color:rgba(32 255 128 / 0.4)}
+    img {margin:2px; padding:2px; border:none; background-color:rgba(32 255 128 / 0.4); border:none}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
     .footer {color:rgba(0,0,0,0) !important; font-size:0px}
@@ -46,7 +46,7 @@ A focus on PhD study, skills and supervision for students and staff and involved
 **This focused activity on PhD Education in Data Visualization aims to ...**
 
 <div class="quote-box">
-  <img src="./img/arrows.011.png" alt="-->">
+  <img src="./img/arrows.001.png" alt="quote bullet">
   <blockquote>
 
 share experiences of and approaches to PhD education in ways that **support current PhD students**, **encourage future PhD students** and **inspire those supervising PhDs** and coordinating PhD programmes to develop networks, approaches and discourse that support this activity.
@@ -57,7 +57,7 @@ share experiences of and approaches to PhD education in ways that **support curr
 We do so through ...
 
 <div class="quote-box">
-  <img src="./img/arrows.008.png" alt="-->">
+  <img src="./img/arrows.002.png" alt="quote bullet">
   <blockquote>
 
 A two-session track where we share and develop ideas and experiences about PhD training, hear about UK investment in data visualization research training, and aim to help our PhD students succeed in their studies and our PhD supervisors support them in doing so. 
@@ -79,7 +79,7 @@ We plan activities that will connect and be useful for all three groups :
 
 
 <div class="quote-box">
-  <img src="./img/arrows.013.png" alt="-->">
+  <img src="./img/arrows.003.png" alt="quote bullet">
   <blockquote>
 
 Meet the community and discuss and develop priorities for discussion around PhD education as well as hearing about <a href="https://diverse-cdt.ac.uk/">DIVERSE-CDT</a>
@@ -148,7 +148,7 @@ Prompts will be provided, for example ...
 <h5>coordinated by <em>Jason Dykes</em></h5>
 
 <div class="quote-box">
-  <img src="./img/arrows.014.png" alt="-->">
+  <img src="./img/arrows.004.png" alt="quote bullet">
   <blockquote>
 
 A diverse panel, in which PhD experiences are introduced and discussed and priorities for supporting, enhancing and extending PhD education are identified.
