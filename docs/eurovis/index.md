@@ -6,7 +6,7 @@
 ## EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the VIS PhD
 
 <style>
-  body{font-family: 'Roboto', sans-serif;}
+  body{font-family: 'Roboto', sans-serif; background-color:#f9f9f9}
     img {margin:1px; padding:1px; border:0px dashed #e0e0e0}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
@@ -38,7 +38,7 @@ We plan activities that will connect and be useful for all three groups :
 1. current PhD students
 1. academics (supervisors - current and future!). 
 
-<img src="./img/euroVis2026.logolong02.png" width="80%" style="margin-left:10%;margin-right:10%">
+<img src="./img/euroVisPhDlogo.001.png" width="80%" style="margin-left:10%;margin-right:10%">
 
 
 <h2>Session 01 - Introductions, Updates &amp; Brainstorming</h2> 
@@ -105,7 +105,7 @@ Prompts will be provided, for example ...
  * what have you always wanted to know about PhD students / supervisors?
 --->
 
-<img src="./img/euroVis2026.logolong01.png" width="80%" style="margin-left:10%;margin-right:10%">
+<img src="./img/euroVisPhDlogo.002.png" width="80%" style="margin-left:10%;margin-right:10%">
 
 <h2>Session 02 - The Panel - Diversity &amp; Priority</h2> 
 
@@ -190,7 +190,7 @@ But please bring and develop your questions of your own for collective action.
 </div>
 
 
-<img src="./img/euroVis2026.logolong02.png" width="80%" style="margin-left:10%;margin-right:10%">
+<img src="./img/euroVisPhDlogo.003.png" width="80%" style="margin-left:10%;margin-right:10%">
 
 <!--
 YOU ME & THE VIS PHD
