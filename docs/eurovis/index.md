@@ -10,7 +10,7 @@
   /* background-color:#56AC6840; */
     body{font-family: 'Roboto', sans-serif;  background-color: rgba(32 255 128 / 0.0)}
     blockquote {border:none; background-color:rgb(32,255,128);
-      padding:0.5rem 4rem 0.5rem 4rem; border-left:2px solid rgb(18,120,46);}
+      padding:1rem 4rem 1rem 4rem; border-left:2px solid rgb(18,120,46);}
     img {margin:0px; padding:0px; border:none; background-color:rgba(32 255 128 / 0.0);}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
