@@ -46,7 +46,7 @@ A focus on PhD study, skills and supervision for students and staff and involved
 **This focused activity on PhD Education in Data Visualization aims to ...**
 
 <div class="quote-box">
-  <img src="./img/qArrow01.png" alt="-->">
+  <img src="./img/arrows.11.png" alt="-->">
   <blockquote>
 
 share experiences of and approaches to PhD education in ways that **support current PhD students**, **encourage future PhD students** and **inspire those supervising PhDs** and coordinating PhD programmes to develop networks, approaches and discourse that support this activity.
@@ -57,7 +57,7 @@ share experiences of and approaches to PhD education in ways that **support curr
 We do so through ...
 
 <div class="quote-box">
-  <img src="./img/qArrow02.png" alt="-->">
+  <img src="./img/arrows.08.png" alt="-->">
   <blockquote>
 
 A two-session track where we share and develop ideas and experiences about PhD training, hear about UK investment in data visualization research training, and aim to help our PhD students succeed in their studies and our PhD supervisors support them in doing so. 
@@ -79,7 +79,7 @@ We plan activities that will connect and be useful for all three groups :
 
 
 <div class="quote-box">
-  <img src="./img/qArrow03.png" alt="-->">
+  <img src="./img/arrows.13.png" alt="-->">
   <blockquote>
 
 Meet the community and discuss and develop priorities for discussion around PhD education as well as hearing about <a href="https://diverse-cdt.ac.uk/">DIVERSE-CDT</a>
@@ -148,7 +148,7 @@ Prompts will be provided, for example ...
 <h5>coordinated by <em>Jason Dykes</em></h5>
 
 <div class="quote-box">
-  <img src="./img/qArrow04.png" alt="-->">
+  <img src="./img/arrows.14.png" alt="-->">
   <blockquote>
 
 A diverse panel, in which PhD experiences are introduced and discussed and priorities for supporting, enhancing and extending PhD education are identified.
