@@ -12,7 +12,6 @@
     blockquote {
       border:none; background-color: rgba(32 255 128 / 0.4);
       padding:1rem 4rem 1rem 4rem; margin:1rem 0px 1rem 0px;
-      border-left:2px solid rgb(18,120,46);
       color:rgb(18, 120, 46)
       }
     img {margin:0px; padding:0px; border:none; background-color:rgba(32 255 128 / 0.0);}
@@ -37,8 +36,11 @@
     }
 
     .quote-box blockquote {
+      border:none;
       font-style: italic;       color:rgb(18, 120, 46);
       padding:1rem 4rem 1rem 4rem; margin:1rem 0px 1rem 0px;
+      border-left:2px solid rgb(18,120,46);
+
     }
 </style>
 
