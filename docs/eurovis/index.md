@@ -38,7 +38,7 @@ We plan activities that will connect and be useful for all three groups :
 1. current PhD students
 1. academics (supervisors - current and future!). 
 
-<img src="./img/euroVisPhDlogo.001.png" width="80%" style="margin-left:10%;margin-right:10%">
+<img src="./img/eurovisPhDlogo.001.png" width="80%" style="margin-left:10%;margin-right:10%">
 
 
 <h2>Session 01 - Introductions, Updates &amp; Brainstorming</h2> 
@@ -105,7 +105,7 @@ Prompts will be provided, for example ...
  * what have you always wanted to know about PhD students / supervisors?
 --->
 
-<img src="./img/euroVisPhDlogo.002.png" width="80%" style="margin-left:10%;margin-right:10%">
+<img src="./img/eurovisPhDlogo.002.png" width="80%" style="margin-left:10%;margin-right:10%">
 
 <h2>Session 02 - The Panel - Diversity &amp; Priority</h2> 
 
@@ -183,14 +183,14 @@ But please bring and develop your questions of your own for collective action.
 <div style="text-align:right;padding-right:5rem">
 
 <b>Jason Dykes</b><br/>
-<b>Cagatay Turkay</b>><br/>
+<b>Cagatay Turkay</b><br/>
 <i>01/05/26</i>
 <!-- _31/03/26_ -->
 
 </div>
 
 
-<img src="./img/euroVisPhDlogo.003.png" width="80%" style="margin-left:10%;margin-right:10%">
+<img src="./img/eurovisPhDlogo.003.png" width="80%" style="margin-left:10%;margin-right:10%">
 
 <!--
 YOU ME & THE VIS PHD
