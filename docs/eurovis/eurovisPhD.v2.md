@@ -6,7 +6,7 @@
 ## EuroVIS 2026 - PhD Education Track :<br/>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;&nbsp;You, Me and the VIS PhD
 
 <style>
-  body{font-family: 'Roboto', sans-serif;}
+  body{font-family: 'Roboto', sans-serif; background-color:#f9f9f9}
     img {margin:1px; padding:1px; border:0px dashed #e0e0e0}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
@@ -192,4 +192,6 @@ But please bring and develop your questions of your own for collective action.
 
 <img src="./img/euroVis2026.logolong02.png" width="80%" style="margin-left:10%;margin-right:10%">
 
-
+<!--
+YOU ME & THE VIS PHD
+  -->
