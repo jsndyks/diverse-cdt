@@ -33,12 +33,14 @@
     .quote-box img {
       width: 40px; /* adjust size */
       height: auto;
+      margin-top:0.5rem;
     }
 
     .quote-box blockquote {
       border:none;
-      font-style: italic;       color:rgb(18, 120, 46);
-      padding:1rem 4rem 1rem 4rem; margin:1rem 0px 1rem 0px;
+      font-style: normal;       color:rgb(18, 120, 46);
+      padding:0.25rem 2rem 0.25rem 2rem;
+      margin:0.25rem 0px 0.25rem 0px;
       border-left:2px solid rgb(18,120,46);
 
     }
@@ -57,7 +59,7 @@ A focus on PhD study, skills and supervision for students and staff and involved
   <img src="./img/arrows.001.png" alt="quote bullet">
   <blockquote>
 
-share experiences of and approaches to PhD education in ways that <b>support current PhD students</b>, <b>encourage future PhD students</b>> and <b>inspire those supervising PhDs</b> and coordinating PhD programmes to develop networks, approaches and discourse that support this activity.
+share experiences of and approaches to PhD education in ways that <b>support current PhD students</b>, <b>encourage future PhD students</b> and <b>inspire those supervising PhDs</b> and coordinating PhD programmes to develop networks, approaches and discourse that support this activity.
 
   </blockquote>
 </div>
