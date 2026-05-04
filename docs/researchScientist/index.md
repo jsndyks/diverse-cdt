@@ -1,7 +1,7 @@
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<img src="./img/euroVis2026.logolong01.png" width="80%" style="margin-left:10%;margin-right:10%">
+<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="80%" style="margin-left:10%;margin-right:10%">
 
 ## DIVERSE-CDT - Research Scientist Role
 
