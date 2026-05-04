@@ -3,7 +3,7 @@
 </head>
 <img src="./img/euroVis2026.logolong01.png" width="80%" style="margin-left:10%;margin-right:10%">
 
-## DIVERSE-CDT - Researhc Scientist Role
+## DIVERSE-CDT - Research Scientist Role
 
 <style>
   body{font-family: 'Roboto', sans-serif; background-color:#f9f9f9}
