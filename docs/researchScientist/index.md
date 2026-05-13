@@ -15,7 +15,7 @@
 </head>
 
 <!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
-<div style="border:1px solid #666; box-sizing: border-box; padding:0.rem; margin:0px">
+<div style="border:1px solid #666; box-sizing: border-box; padding:0.rem; margin:0px; border-top:none; border-bottom:none">
 
 <!-- <span id="edge" style="padding:0rem 1rem 0.px 1rem; margin:0px; background-color:#fdfd0d;display:block" markdown=1> -->
 
@@ -146,13 +146,15 @@ Please spread the word and get in touch to chat: <code>info@diverse-cdt.ac.uk</c
 
 <!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
 
+</div>
+
+<span style="display:block;padding:1rem 2rem 1rem 2rem; background-color:#f8f8f8; margin:0px; text-align:right; border:none; border-left:1px solid; border-right:1px solid;">
+
+<b>Jason DYKES</b><BR/>Co-Director DIVERSE-CDT<br/><i>May 2026</i>
+
 </span>
 
-<span style="display:block;padding:1rem 2rem 1rem 2rem; background-color:#f8f8f8; margin:0px; text-align:right">
 
-_**Jason DYKES**<BR/>Co-Director DIVERSE-CDT<br/>May 2026_
-
-</span>
 
 <div style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold">
 Change What We Can See,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See What We Can Change
