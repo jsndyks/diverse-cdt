@@ -137,11 +137,15 @@ In light of this, opportunities will be available for those wishing to develop a
 
 #### The Bottom Line
 
- Is this something that might suit you, or somebody you know? We want people with ideas, experience and energy. Somebody committed to research and education and diversity, and visualization, who can make things happen. 
+Is this something that might suit you, or somebody you know?
  
- We would love to talk to and hear from researchers who have an interest in learning more about, discussing and perhaps applying for the _Research Scientist_ role. And of course, if successful, we look forward to developing it with them.
+We want to hear from people with ideas, experience and energy: those committed to research and education and diversity, and visualization, who can make things happen. 
+ 
+We would love to talk to and hear from researchers who have an interest in learning more about, discussing and perhaps applying for the _Research Scientist_ role.
+ 
+And of course, if successful, we look forward to developing it with them.
 
-Please get in touch to chat: <code>info@diverse-cdt.ac.uk</code>
+Please spread the word and get in touch to chat: <code>info@diverse-cdt.ac.uk</code>
 
 <!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
 
