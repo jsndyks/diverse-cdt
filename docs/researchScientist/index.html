@@ -1,0 +1,387 @@
+<!DOCTYPE html><html><head>
+      <title>index</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/j.dykes/.vscode/extensions/gicentre.markdown-preview-enhanced-with-litvis-0.31.0/node_modules/mume-with-litvis/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p,html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div{display:inline}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  300px/2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet">
+<style>
+  body{font-family: 'Roboto', sans-serif; background-color:#f9f9f9}
+    img {margin:1px; padding:1px; border:0px dashed #e0e0e0}
+    p {padding-top:0.5em; padding-bottom:0.5em}
+    h1 a {display:none}
+    .footer {color:rgba(0,0,0,0) !important; font-size:0px}
+    .footer a {color:rgba(0,0,0,0) !important; font-size:0px}
+    .footer #text {display:none !important; font-size:0px}
+    .footer a {display:none !important; font-size:0px}
+    hr {height:10px; color:#f0c0c0; border:1px dashed #f0f0f0}
+    /* h2 {background-color:#50ff6030; color:#f0f0f030; padding:0.5rem 2rem 0.5rem 2rem} */
+</style>
+<span id="edge" style="padding:0.25rem 1rem 0.25rem 1rem; margin:0px; background-color:#fff;display:block" markdown="1">
+<span id="top" style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold; display:block" markdown="1">
+<span style="font-size:140%">11 DIVERSE-CDT : <span style="color:#d0d0d0; font-weight:normal">Diverse Information Visualization for Exploration, Reflection and Scientific Explanation</span>
+<br><br></span>
+<img alt="A divider logo containing data circles" src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
+</span>
+<div style="border:1px solid #666; padding:1.5rem; box-sizing: border-box; padding:0.5rem; margin:0px">
+<!-- <div style="padding:0.25rem 5% 0.25rem  5%; margin:0; background-color:#000">
+<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
+</div> -->
+<h2 class="mume-header" id="diverse-cdt---research-scientist-role">DIVERSE-CDT - Research Scientist Role</h2>
+
+<p><em>A few notes to offer some context on DIVERSE-CDT and the Research Scientist we week ...</em></p>
+<h4 class="mume-header" id="the-centre-for-doctoral-training">The Centre for Doctoral Training</h4>
+
+<p><a href="https://diverse-cdt.ac.uk/">DIVERSE-CDT</a> is an ambitious 9-year research and training project that is developing the next generation of visualization researchers.</p>
+<p>We are doing so by attracting, equipping and supporting students who come to us with diverse backgrounds, skill-sets and experiences, to undertake high quality applied visualization research with diverse partners in diverse contexts.</p>
+<p>With &#xA3;10M of funding<sup>*</sup> we are well resourced to design and deliver an innovative and attractive PhD at our host institutions: <em>The University of Warwick</em> and <em>City St George&apos;s, University of London</em>.</p>
+<p>Our approach involves and includes :</p>
+<ul>
+<li>dedicated <em>Data Vis Labs</em> at each institution;</li>
+<li>a one year taught training programme as a key <em>foundation</em> for an independent PhD;</li>
+<li>a <em>constructivist</em> approach to learning;</li>
+<li>generous <em>funding</em> to support and resource students in their work;</li>
+<li><em>workshops</em> and <em>residential</em> activities - we recently returned from a glorious week in <em>The Lake District</em>;</li>
+<li><em>internships</em> and <em>lab exchanges</em>;</li>
+<li>active funded participation in international <em>conferences</em> and meetings;</li>
+</ul>
+<div style="padding:2.25rem 0 2.25rem 0">
+<figure>
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.rr.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.io.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
+<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students in the Data Vis Lab at City St George&apos;s</figcaption>
+</figure>
+</div>
+<p>With 5 annual cohorts of up to 12 students and over 20 partners we will be developing large numbers of researchers and significant quantities of research. Students will be completing their degree <em>through structured components</em> - using their applied experiences in visualization to develop viable original scientific knowledge through a digital PhD thesis. This requires hands on deck!</p>
+<p>Our delivery team involves <a href="https://diverse-cdt.ac.uk/leadership/">Academic Experts</a> in visualization, HCI, creativity, design and related disciplines; <a href="https://diverse-cdt.ac.uk/leadership/">Enterprise Experts</a> in IP, knowledge transfer and commercialization, and three dedicated staff who run the CDT:</p>
+<ul>
+<li>
+<p><a href="https://diverse-cdt.ac.uk/team-member/dr-nicola-kirkby-diverse-cdt-centre-manager/">Dr. Nicola Kirkby</a> is <em>Centre Manager</em></p>
+</li>
+<li>
+<p><a href="https://diverse-cdt.ac.uk/team-member/ashley-smith/">Ashley Smith</a> is <em>Business Development Manager</em></p>
+</li>
+<li>
+<p><a href="https://diverse-cdt.ac.uk/team-member/chidi-ekuma/">Chidi Ekuma</a> is <em>Research Software Engineer</em> (50%)</p>
+</li>
+</ul>
+<div style="font-size:80%; background-color:#f8f8f8; padding:0px 2rem 0px 2rem">
+<p><em><strong>Note</strong> *80% of DIVERSE-CDT funding is from the government (UKRI / EPSRC), 10% from <a href="https://diverse-cdt.ac.uk/diverse-cdt-partners/">the host institutions</a> and 10% from <a href="https://diverse-cdt.ac.uk/partner-organisations/">partner organizations</a>.</em></p>
+</div>
+<h4>The Research Scientist</h4>
+<p>Our final dedicated employee is central to all of this - our <em>Research Scientist</em>.</p>
+<p>The <em>Research Scientist</em> is an innovative role that we like to describe as being <em>an assistant professor, who mentors rather than lectures, has time to undertake research, and has minimal administrative responsibility</em>. This is somebody who works in the lab to make science happen.</p>
+<p>We want to shape this into an extremely attractive role for a research active early-career academic.</p>
+<p>The <em>Research Scientist</em> will work with the institutional education leads (currently <a href="https://diverse-cdt.ac.uk/team-member/professor-jo-wood/">Prof. Jo Wood</a> at City St George&#x2019;s &amp; <a href="https://diverse-cdt.ac.uk/team-member/dr-greg-mcinerny/">Dr. Greg McInerny</a> at UW) to provide essential support for students as they learn to be researchers - mentoring and advising them on a day-to-day basis in practical hands-on ways that complement the PhD supervision.</p>
+<p>The RS will be an influential supportive presence in our collaborative research space. Primarily located in the <em>Data Vis Lab</em> at City, they will build strong connections with students at both institutions, and occasionally visit the University of Warwick. They will be a first port of call who is always available to help students with data management, data analysis, interpreting, communicating and relating existing science and developing scientific writing, outputs and approaches. As such, much of the activity will be in response mode, but they will also run some planned activities - workshops, seminars, reading groups and training sessions, in their key role as a scientific guide, research mentor and contributor to the research that develops in DIVERSE-CDT.</p>
+<p>Co-design is key in DIVERSE-CDT visualization work, and we have the freedom and ambition to co-design the role a little with our <em>Research Scientist</em>.</p>
+<p>This is a particularly important position given our diversification remit. The <em>Research Scientist</em> will identify and nurture students who require close support, scaffolding the learning of those who do not have a background in research with close guidance by offering help at hand at all times. The RS is key to providing a rich and supportive scientific learning environment for all.</p>
+<div style="padding:2.25rem 0 2.25rem 0">
+<figure>
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.am.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.sp.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
+<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students in the Data Vis Lab at City St George&apos;s</figcaption>
+</figure>
+</div>
+<h4 class="mume-header" id="the-inspiration">The Inspiration</h4>
+
+<p>Both converted from non CS degrees through this programme and 35 years later are Professors of Computer Science. The role of a <em>Research Scientist</em> as a &#x2018;first port of call&#x2019; at the <em>Midlands Regional Research Laboratory</em> was fundamental to their success and that of others in the training programme and this is our model: a researcher who is in &#x2018;the Lab&#x2019; and 100% dedicated to supporting students in their development. We consider attendance, and in-person presence to be an important part of the <em>Research Scientist</em> role.</p>
+<h4 class="mume-header" id="the-vision">The Vision</h4>
+
+<p>This is a new academic position and a new role in many ways. We want it to be attractive to and fulfilling for ambitious academics, who will be supporting and developing 12 new PhD students per year in a position that persists for more than 8-years (up to 60 PhDs are planned at the two institutions in total).</p>
+<p>We would like to frame this as the equivalent of a &#x2018;Lectureship&#x2019; (Assistant Professor) that involves small class &#x2018;seminar&#x2019; teaching, PhD only teaching (small workshops, occasional seminars at &#x2018;Level 8&#x2019;) and very limited administration or service responsibilities. It is a deeply research-oriented role that would enable the RS to develop research capabilities, publications and connections - with the team and the students and in line with their research ambition.</p>
+<p>We would encourage the RS to take on external service roles (conference committees, etc.), to publish (as a co-author on student papers to which they have contributed, and individually as they develop their research profile, in line with CRediT and similar), and to have agency in terms of the directions in which their research develops and capacity to undertake this work.</p>
+<p>This is a new type of role, at an innovative CDT, and the RS will have agency in developing it to meet their needs and the wider needs of DIVERSE-CDT. They will work closely with academics in Data Visualization and beyond at <em>City St George&apos;s</em> and the <em>University of Warwick</em> and be welcomed as a valued member of various research groups affiliated with DIVERSE-CDT at our institutions: <a href="https://www.gicentre.net/">giCentre</a>, <a href="https://www.hcid.city/">HCID</a>, <a href="https://warwick.ac.uk/fac/cross_fac/cim/">CIM</a>, <a href="https://www.bayes.citystgeorges.ac.uk/faculties-and-research/centres/creativity">C2P2</a>, etc.</p>
+<p>We see this as an exciting and enabling space, both literally and figuratively, in which a capable researcher can develop themselves, those who they mentor, and the Doctoral Training Centre to produce high quality visualization research. We hope to make it an excellent stopping point on (or launch pad for) a successful developing academic career.</p>
+<p>In light of this, opportunities will be available for those wishing to develop a career as a lecturer through teaching, tutoring, mentoring and supervision activities designed to suit individuals in their career development. Such education contributions may focus on enhancing the taught postgraduate or undergraduate provision at City St George&#x2019;s.</p>
+<div>
+<figure>
+<div style="padding:2.25rem 0 2.25rem 0">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.lakes.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.fells.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
+<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students on a PhD Ramble - Wansfell, The Lake District</figcaption>
+</div></figure>
+</div>
+<h4 class="mume-header" id="bottom-line">Bottom Line</h4>
+
+<p>We would love to talk to and hear from researchers who have an interest in learning more about, discussing and perhaps applying for the <em>Research Scientist</em> role. And of course, if successful, we look forward to developing it with them.</p>
+<p>Please get in touch to chat: <code><a href="mailto:info@diverse-cdt.ac.uk">info@diverse-cdt.ac.uk</a></code></p>
+</div>
+<div style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold">
+Change What We Can See,<br>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;See What We Can Change
+<br><br></div>
+<div style="padding:0.25rem 5% 0.25rem  5%; margin:0; background-color:#000">
+<img alt="A divider logo containing data circles" src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong02.png" width="90%" style="margin-left:5%;margin-right:5%">
+</div>
+</span>
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
