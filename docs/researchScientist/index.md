@@ -135,7 +135,7 @@ In light of this, opportunities will be available for those wishing to develop a
 </div>
 
 
-#### Bottom Line
+#### The Bottom Line
 
  Is this something that might suit you, or somebody you know? We want people with ideas, experience and energy. Somebody committed to research and education and diversity, and visualization, who can make things happen. 
  
