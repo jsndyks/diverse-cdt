@@ -18,6 +18,8 @@
     /* h2 {background-color:#50ff6030; color:#f0f0f030; padding:0.5rem 2rem 0.5rem 2rem} */
 </style>
 
+_A few notes to offer some context on DIVERSE-CDT and the Research Scientist we week ..._
+
 #### The Centre for Doctoral Training
 
 [DIVERSE-CDT](https://diverse-cdt.ac.uk/) is an ambitious 9-year research and training project that is developing the next generation of visualization researchers.
@@ -89,7 +91,7 @@ We would like to frame this as the equivalent of a ‘Lectureship’ (Assistant 
 
 We would encourage the RS to take on external service roles (conference committees, etc.), to publish (as a co-author on student papers to which they have contributed, and individually as they develop their research profile, in line with CRediT and similar), and to have agency in terms of the directions in which their research develops and capacity to undertake this work.
 
-This is a new type of role, at an innovative CDT, and the RS will have agency in developing it to meet their needs and the wider needs of DIVERSE-CDT. They will work closely with academics in Data Visualization and beyond at City St Georges and the University of Warwick and be welcomed as a valued member of various research groups affiliated with DIVERSE-CDT at our institutions.
+This is a new type of role, at an innovative CDT, and the RS will have agency in developing it to meet their needs and the wider needs of DIVERSE-CDT. They will work closely with academics in Data Visualization and beyond at City St Georges and the University of Warwick and be welcomed as a valued member of various research groups affiliated with DIVERSE-CDT at our institutions: [giCentre](https://www.gicentre.net/), [HCID](https://www.hcid.city/), [CIM](https://warwick.ac.uk/fac/cross_fac/cim/), [C2P2](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/centres/creativity), etc.
 
 We see this as an exciting and enabling space, both literally and figuratively, in which a capable researcher can develop themselves, those who they mentor, and the Doctoral Training Centre to produce high quality visualization research and an excellent stopping point on (or launch pad for) a successful developing academic career.
 
@@ -112,6 +114,6 @@ Please get in touch to chat: <code>info@diverse-cdt.ac.uk</code>
 Change What We Can See,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See What We Can Change
 </div>
 
-
+<br/>
 <img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong02.png" width="80%" style="margin-left:10%;margin-right:10%">
 
