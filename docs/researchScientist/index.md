@@ -36,8 +36,10 @@ Our approach involves and includes :
  - _internships_ and _lab exchanges_;
  - participation in international _conferences_ and meetings;
 
-<img src="./img/rs.rr.jpg" width="40%" style="margin-left:8%;margin-right:2%">
-<img src="./img/rs.io.jpg" width="40%" style="margin-left:2%;margin-right:8%">
+<div style="padding:2.25rem 0 2.25rem 0">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.rr.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.io.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
+</div>
 
 With 5 cohorts of 12 students and over 20 partners we will be developing large numbers of researchers and significant quantities of research. Students will be completing their degree _through structured components_ - using their applied experiences in visualization to develop viable original scientific knowledge through a digital PhD thesis. This requires hands on deck!
 
@@ -68,8 +70,10 @@ Co-design is key in DIVERSE-CDT visualization work, and we have the freedom and 
 
 This is a particularly important role given our diversification remit. The _Research Scientist_ will identify and nurture students who require close support, scaffolding the learning of those who do not have a background in research with close guidance by offering help at hand at all times. The RS is key to providing a rich and supportive scientific learning environment for all.
 
-<img src="./img/rs.am.jpg" width="40%" style="margin-left:8%;margin-right:2%">
-<img src="./img/rs.sp.jpg" width="40%" style="margin-left:2%;margin-right:8%">
+<div style="padding:2.25rem 0 2.25rem 0">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.am.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.sp.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
+</div>
 
 #### The Inspiration
 
@@ -90,6 +94,11 @@ This is a new type of role, at an innovative CDT, and the RS will have agency in
 We see this as an exciting and enabling space, both literally and figuratively, in which a capable researcher can develop themselves, those who they mentor, and the Doctoral Training Centre to produce high quality visualization research and an excellent stopping point on (or launch pad for) a successful developing academic career.
 
 In light of this, opportunities will be available for those wishing to develop a career as a lecturer through teaching, tutoring, mentoring and supervision activities designed to suit individuals in their career development. Such education contributions may focus on enhancing the taught postgraduate or undergraduate provision at City St George’s.
+
+<div style="padding:2.25rem 0 2.25rem 0">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.lakes.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.fells.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
+</div>
 
 #### Bottom Line
 
