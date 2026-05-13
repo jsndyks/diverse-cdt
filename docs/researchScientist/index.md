@@ -4,11 +4,12 @@
 
 <!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
 
-<div style="padding:0.25rem 5% 0.25rem  5%; margin:0px; background-color:#000;" markdown=1>
+<span style="padding:0.25rem 5% 0.25rem  5%; margin:0px; background-color:#000;display:block" markdown=1>
+
 <div style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold"><span style="font-size:140%">DIVERSE-CDT : <span style="color:#d0d0d0; font-weight:normal">Diverse Information Visualization for Exploration, Reflection and Scientific Explanation</span>
 <br/><br/></div>
 <img alt="A divider logo containing data circles" src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
-</div>
+</span>
 
 <div style="border:1px solid #000; padding:0.5 rem; box-sizing: border-box; padding:0.5rem; margin:0px">
 
