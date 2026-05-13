@@ -1,7 +1,18 @@
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="80%" style="margin-left:10%;margin-right:10%">
+
+<!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
+
+<div style="padding:0.25rem 5% 0.25rem  5%; margin:0px; background-color:#000">
+<div style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold"><span style="font-size:140%">DIVERSE-CDT : Diverse Information Visualization for Exploration, Reflection and Scientific Explanation
+<br/><br/></div>
+<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
+</div>
+
+<!-- <div style="padding:0.25rem 5% 0.25rem  5%; margin:0; background-color:#000">
+<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
+</div> -->
 
 ## DIVERSE-CDT - Research Scientist Role
 
@@ -123,12 +134,11 @@ We would love to talk to and hear from researchers who have an interest in learn
 
 Please get in touch to chat: <code>info@diverse-cdt.ac.uk</code>
 
-**DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation**
+<!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
 
-<div style="text-align:center; width:95%; background-color:#000; color:#fff; padding:0.5rem; margin:0px 2.5% 0px 2.5%;   letter-spacing: 20%; font-size:90%; font-weight:bold">
+<div style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold">
 Change What We Can See,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See What We Can Change
+<br/><br/></div>
+<div style="padding:0.25rem 5% 0.25rem  5%; margin:0; background-color:#000">
+<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong02.png" width="90%" style="margin-left:5%;margin-right:5%">
 </div>
-
-<br/>
-<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong02.png" width="80%" style="margin-left:10%;margin-right:10%">
-
