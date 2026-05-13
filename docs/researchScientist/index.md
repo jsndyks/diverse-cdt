@@ -1,24 +1,5 @@
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-
-<!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
-
-<span style="padding:0.25rem 5% 0.25rem  5%; margin:0px; background-color:#000;display:block" markdown=1>
-
-<div style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold"><span style="font-size:140%">DIVERSE-CDT : <span style="color:#d0d0d0; font-weight:normal">Diverse Information Visualization for Exploration, Reflection and Scientific Explanation</span>
-<br/><br/></div>
-<img alt="A divider logo containing data circles" src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
-</span>
-
-<div style="border:1px solid #000; padding:0.5 rem; box-sizing: border-box; padding:0.5rem; margin:0px">
-
-<!-- <div style="padding:0.25rem 5% 0.25rem  5%; margin:0; background-color:#000">
-<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
-</div> -->
-
-## DIVERSE-CDT - Research Scientist Role
-
 <style>
   body{font-family: 'Roboto', sans-serif; background-color:#f9f9f9}
     img {margin:1px; padding:1px; border:0px dashed #e0e0e0}
@@ -31,6 +12,27 @@
     hr {height:10px; color:#f0c0c0; border:1px dashed #f0f0f0}
     /* h2 {background-color:#50ff6030; color:#f0f0f030; padding:0.5rem 2rem 0.5rem 2rem} */
 </style>
+</head>
+
+<!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
+
+<span id="edge" style="padding:0.25rem 1rem 0.25rem 1rem; margin:0px; background-color:#fff;display:block" markdown=1>
+
+<span id="top" style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold; display:block" markdown=1>
+<span style="font-size:140%">DIVERSE-CDT : <span style="color:#d0d0d0; font-weight:normal">Diverse Information Visualization for Exploration, Reflection and Scientific Explanation</span>
+<br/><br/></span>
+<img alt="A divider logo containing data circles" src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
+</span>
+
+
+<div style="border:1px solid #666; padding:1.5rem; box-sizing: border-box; padding:0.5rem; margin:0px">
+
+<!-- <div style="padding:0.25rem 5% 0.25rem  5%; margin:0; background-color:#000">
+<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
+</div> -->
+
+## DIVERSE-CDT - Research Scientist Role
+
 
 _A few notes to offer some context on DIVERSE-CDT and the Research Scientist we week ..._
 
