@@ -36,7 +36,7 @@
 
 <span style="display:block;padding:1rem 2rem 1rem 2rem">
 
-_A few notes to offer some context on DIVERSE-CDT and the Research Scientist we seek to complete our team ..._
+_A few notes to offer some context on DIVERSE-CDT and the Research Scientist we seek to complete the team at our Doctoral Training Centre ..._
 
 #### The Centre for Doctoral Training
 
