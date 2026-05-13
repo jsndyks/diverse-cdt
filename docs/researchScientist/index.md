@@ -4,11 +4,13 @@
 
 <!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
 
-<div style="padding:0.25rem 5% 0.25rem  5%; margin:0px; background-color:#000">
-<div style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold"><span style="font-size:140%">DIVERSE-CDT : Diverse Information Visualization for Exploration, Reflection and Scientific Explanation
+<div style="padding:0.25rem 5% 0.25rem  5%; margin:0px; background-color:#000;">
+<div style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold"><span style="font-size:140%">DIVERSE-CDT : <span style="color:#d0d0d0; font-weight:normal">Diverse Information Visualization for Exploration, Reflection and Scientific Explanation</span>
 <br/><br/></div>
-<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
+<img alt="A divider logo containing data circles" src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
 </div>
+
+<div style="border:1px solid #000; padding:0.5 rem; box-sizing: border-box; padding:0.5rem; margin:0px">
 
 <!-- <div style="padding:0.25rem 5% 0.25rem  5%; margin:0; background-color:#000">
 <img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
@@ -126,7 +128,7 @@ In light of this, opportunities will be available for those wishing to develop a
 <figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students on a PhD Ramble - Wansfell, The Lake District</figcaption>
 </figure>
 </div>
-</div>
+
 
 #### Bottom Line
 
@@ -136,9 +138,11 @@ Please get in touch to chat: <code>info@diverse-cdt.ac.uk</code>
 
 <!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
 
+</div>
+
 <div style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold">
 Change What We Can See,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See What We Can Change
 <br/><br/></div>
 <div style="padding:0.25rem 5% 0.25rem  5%; margin:0; background-color:#000">
-<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong02.png" width="90%" style="margin-left:5%;margin-right:5%">
+<img alt="A divider logo containing data circles"  src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong02.png" width="90%" style="margin-left:5%;margin-right:5%">
 </div>
