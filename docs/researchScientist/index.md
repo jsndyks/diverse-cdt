@@ -113,7 +113,7 @@ Both converted from non CS degrees through this programme and 35 years later are
 
 #### The Vision
 
-This is a new academic position and a new role in many ways. We want it to be attractive to and fulfilling for ambitious academics, who will be supporting and developing 12 new PhD students per year in a position that persists for more than 8-years (up to 60 PhDs are planned at the two institutions in total).
+This is a new academic position and a new role in many ways. We want it to be attractive to and fulfilling for ambitious academics, who will be supporting and developing 12 new PhD students per year in a position that persists for more than 7-years (up to 60 PhDs are planned at the two institutions in total).
 
 We would like to frame this as the equivalent of a ‘Lectureship’ (Assistant Professor) that involves small class ‘seminar’ teaching, PhD only teaching (small workshops, occasional seminars at ‘Level 8’) and very limited administration or service responsibilities. It is a deeply research-oriented role that would enable the _RS_ to develop research capabilities, publications and connections - with the team and the students and in line with their research ambition.
 
@@ -121,7 +121,7 @@ We would encourage the _RS_ to take on external service roles (conference commit
 
 This is a new type of role, at an innovative CDT, and the _RS_ will have agency in developing it to meet their needs and the wider needs of DIVERSE-CDT. They will work closely with academics in Data Visualization and beyond at _City St George's_ and the _University of Warwick_ and be welcomed as a valued member of various research groups affiliated with DIVERSE-CDT at our institutions: [giCentre](https://www.gicentre.net/), [HCID](https://www.hcid.city/), [CIM](https://warwick.ac.uk/fac/cross_fac/cim/), [C2P2](https://www.bayes.citystgeorges.ac.uk/faculties-and-research/centres/creativity), etc.
 
-We see this as an exciting and enabling space, both literally and figuratively, in which a capable researcher can develop themselves, those who they mentor, and the Doctoral Training Centre to produce high quality visualization research. We hope to make it an excellent stopping point on (or launch pad for) a successful developing academic career.
+We see this as an exciting and enabling space, both literally and figuratively, in which a capable researcher can develop themselves, those whom they mentor, and the Doctoral Training Centre to produce high quality visualization research. We hope to make it an excellent stopping point on (or launch pad for) a successful developing academic career.
 
 In light of this, opportunities will be available for those wishing to develop a career as a lecturer through teaching, tutoring, mentoring and supervision activities designed to suit individuals in their career development. Such education contributions may focus on enhancing the taught postgraduate or undergraduate provision at City St George’s.
 
@@ -137,7 +137,9 @@ In light of this, opportunities will be available for those wishing to develop a
 
 #### Bottom Line
 
-We would love to talk to and hear from researchers who have an interest in learning more about, discussing and perhaps applying for the _Research Scientist_ role. And of course, if successful, we look forward to developing it with them.
+ Is this something that might suit you, or somebody you know? We want people with ideas, experience and energy. Somebody committed to research and education and diversity, and visualization, who can make things happen. 
+ 
+ We would love to talk to and hear from researchers who have an interest in learning more about, discussing and perhaps applying for the _Research Scientist_ role. And of course, if successful, we look forward to developing it with them.
 
 Please get in touch to chat: <code>info@diverse-cdt.ac.uk</code>
 
