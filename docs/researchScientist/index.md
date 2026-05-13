@@ -15,10 +15,11 @@
 </head>
 
 <!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
+<div style="border:1px solid #666; box-sizing: border-box; padding:0.rem; margin:0px">
 
-<span id="edge" style="padding:0.25rem 1rem 0.25rem 1rem; margin:0px; background-color:#fdfdfd;display:block" markdown=1>
+<!-- <span id="edge" style="padding:0rem 1rem 0.px 1rem; margin:0px; background-color:#fdfd0d;display:block" markdown=1> -->
 
-<span id="top" style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold; display:block" markdown=1>
+<span id="top" style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0px;   letter-spacing: 20%; font-size:90%; font-weight:bold; display:block" markdown=1>
 <span style="font-size:140%">DIVERSE-CDT : <span style="color:#d0d0d0; font-weight:normal">Diverse Information Visualization for Exploration, Reflection and Scientific Explanation</span>
 <br/><br/></span>
 <img alt="A divider logo containing data circles" src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
@@ -26,7 +27,6 @@
 </span>
 
 
-<div style="border:1px solid #666; padding:1.5rem; box-sizing: border-box; padding:0.5rem; margin:0px">
 
 <!-- <div style="padding:0.25rem 5% 0.25rem  5%; margin:0; background-color:#000">
 <img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
@@ -34,6 +34,7 @@
 
 <!-- ## DIVERSE-CDT - Research Scientist Role -->
 
+<span style="display:block;padding:1rem 2rem 1rem 2rem">
 
 _A few notes to offer some context on DIVERSE-CDT and the Research Scientist we seek ..._
 
@@ -55,12 +56,11 @@ Our approach involves and includes :
  - _internships_ and _lab exchanges_;
  - active funded participation in international _conferences_ and meetings;
 
-<div style="padding:2.25rem 0 2.25rem 0">
+<div style="padding:1rem 0rem 1rem 0rem; text-align:center">
 <figure>
-<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.rr.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
-<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.io.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
-
-<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students in the Data Vis Lab at City St George's</figcaption>
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.rr.jpeg" width="46%" style="margin-left:0%;margin-right:2%">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.io.jpeg" width="46%" style="margin-left:2%;margin-right:0%">
+<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students in the Data Vis Lab at City St George's - October 2025</figcaption>
 </figure>
 </div>
 
@@ -96,11 +96,11 @@ Co-design is key in DIVERSE-CDT visualization work, and we have the freedom and 
 
 This is a particularly important position given our diversification remit. The _Research Scientist_ will identify and nurture students who require close support, scaffolding the learning of those who do not have a background in research with close guidance by offering help at hand at all times. The RS is key to providing a rich and supportive scientific learning environment for all.
 
-<div style="padding:2.25rem 0 2.25rem 0">
+<div style="padding:1rem 0rem 1rem 0rem; text-align:center">
 <figure>
-<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.am.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
-<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.sp.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
-<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students in the Data Vis Lab at City St George's</figcaption>
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.am.jpeg" width="46%" style="margin-left:0%;margin-right:2%">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.sp.jpeg" width="46%" style="margin-left:2%;margin-right:0%">
+<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students in the Data Vis Lab at City St George's - October 2025</figcaption>
 </figure>
 </div>
 
@@ -124,12 +124,12 @@ We see this as an exciting and enabling space, both literally and figuratively, 
 
 In light of this, opportunities will be available for those wishing to develop a career as a lecturer through teaching, tutoring, mentoring and supervision activities designed to suit individuals in their career development. Such education contributions may focus on enhancing the taught postgraduate or undergraduate provision at City St George’s.
 
-<div>
+<div style="padding:1rem 0rem 1rem 0rem; text-align:center">
 <figure>
-<div style="padding:2.25rem 0 2.25rem 0">
-<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.lakes.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
-<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.fells.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
-<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students on a PhD Ramble - Wansfell, The Lake District</figcaption>
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.lakes.jpeg" width="46%" style="margin-left:0%;margin-right:2%">
+<img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.fells.jpeg" width="46%" style="margin-left:2%;margin-right:0%">
+
+<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students on a PhD Ramble - Wansfell, The Lake District - April 2026</figcaption>
 </figure>
 </div>
 
