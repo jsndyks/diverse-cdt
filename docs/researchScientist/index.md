@@ -39,8 +39,12 @@ Our approach involves and includes :
  - active funded participation in international _conferences_ and meetings;
 
 <div style="padding:2.25rem 0 2.25rem 0">
+<figure>
 <img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.rr.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
 <img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.io.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
+
+<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students in the Data Vis Lab at City St George's</figcaption>
+</figure>
 </div>
 
 With 5 annual cohorts of up to 12 students and over 20 partners we will be developing large numbers of researchers and significant quantities of research. Students will be completing their degree _through structured components_ - using their applied experiences in visualization to develop viable original scientific knowledge through a digital PhD thesis. This requires hands on deck!
@@ -54,7 +58,10 @@ Our delivery team involves [Academic Experts](https://diverse-cdt.ac.uk/leadersh
  
 <div style="font-size:80%; background-color:#f8f8f8; padding:0px 2rem 0px 2rem">
 
-_**Note** \*80% of DIVERSE-CDT funding is from the government (UKRI / EPSRC), 10% from [the host institutions](https://diverse-cdt.ac.uk/diverse-cdt-partners/) and 10% from [partner organizations](https://diverse-cdt.ac.uk/partner-organisations/)._ </div>
+_**Note** \*80% of DIVERSE-CDT funding is from the government (UKRI / EPSRC), 10% from [the host institutions](https://diverse-cdt.ac.uk/diverse-cdt-partners/) and 10% from [partner organizations](https://diverse-cdt.ac.uk/partner-organisations/)._
+
+</div>
+
 
  #### The Research Scientist 
 
@@ -73,13 +80,16 @@ Co-design is key in DIVERSE-CDT visualization work, and we have the freedom and 
 This is a particularly important position given our diversification remit. The _Research Scientist_ will identify and nurture students who require close support, scaffolding the learning of those who do not have a background in research with close guidance by offering help at hand at all times. The RS is key to providing a rich and supportive scientific learning environment for all.
 
 <div style="padding:2.25rem 0 2.25rem 0">
+<figure>
 <img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.am.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
 <img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.sp.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
+<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students in the Data Vis Lab at City St George's</figcaption>
+</figure>
 </div>
+
 
 #### The Inspiration
 
-Two of our team ([Dykes](https://diverse-cdt.ac.uk/team-member/professor-jason-dykes/) & [Wood](https://diverse-cdt.ac.uk/team-member/professor-jo-wood/)) are the product of a cohort based MSc training programme - the post-Chorley Report Regional Research Laboratories of the late 1980s and early 90s.
 
 Both converted from non CS degrees through this programme and 35 years later are Professors of Computer Science. The role of a _Research Scientist_ as a ‘first port of call’ at the _Midlands Regional Research Laboratory_ was fundamental to their success and that of others in the training programme and this is our model: a researcher who is in ‘the Lab’ and 100% dedicated to supporting students in their development. We consider attendance, and in-person presence to be an important part of the _Research Scientist_ role. 
 
@@ -97,9 +107,14 @@ We see this as an exciting and enabling space, both literally and figuratively, 
 
 In light of this, opportunities will be available for those wishing to develop a career as a lecturer through teaching, tutoring, mentoring and supervision activities designed to suit individuals in their career development. Such education contributions may focus on enhancing the taught postgraduate or undergraduate provision at City St George’s.
 
+<div>
+<figure>
 <div style="padding:2.25rem 0 2.25rem 0">
 <img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.lakes.jpeg" width="40%" style="margin-left:4%;margin-right:2%">
 <img src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/rs.fells.jpeg" width="40%" style="margin-left:2%;margin-right:4%">
+<figcaption style="font-size:80%; color:#808080; text-align:center; width:100%">DIVERSE-CDT students on a PhD Ramble - Wansfell, The Lake District</figcaption>
+</figure>
+</div>
 </div>
 
 #### Bottom Line
@@ -110,7 +125,7 @@ Please get in touch to chat: <code>info@diverse-cdt.ac.uk</code>
 
 **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation**
 
-<div style="text-align:center; width:95%; background-color:#000; color:#fff; padding:0.5rem; margin:0px 2.5% 0px 2.5%">
+<div style="text-align:center; width:95%; background-color:#000; color:#fff; padding:0.5rem; margin:0px 2.5% 0px 2.5%;   letter-spacing: 20%; font-size:90%; font-weight:bold">
 Change What We Can See,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See What We Can Change
 </div>
 
