@@ -18,8 +18,8 @@
 
 <span id="edge" style="padding:0.25rem 1rem 0.25rem 1rem; margin:0px; background-color:#fff;display:block" markdown=1>
 
-<span id="top" style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold; display:block" markdown=1>11
-<span style="font-size:140%">DIVERSE-CDT : <span style="color:#d0d0d0; font-weight:normal">Diverse Information Visualization for Exploration, Reflection and Scientific Explanation</span>
+<span id="top" style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold; display:block" markdown=1>
+<span style="font-size:140%">11 DIVERSE-CDT : <span style="color:#d0d0d0; font-weight:normal">Diverse Information Visualization for Exploration, Reflection and Scientific Explanation</span>
 <br/><br/></span>
 <img alt="A divider logo containing data circles" src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
 </span>
