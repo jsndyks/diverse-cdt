@@ -25,18 +25,15 @@
 <img alt="A divider logo containing data circles" src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
 <span style="font-size:140%;display:block;padding:1rem 0rem 1rem 0rem;letter-spacing: -0.25px"><span style="color:#ffffff; font-weight:normal;">RESEARCH SCIENTIST - <span style="color:#d0d0d0">context, inspiration, vision</span></span></span>
 </span>
+<span style="display:block;padding:1rem 2rem 1rem 2rem; background-color:#f8f8f8; margin:0px">
 
+_A few notes to offer some context on DIVERSE-CDT and the Research Scientist we seek to complete the team at our Doctoral Training Centre ..._
 
-
-<!-- <div style="padding:0.25rem 5% 0.25rem  5%; margin:0; background-color:#000">
-<img src="https://jsndyks.github.io/diverse-cdt/eurovis/img/euroVis2026.logolong01.png" width="90%" style="margin-left:5%;margin-right:5%">
-</div> -->
+</span>
 
 <!-- ## DIVERSE-CDT - Research Scientist Role -->
 
 <span style="display:block;padding:1rem 2rem 1rem 2rem">
-
-_A few notes to offer some context on DIVERSE-CDT and the Research Scientist we seek to complete the team at our Doctoral Training Centre ..._
 
 #### The Centre for Doctoral Training
 
@@ -149,7 +146,13 @@ Please spread the word and get in touch to chat: <code>info@diverse-cdt.ac.uk</c
 
 <!-- **DIVERSE-CDT :**<br/>&nbsp;&nbsp;**Diverse Information Visualization for Exploration, Reflection and Scientific Explanation** -->
 
-</div>
+</span>
+
+<span style="display:block;padding:1rem 2rem 1rem 2rem; background-color:#f8f8f8; margin:0px; text-align:right">
+
+_**Jason DYKES**<BR/>Co-Director DIVERSE-CDT<br/>May 2026_
+
+</span>
 
 <div style="text-align:center; background-color:#000; color:#fff; padding:1rem 5% 0.25rem  5%; margin:0;   letter-spacing: 20%; font-size:90%; font-weight:bold">
 Change What We Can See,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;See What We Can Change
