@@ -36,7 +36,8 @@ Our approach involves and includes :
  - _internships_ and _lab exchanges_;
  - participation in international _conferences_ and meetings;
 
-<img src="./img/rs.rr.jpg" width="40%" style="margin-left:5%;margin-right:5%">
+<img src="./img/rs.rr.jpg" width="40%" style="margin-left:8%;margin-right:2%">
+<img src="./img/rs.io.jpg" width="40%" style="margin-left:2%;margin-right:8%">
 
 With 5 cohorts of 12 students and over 20 partners we will be developing large numbers of researchers and significant quantities of research. Students will be completing their degree _through structured components_ - using their applied experiences in visualization to develop viable original scientific knowledge through a digital PhD thesis. This requires hands on deck!
 
@@ -66,6 +67,9 @@ The RS will be an influential supportive presence in our collaborative research 
 Co-design is key in DIVERSE-CDT visualization work, and we have the freedom and ambition to co-design the role a little with our _Research Scientist_.
 
 This is a particularly important role given our diversification remit. The _Research Scientist_ will identify and nurture students who require close support, scaffolding the learning of those who do not have a background in research with close guidance by offering help at hand at all times. The RS is key to providing a rich and supportive scientific learning environment for all.
+
+<img src="./img/rs.am.jpg" width="40%" style="margin-left:8%;margin-right:2%">
+<img src="./img/rs.sp.jpg" width="40%" style="margin-left:2%;margin-right:8%">
 
 #### The Inspiration
 
