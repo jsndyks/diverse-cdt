@@ -11,5 +11,6 @@ td, th {font-size:120%; padding:0.5rem 0rem 0.5rem 0rem}
     font-size:80%; margin:0px; color:#202020;padding:1.5rem 2.5rem 0.25rem 2.5rem;}
   .wwSub {
     font-size:50%;padding:0.25rem 0.5rem 1.5rem 0.5rem;}
-  .wwHead {
-    font-size:67%}
+  .wwHead h2 {
+    font-size:90%;margin-top:0.1rem; padding-top:0.1rem; background-color:#fff}
+    
