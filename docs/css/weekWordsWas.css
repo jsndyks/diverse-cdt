@@ -5,9 +5,11 @@
     display:block;
     margin:0px;
   }
+
   blockquote {
     font-size:100%; font-style:italic; color:#404040; background-color:#d0d0d020; padding-bottom:0.05rem
   }
+  
   .wwMain {
     font-size:80%; margin:0px; color:#ffff00f0;padding:0.25rem 2.5rem 0.25rem 2.5rem;}
   .wwSub {
