@@ -193,7 +193,7 @@ The panel will be packed with excellent communicators, with complimentary experi
 
 Questions from the brainstorming exercise and discussion around these.
 
-We seek to uncover and prioritise activites and initiatives that can improve and extend PhD education for all parties with _The Panel_.
+We seek to uncover and prioritise activities and initiatives that can improve and extend PhD education for all parties with _The Panel_.
 
 
 <!---
