@@ -50,7 +50,7 @@
 <div class="quote-box">
   <img src="./img/arrows.004.png" alt="quote bullet">
   <blockquote>
-<b>A focus on PhD study, skills and supervision for students and staff and involved in PhD Education</b> to connect, share best practice and develop ideas for the future ... with an update on a major UK initiative in PhD training.
+<b>A focus on PhD study, skills and supervision for students and staff involved in PhD Education</b> to connect, share best practice and develop ideas for the future ... with an update on a major UK initiative in PhD training.
   </blockquote>
 </div>
 
