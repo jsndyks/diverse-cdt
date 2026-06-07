@@ -53,13 +53,13 @@
 
     }
     html body table tr td {
-      border:#fff; background-color:#ffffff
+      border:solid 0px #fff; background-color:#ffffff
     }
     html body table th {
-      border:none; display:none;
+      border:solid 0px #fff; display:none;
     }
     html body table tr {
-      border:#fff;
+      border:solid 0px #fff;
     }
     html body table tr td a {
       color:#208020; background-color:#ffff0060; padding:0.25rem 1rem 0.25rem 1rem
