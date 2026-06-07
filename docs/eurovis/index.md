@@ -45,7 +45,7 @@
     }
 
     html body table {
-      font-size:80%; border:none; background-color:#ffffff
+      font-size:95%; border:none; background-color:#ffffff; padding-left:2rem
     }
     html body table td {
       border:none; background-color:#ffffff
@@ -53,8 +53,11 @@
     html body table th {
       border:none; display:none;
     }
+    html body table tr {
+      border:none;
+    }
     html body table tr td a {
-      color:#6fa; background-color:#ffff0080; padding:0.25rem 1rem 0.25rem 1rem
+      color:#6f9; background-color:#ffff0080; padding:0.25rem 1rem 0.25rem 1rem
     }
 </style>
 
