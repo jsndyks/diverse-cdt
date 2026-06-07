@@ -218,7 +218,8 @@ Here they are ...
 
 <img src="./img/euroVIS.phdIntro.005.png" width="95%" style="margin-left:2.5%;margin-right:2.5%; border:1px dashed #d0d0d0">
 
-... and then it will be down to participants to seek further guidance, challenge viewpoints and engage in academic debate.
+... and then it will be down to participants to seek further guidance, challenge viewpoints and engage in informative and inspiring academic debate.<br/>
+🙂
 
 #### Recommended Resources
 
