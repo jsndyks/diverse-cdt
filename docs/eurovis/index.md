@@ -52,14 +52,14 @@
       border-collapse: collapse;
 
     }
-    html body table td {
-      border:none; background-color:#ffffff
+    html body table tr td {
+      border:#fff; background-color:#ffffff
     }
     html body table th {
       border:none; display:none;
     }
     html body table tr {
-      border:none;
+      border:#fff;
     }
     html body table tr td a {
       color:#284; background-color:#ffff0060; padding:0.25rem 1rem 0.25rem 1rem
