@@ -45,7 +45,12 @@
     }
 
     html body table {
-      font-size:95%; border:none; background-color:#ffffff; padding-left:2rem
+      font-size:95%; border:none; background-color:#ffffff; 
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 100%;
+      border-collapse: collapse;
+
     }
     html body table td {
       border:none; background-color:#ffffff
