@@ -62,7 +62,7 @@
       border:none;
     }
     html body table tr td a {
-      color:#6f9; background-color:#ffff0080; padding:0.25rem 1rem 0.25rem 1rem
+      color:#4b6; background-color:#ffff0080; padding:0.25rem 1rem 0.25rem 1rem
     }
 </style>
 
