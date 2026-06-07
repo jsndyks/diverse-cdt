@@ -42,7 +42,19 @@
       padding:0.75rem 2rem 0.75rem 2rem;
       margin:0.25rem 0px 0.25rem 0px;
       border-left:2px solid rgb(18,120,46);
+    }
 
+    html body table {
+      font-size:80%; border:none; background-color:#ffffff
+    }
+    html body table td {
+      border:none; background-color:#ffffff
+    }
+    html body table th {
+      border:none; display:none;
+    }
+    html body table tr td a {
+      color:#6fa; background-color:#ffff0080; padding:0.25rem 1rem 0.25rem 1rem
     }
 </style>
 
@@ -189,6 +201,29 @@ A lively _panel discussion_ in which experiences of supervision are introduced a
 
 The panel will be packed with excellent communicators, with complimentary experience, who are diverse in terms of academic discipline, perspective and geography.
 
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
+|--:|:--:|--:|:-:|:--|
+|**Fateme Rajabiyazdi**|2018|_University of Calgary_|**&raquo;**|University of Calgary|
+|**Maria Jesus Lobo Gunther**|2017|_Université Paris Saclay_|**&raquo;**|Université Gustave Eiffel & IGN|
+|[**Michael Sedlmair**](./who/panelMS.png)|2010|_University of Munich<br/>(with BMW)_|**&raquo;**|University of Stuttgart|
+|[**Alark Joshi**](./who/panelAJ.png)|2007|_University of Maryland<br/>Baltimore County_|**&raquo;**|University of San Fransisco|
+|**Marjahan Begum**|2005|_University of Nottingham_|**&raquo;**|University of Nottingham<br/>& City St George's|
+|**Bettina Speckmann**|2001|_University of British Columbia_|**&raquo;**|TU Eindhoven|
+|_and perhaps ..._|
+|[**Jason Dykes**](./who/panelJD.png)|1999|_University of Leicester_|**&raquo;**|City St George’s,<br/>University of London|
+
+We will be kicking off by asking each participant to answer a set of 7 questions in 7 minutes - a _7x7 Shootout!_.
+
+Here they are ...
+
+<img src="./img/euroVIS.phdIntro.005" width="95%" style="margin-left:2.5%;margin-right:2.5%">
+
+... and then it will be down to participants to seek further guidance, challenge viewpoints and engage in academic debate.
+
+#### Recommended Resources
+
+We have an open [Zotero Library](https://www.zotero.org/groups/6579261/eurovis_-_you_me__the_vis_phd/library) that we aim to fill with links to recommended books and papers.
+
 ### Open Discussion
 
 Questions from the brainstorming exercise and discussion around these.
@@ -237,7 +272,8 @@ But please bring and develop your questions of your own for collective action.
 
 <b>Jason Dykes</b><br/>
 <b>Cagatay Turkay</b><br/>
-<i>03/05/26</i>
+<i>07/06/26</i>
+<!-- <i>03/05/26</i> -->
 <!-- <i>01/05/26</i> -->
 <!-- _31/03/26_ -->
 
