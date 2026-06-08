@@ -306,7 +306,7 @@ Jason mentioned a couple of links during his talk - they are reproduced here:
 </thead>
 <tbody>
 <tr>
-<td style="text-align:right" nowrap><a href="https://diverse-cdt.ac.uk/doctoral-researchers/"><strong>DIVERSE-CDT Doctoral Researchers</strong></a></td>
+<td style="text-align:right" nowrap><a href="https://diverse-cdt.ac.uk/doctoral-researchers/"><strong>DIVERSE-CDT&nbsp;&nbsp;<br/>&nbsp;&nbsp;Doctoral Researchers</strong></a></td>
 <td>Information about the 2025 PhD students - do try to find them in Nottingham.</td>
 <td></td>
 <td></td>
@@ -318,7 +318,7 @@ Jason mentioned a couple of links during his talk - they are reproduced here:
 <td></td>
 </tr>
 <tr>
-<td style="text-align:right" nowrap><a href="https://diverse-cdt.ac.uk/leadership/"><strong>DIVERSE-CDT Leadership</strong></a></td>
+<td style="text-align:right" nowrap><a href="https://diverse-cdt.ac.uk/leadership/"><strong>DIVERSE-CDT&nbsp;&nbsp;<br/>&nbsp;&nbsp;Leadership</strong></a></td>
 <td>Who&apos;s who on the leadership team</td>
 <td></td>
 <td></td>
