@@ -38,7 +38,7 @@ _The formal details are available through this official [Advert](https://jobs.ci
 
 <span style="display:block;padding:1rem 2rem 1rem 2rem">
 
-<img alt="DIVERSE-CDT Logo" src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/diverseCDT.logo.blue.png" width="200" style="display: block; margin-left: auto; float:right">
+<img alt="DIVERSE-CDT Logo" src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/diverseCDT.logo.blue.png" width="150" style="display: block; margin-left: auto; float:right">
 
 #### The Centre for Doctoral Training
 
