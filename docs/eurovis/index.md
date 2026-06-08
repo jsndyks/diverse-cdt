@@ -17,6 +17,7 @@
     img {margin:0px; padding:0px; border:none; background-color:rgba(32 255 128 / 0.0);}
     p {padding-top:0.5em; padding-bottom:0.5em}
     h1 a {display:none}
+    h2 {font-size:110%}
     .footer {color:rgba(0,0,0,0) !important; font-size:0px}
     .footer a {color:rgba(0,0,0,0) !important; font-size:0px}
     .footer #text {display:none !important; font-size:0px}
