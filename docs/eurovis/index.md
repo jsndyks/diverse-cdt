@@ -123,7 +123,7 @@ We plan activities that will connect and be useful for all three groups :
 |**15:00**| **Brainstorming**<br/>&amp; **Connecting** | *CT* | group work to connect, discuss experiences &amp; develop questions and priorities |
 || **Session 02** ||**Panel & Priorities**
 |**16:00**| **Panel 7x7** | *JD* |PhD perspectives and provocations in a 7x7 shootout! |
-|**16:45**| **Open Discussion** | *JD* | Questions & discussion around PhD perspectives |
+|**16:49**<br/>🤔| **Open Discussion** | *JD* | Questions & discussion around PhD perspectives |
 |**17:15**| **Priorities** | *JD* | collective work to identify PhD initiatives |
 
 
