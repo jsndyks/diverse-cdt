@@ -288,7 +288,7 @@ We will be logging and developing ideas on a [Miro Board]().
 
 #### DIVERSE-CDT
 
-Jason mentioned a couple of links during his talk - they are reproduced here:
+Jason mentioned a couple of links and flashed up a few QR codes during his talk - you can find them all here:
 
 <!---
 |When?|What?|Lead?|&nbsp;|
@@ -311,26 +311,26 @@ Jason mentioned a couple of links during his talk - they are reproduced here:
 </thead>
 <tbody>
 <tr>
-<td style="text-align:right" nowrap><a href="https://diverse-cdt.ac.uk/doctoral-researchers/"><strong>DIVERSE-CDT&nbsp;&nbsp;<br/>&nbsp;&nbsp;Doctoral Researchers</strong></a></td>
-<td>Information about the 2025 PhD students - do try to find them in Nottingham.</td>
+<td style="text-align:right" valign="top" nowrap><a href="https://diverse-cdt.ac.uk/doctoral-researchers/"><strong>DIVERSE-CDT&nbsp;&nbsp;<br/>&nbsp;&nbsp;Doctoral Researchers</strong></a></td>
+<td valign="top">Information about the 2025 PhD students - do try to find them in Nottingham.</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td style="text-align:right" nowrap><a href="https://observablehq.com/@cdt2025/what-is-a-research-lens"><strong>What is a Research Lens?</strong></a></td>
-<td>Lens thinking from the DIVERSE-CDT delivery team</td>
+<td style="text-align:right" valign="top" nowrap><a href="https://observablehq.com/@cdt2025/what-is-a-research-lens"><strong>What is a Research Lens?</strong></a></td>
+<td valign="top">Lens thinking from the DIVERSE-CDT delivery team</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td style="text-align:right" nowrap><a href="https://diverse-cdt.ac.uk/leadership/"><strong>DIVERSE-CDT&nbsp;&nbsp;<br/>&nbsp;&nbsp;Leadership</strong></a></td>
-<td>Who&apos;s who on the leadership team</td>
+<td style="text-align:right" valign="top" nowrap><a href="https://diverse-cdt.ac.uk/leadership/"><strong>DIVERSE-CDT&nbsp;&nbsp;<br/>&nbsp;&nbsp;Leadership</strong></a></td>
+<td valign="top">Who&apos;s who on the leadership team</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td style="text-align:right" nowrap><a href="https://royalsocietypublishing.org/rsta/article/380/2233/20210299/112267/Visualization-for-epidemiological-modelling"><strong>PTRSA Paper</strong></a></td>
-<td>The co-authored paper in the <em>Philosophical Transactions of the Royal Society</em> in which we used deep (live) links to Observable notebooks to synthesize and deliver evidence from parallel projects</td>
+<td style="text-align:right" valign="top" nowrap><a href="https://royalsocietypublishing.org/rsta/article/380/2233/20210299/112267/Visualization-for-epidemiological-modelling"><strong>PTRSA Paper</strong></a></td>
+<td valign="top">The co-authored paper in the <em>Philosophical Transactions of the Royal Society</em> in which we used deep (live) links to Observable notebooks to synthesize and deliver evidence from parallel projects</td>
 <td></td>
 <td></td>
 </tr>
