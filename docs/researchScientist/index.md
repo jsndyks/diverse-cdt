@@ -1,5 +1,6 @@
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>DIVERSE-CDT : Research Scientist</title>
 <style>
   body{font-family: 'Roboto', sans-serif; background-color:#f9f9f9}
     img {margin:1px; padding:1px; border:0px dashed #e0e0e0}
