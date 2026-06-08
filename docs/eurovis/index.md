@@ -62,7 +62,7 @@
       border:solid 0px #fff;
     }
     html body table tr td a {
-      color:#2020a0; background-color:#ffff0060; padding:0.25rem 1rem 0.25rem 1rem
+      color:#2020a0; background-color:rgba(32 255 128 / 0.2); padding:0.15rem 0.5rem 0.15rem 0.5rem
     }
 </style>
 
@@ -74,7 +74,12 @@
   </blockquote>
 </div>
 
-<hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(18,120,46)">
+<br/>
+
+Running from **2pm-3:30** and **4pm-5:30** in **F5** on **Tuesday 9th June** - Plan follows 👇.
+
+<hr style="height:0px; border-top:1px dashed rgb(18,220,46); background-color:rgb(255,255,255); width:67%;margin: 0 auto; margin-top:2rem; margin-bottom:2rem">
+
 
 ### Aims
 
@@ -105,10 +110,29 @@ We plan activities that will connect and be useful for all three groups :
 1. current PhD students
 1. academics (supervisors - current and future!). 
 
+<hr style="height:0px; border-top:1px dashed rgb(18,220,46); background-color:rgb(255,255,255); width:67%;margin: 0 auto; margin-top:2rem; margin-bottom:2rem">
+
+### Plan
+
+|When?|What?|Lead?|&nbsp;|
+|--|-:|--|--|
+|| <h4>Session 01</h4> || **Introductions, Updates & Brainstorming**
+|**14:00**| **Introductions** | *CT* | graphical introductions in a visual fast-forward |
+|**14:30**| **Updates** | *JD* | a focus on the [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/) PhD initiative |
+|**15:00**| **Brainstorming**<br/>&amp; **Connecting** | *CT* | group work to connect, discuss experiences &amp; develop questions and priorities |
+|| <h4>Session 02</h4> ||**Panel & Priorities**
+|**16:00**| **Panel 7x7** | *JD* |PhD perspectives and provocations in a 7x7 shootout! |
+|**16:45**| **Open Discussion** | *JD* | Questions & discussion around PhD perspectives |
+|**17:15**| **Priorities** | *JD* | collective work to identify PhD initiatives |
+
+
+<hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(255,255,255); width:90%;margin: 0 auto; padding:1rem 0px 1rem 0px; margin-top:4rem">
+
 <img src="./img/eurovisPhDlogo.001.png" width="95%" style="margin-left:2.5%;margin-right:2.5%">
 
 
-<h2>Session 01 - Introductions, Updates &amp; Brainstorming</h2> 
+
+<h3>Session 01 - Introductions, Updates &amp; Brainstorming</h3> 
 
 <h5>coordinated by <em>Cagatay Turkay</em></h5>
 
@@ -124,16 +148,16 @@ Meet the community and <b>discuss and develop priorities</b> for discourse aroun
 
 <p>An activity in which PhD students introduce themselves, the EPSRC Doctoral Training Centre for Diversity in Data Visualization reports on progress and plans, and we collectively contribute, prioritise and answer questions about planning, doing, supporting and supervising PhDs.</p>
 
-<ul>
+<ol>
 <li><b>Introductions</b> - current and prospective PhD students say hello (graphically)</li>
 <li><b>Updates</b> - what's going on at <a href="https://diverse-cdt.ac.uk/">DIVERSE-CDT</a></li>
 <li><b>Brainstorming</b> - group work to connect, discuss and develop questions and priorities for the panel</li>
-</ul>
+</ol>
 
 
-<hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(18,120,46)">
+<hr style="height:0px; border-top:1px dashed rgb(18,220,46); background-color:rgb(255,255,255); width:67%;margin: 0 auto; margin-top:2rem; margin-bottom:2rem">
 
-#### Introductions from PhD students 
+#### 1.1 Introductions from PhD students 
 
 We invite current or prospective PhD students, at any stage in their studies or planning, to introduce themselves. 
 
@@ -155,13 +179,15 @@ New Deadline **31 May 2026 (Anywhere on Earth)**
 
 Submit your visual (PDF) and details [through this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfRlecXFRfDxf9SgmfccJmDEGJYRcz6c02BsAQ_LuViZ-KNTQ/viewform?usp=sharing&ouid=103543335356597978812).
 
-#### Updates
+#### 1.2 Updates
 
 Find out about [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/) the UK's new _Doctoral Training Centre for Diversity in Data Visualization_, hosted at the _University of Warwick_ and _City St George's, University of London_.
 
 This innovative PhD program in _Data Visualization_ is delivering research training for 60 PhD students in the UK over the next decade. 
 
-#### Brainstorming
+Come and hear the latest, and ask questions about, and get involved in this significant initiative in PhD education.
+
+#### 1.3 Brainstorming
 
 Working in small groups those undertaking, and having completed PhDs, participate in loosely structured discussion to :
 
@@ -176,9 +202,11 @@ Prompts will be provided, for example ...
  * what have you always wanted to know about PhD students / supervisors?
 --->
 
+<hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(255,255,255); width:90%;margin: 0 auto; padding:1rem 0px 1rem 0px; margin-top:4rem">
+
 <img src="./img/eurovisPhDlogo.002.png" width="95%" style="margin-left:2.5%;margin-right:2.5%">
 
-<h2>Session 02 - The Panel - Diversity &amp; Priority</h2> 
+<h3>Session 02 - The Panel - Diversity &amp; Priority</h3> 
 
 <h5>coordinated by <em>Jason Dykes</em></h5>
 
@@ -195,15 +223,15 @@ A diverse panel, in which PhD <b>experiences are introduced and discussed</b> an
 Hear from and connect with a diverse panel of guest participants who have acquired PhDs. Learn from their experiences of study and supervision and grill them with questions as we discuss and identify priorities for improving and widening PhD study.
 </p>
 
-<ul>
+<ol>
 <li><b>Panel Discussion</b></li>
 <li><b>Open Discussion</b></li>
-</ul>
+</ol>
 
 
-<hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(18,120,46)">
+<hr style="height:0px; border-top:1px dashed rgb(18,220,46); background-color:rgb(255,255,255); width:67%;margin: 0 auto; margin-top:2rem; margin-bottom:2rem">
 
-### Panel Discussion
+### 2.1 Panel Discussion
 
 A lively _panel discussion_ in which experiences of supervision are introduced and discussed, and open questions are addressed in a structured session with the old hands that will include plenty of audience participation!
 
@@ -212,10 +240,10 @@ The panel will be packed with excellent communicators, with complimentary experi
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |--:|:--:|--:|:-:|:--|
 |**Fateme Rajabiyazdi**|2018|_University of Calgary_|**&raquo;**|University of Calgary|
-|**Maria Jesus Lobo Gunther**|2017|_Université Paris Saclay_|**&raquo;**|Université Gustave Eiffel & IGN|
+|[**Maria Jesus Lobo Gunther**](./who/panelML.png)|2017|_Université Paris Saclay_|**&raquo;**|Université Gustave Eiffel & IGN|
 |[**Michael Sedlmair**](./who/panelMS.png)|2010|_University of Munich<br/>(with BMW)_|**&raquo;**|University of Stuttgart|
+|[**Marjahan Begum**](./who/panelMB.png)|2009|_University of Nottingham_|**&raquo;**|University of Nottingham<br/>& City St George's|
 |[**Alark Joshi**](./who/panelAJ.png)|2007|_University of Maryland<br/>Baltimore County_|**&raquo;**|University of San Fransisco|
-|**Marjahan Begum**|2005|_University of Nottingham_|**&raquo;**|University of Nottingham<br/>& City St George's|
 |**Bettina Speckmann**|2001|_University of British Columbia_|**&raquo;**|TU Eindhoven|
 |_and perhaps ..._|
 |[**Jason Dykes**](./who/panelJD.png)|1999|_University of Leicester_|**&raquo;**|City St George’s,<br/>University of London|
@@ -229,15 +257,41 @@ Here they are ...
 ... and then it will be down to participants to seek further guidance, challenge viewpoints and engage in informative and inspiring academic debate.<br/>
 🙂
 
-#### Recommended Resources
-
-We have an open [Zotero Library](https://www.zotero.org/groups/6579261/eurovis_-_you_me__the_vis_phd/library) that we aim to fill with links to recommended books and papers.
-
-### Open Discussion
+### 2.2 Open Discussion
 
 Questions from the brainstorming exercise and discussion around these.
 
+### 2.3 Priorities & Initiatives
+
 We seek to uncover and prioritise activities and initiatives that can improve and extend PhD education for all parties with _The Panel_.
+
+<hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(255,255,255); width:90%;margin: 0 auto; padding:1rem 0px 1rem 0px; margin-top:4rem">
+
+<img src="./img/eurovisPhDlogo.007.png" width="95%" style="margin-left:2.5%;margin-right:2.5%">
+
+
+<h2>Resources</h2>
+
+#### Recommended Books &amp; Papers
+
+We have an open [Zotero Library](https://www.zotero.org/groups/6579261/eurovis_-_you_me__the_vis_phd/library) that we aim to fill with links to recommended books and papers.
+
+#### WhiteBoard
+
+We will be logging and develpoing ideas on a [Miro Board]().
+<!-- https://miro.com/app/board/o9J_kpGBG0g=/ -->
+
+#### DIVERSE-CDT
+
+Jason mentioned a couple of links during his talk - they are reproduced here:
+
+|When?|What?|Lead?|&nbsp;|
+|-:|--|--|--|
+| [**DIVERSE-CDT Doctoral Researchers**](https://diverse-cdt.ac.uk/doctoral-researchers/) | Information about the 2025 PhD students - do try to find them in Nottingham. |
+|[**What is a Research Lens?**](https://observablehq.com/@cdt2025/what-is-a-research-lens)| Lens thinking from the DIVERSE-CDT delivery team|
+|[**DIVERSE-CDT Leadership**](https://diverse-cdt.ac.uk/leadership/)| Who's who on the leadership team|
+|[**PTRSA Paper**](https://royalsocietypublishing.org/rsta/article/380/2233/20210299/112267/Visualization-for-epidemiological-modelling)| The co-authored paper in the _Philosophical Transactions of the Royal Society_ in which we used deep (live) links to Observable notebooks to synthesize and deliver evidence from parallel projects|
+
 
 
 <!---
@@ -275,13 +329,14 @@ But please bring and develop your questions of your own for collective action.
 
 --->
 
-<hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(18,120,46)">
+<hr style="height:0px; border-top:1px dashed rgb(18,220,46); background-color:rgb(255,255,255); width:67%;margin: 0 auto; margin-top:2rem; margin-bottom:2rem">
 
 <div style="text-align:right;padding-right:5rem">
 
 <b>Jason Dykes</b><br/>
 <b>Cagatay Turkay</b><br/>
-<i>07/06/26</i>
+<i>08/06/26</i>
+<!-- <i>07/06/26</i> -->
 <!-- <i>03/05/26</i> -->
 <!-- <i>01/05/26</i> -->
 <!-- _31/03/26_ -->
