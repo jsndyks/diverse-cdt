@@ -63,7 +63,7 @@
       border:solid 0px #fff;
     }
     html body table tr td a {
-      color:#2020a0; background-color:rgba(32 255 128 / 0.2); padding:0.15rem 0.5rem 0.15rem 0.5rem
+      color:#2020a0; background-color:rgba(32 220 255 / 0.2); padding:0.15rem 0.5rem 0.15rem 0.5rem; 
     }
 </style>
 
@@ -111,7 +111,7 @@ We plan activities that will connect and be useful for all three groups :
 1. current PhD students
 1. academics (supervisors - current and future!). 
 
-<hr style="height:0px; border-top:1px dashed rgb(18,220,46); background-color:rgb(255,255,255); width:67%;margin: 0 auto; margin-top:2rem; margin-bottom:2rem">
+<hr style="height:0px; border-top:1px dashed rgb(18,220,46); background-color:rgb(255,255,255); width:67%;margin: 0 auto; margin-top:2rem; margin-bottom:2rem;">
 
 ### Plan
 
