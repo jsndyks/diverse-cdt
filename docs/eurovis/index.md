@@ -276,9 +276,14 @@ We seek to uncover and prioritise activities and initiatives that can improve an
 
 We have an open [Zotero Library](https://www.zotero.org/groups/6579261/eurovis_-_you_me__the_vis_phd/library) that we aim to fill with links to recommended books and papers.
 
+#### Panel Questions
+
+Ask, check and upvote question for the panel on this [Poll Everywhere](https://pollev.com/jsndyks).
+<!-- https://miro.com/app/board/o9J_kpGBG0g=/ -->
+
 #### WhiteBoard
 
-We will be logging and develpoing ideas on a [Miro Board]().
+We will be logging and developing ideas on a [Miro Board]().
 <!-- https://miro.com/app/board/o9J_kpGBG0g=/ -->
 
 #### DIVERSE-CDT
