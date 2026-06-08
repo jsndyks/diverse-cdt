@@ -124,7 +124,7 @@ We plan activities that will connect and be useful for all three groups :
 || **Session 02** ||**Panel & Priorities**
 |**16:00**| **Panel 7x7** | *JD* |PhD perspectives and provocations in a 7x7 shootout! |
 |**16:49**<br/>🤔| **Open Discussion** | *JD* | Questions & discussion around PhD perspectives |
-|**17:15**| **Priorities** | *JD* | collective work to identify PhD initiatives |
+|**17:15**| **Priorities** | *CT* | collective work to identify PhD initiatives |
 
 
 <hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(255,255,255); width:90%;margin: 0 auto; padding:1rem 0px 1rem 0px; margin-top:4rem">
@@ -236,16 +236,19 @@ Hear from and connect with a diverse panel of guest participants who have acquir
 
 A lively _panel discussion_ in which experiences of supervision are introduced and discussed, and open questions are addressed in a structured session with the old hands that will include plenty of audience participation!
 
-The panel will be packed with excellent communicators, with complimentary experience, who are diverse in terms of academic discipline, perspective and geography.
+<img src="./who/euroVIS.phdPanelists.png" style="display: block; width:80%; max-width: 900px; margin: 0 auto" style="border:0px dashed #d0d0d0">
+
+
+The panel is packed with excellent communicators, with complimentary experience, who are diverse in terms of academic discipline, perspective and geography.
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |--:|:--:|--:|:-:|:--|
-|**Fateme Rajabiyazdi**|2018|_University of Calgary_|**&raquo;**|University of Calgary|
+|[**Fateme Rajabiyazdi**](./who/panelFR.png)|2018|_University of Calgary_|**&raquo;**|University of Calgary|
 |[**Maria Jesus Lobo Gunther**](./who/panelML.png)|2017|_Université Paris Saclay_|**&raquo;**|Université Gustave Eiffel & IGN|
 |[**Michael Sedlmair**](./who/panelMS.png)|2010|_University of Munich<br/>(with BMW)_|**&raquo;**|University of Stuttgart|
 |[**Marjahan Begum**](./who/panelMB.png)|2009|_University of Nottingham_|**&raquo;**|University of Nottingham<br/>& City St George's|
 |[**Alark Joshi**](./who/panelAJ.png)|2007|_University of Maryland<br/>Baltimore County_|**&raquo;**|University of San Fransisco|
-|**Bettina Speckmann**|2001|_University of British Columbia_|**&raquo;**|TU Eindhoven|
+|[**Bettina Speckmann**](./who/panelBS.png)|2001|_University of British Columbia_|**&raquo;**|TU Eindhoven|
 |_and perhaps ..._|
 |[**Jason Dykes**](./who/panelJD.png)|1999|_University of Leicester_|**&raquo;**|City St George’s,<br/>University of London|
 
@@ -253,7 +256,7 @@ We will be kicking off by asking each participant to answer a set of 7 questions
 
 Here they are ...
 
-<img src="./img/euroVIS.phdIntro.005.png" width="95%; max-width: 900px; margin: 0 auto" style="margin-left:2.5%;margin-right:2.5%; border:1px dashed #d0d0d0">
+<img src="./img/euroVIS.phdIntro.005.png" style="display: block; width: 80%; max-width: 900px; margin: 0 auto" style="margin-left:2.5%;margin-right:2.5%; border:1px dashed #d0d0d0">
 
 ... and then it will be down to participants to seek further guidance, challenge viewpoints and engage in informative and inspiring academic debate.<br/>
 🙂
@@ -266,9 +269,25 @@ Questions from the brainstorming exercise and discussion around these.
 
 We seek to uncover and prioritise activities and initiatives that can improve and extend PhD education for all parties with _The Panel_.
 
+**Our hope is that people to leave the room …**
+
+<div class="quote-box">
+  <img src="./img/arrows.001.png" alt="quote bullet">
+  <blockquote>
+
+ * knowing somebody new - **more connected**
+ * knowing that there is _something they can do_ to improve PhD Education<br/>(for themselves or more widely) - **more informed**
+ * perhaps committing to an action: _applying a solution_ to improve PhD Education  - **inspired & committed**
+
+  </blockquote>
+</div>
+
+
 <hr style="height:0px; border-top:1px dashed rgb(18,120,46); background-color:rgb(255,255,255); width:90%;margin: 0 auto; padding:1rem 0px 1rem 0px; margin-top:4rem">
 
 <img src="./img/eurovisPhDlogo.007.png" width="95%" style="margin-left:2.5%;margin-right:2.5%">
+
+
 
 
 <h2>Resources</h2>
