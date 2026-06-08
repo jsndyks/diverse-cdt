@@ -27,10 +27,13 @@
 </span>
 <span style="display:block;padding:1rem 2rem 1rem 2rem; background-color:#f8f8f8; margin:0px">
 
-_A few notes to offer some context on DIVERSE-CDT and the Research Scientist we seek to complete the team at our Doctoral Training Centre ..._
+_A few notes to offer some context on DIVERSE-CDT and the Research Scientist we seek to complete the team at our Doctoral Training Centre._
+
+_The formal details are available through this official [Advert](https://jobs.citystgeorges.ac.uk/en/sites/CX_1001#en/sites/CX_1001/job/100188/) and [Application Pack](https://cityuni.sharepoint.com/sites/cs_recruitdirectory/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcs%5Frecruitdirectory%2FShared%20Documents%2FJob%20Descriptions%20PDF%2FOracle%2F100188%20Research%20Scientist%20JD%2Epdf&parent=%2Fsites%2Fcs%5Frecruitdirectory%2FShared%20Documents%2FJob%20Descriptions%20PDF%2FOracle&p=true&ct=1780913704045&or=OWA%2DNT%2DMail&cid=02eae1ca%2D5da9%2Df76c%2Dd323%2D90ba1fbd2e42&ga=1&LOF=1)._
 
 </span>
 
+ 
 <!-- ## DIVERSE-CDT - Research Scientist Role -->
 
 <span style="display:block;padding:1rem 2rem 1rem 2rem">
