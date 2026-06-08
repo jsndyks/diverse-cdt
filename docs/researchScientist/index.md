@@ -38,6 +38,8 @@ _The formal details are available through this official [Advert](https://jobs.ci
 
 <span style="display:block;padding:1rem 2rem 1rem 2rem">
 
+<img alt="DIVERSE-CDT Logo" src="https://jsndyks.github.io/diverse-cdt/researchScientist/img/diverseCDT.logo.blue.png" width="200" style="display: block; margin-left: auto; float:right">
+
 #### The Centre for Doctoral Training
 
 [DIVERSE-CDT](https://diverse-cdt.ac.uk/) is an ambitious 9-year research and training project that is developing the next generation of visualization researchers.
