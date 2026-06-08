@@ -285,6 +285,7 @@ We will be logging and develpoing ideas on a [Miro Board]().
 
 Jason mentioned a couple of links during his talk - they are reproduced here:
 
+<!---
 |When?|What?|Lead?|&nbsp;|
 |-:|--|--|--|
 | [**DIVERSE-CDT Doctoral Researchers**](https://diverse-cdt.ac.uk/doctoral-researchers/) | Information about the 2025 PhD students - do try to find them in Nottingham. |
@@ -292,6 +293,44 @@ Jason mentioned a couple of links during his talk - they are reproduced here:
 |[**DIVERSE-CDT Leadership**](https://diverse-cdt.ac.uk/leadership/)| Who's who on the leadership team|
 |[**PTRSA Paper**](https://royalsocietypublishing.org/rsta/article/380/2233/20210299/112267/Visualization-for-epidemiological-modelling)| The co-authored paper in the _Philosophical Transactions of the Royal Society_ in which we used deep (live) links to Observable notebooks to synthesize and deliver evidence from parallel projects|
 
+--->
+
+<table>
+<thead>
+<tr>
+<th style="text-align:right">When?</th>
+<th>What?</th>
+<th>Lead?</th>
+<th>&#xA0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right" nowrap><a href="https://diverse-cdt.ac.uk/doctoral-researchers/"><strong>DIVERSE-CDT Doctoral Researchers</strong></a></td>
+<td>Information about the 2025 PhD students - do try to find them in Nottingham.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:right" nowrap><a href="https://observablehq.com/@cdt2025/what-is-a-research-lens"><strong>What is a Research Lens?</strong></a></td>
+<td>Lens thinking from the DIVERSE-CDT delivery team</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:right" nowrap><a href="https://diverse-cdt.ac.uk/leadership/"><strong>DIVERSE-CDT Leadership</strong></a></td>
+<td>Who&apos;s who on the leadership team</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:right" nowrap><a href="https://royalsocietypublishing.org/rsta/article/380/2233/20210299/112267/Visualization-for-epidemiological-modelling"><strong>PTRSA Paper</strong></a></td>
+<td>The co-authored paper in the <em>Philosophical Transactions of the Royal Society</em> in which we used deep (live) links to Observable notebooks to synthesize and deliver evidence from parallel projects</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 
 <!---
