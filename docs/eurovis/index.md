@@ -354,6 +354,12 @@ Jason mentioned a couple of links and flashed up a few QR codes during his talk 
 <td></td>
 <td></td>
 </tr>
+<tr>
+<td style="text-align:right" valign="top" nowrap><a href="https://jsndyks.github.io/diverse-cdt/researchScientist/"><strong>Research Scientist</strong></a></td>
+<td valign="top"><b>We are recruiting!</b><br/>This link tells you more about the kind of person we are looking for and has further links to the job advert and application details</td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 
