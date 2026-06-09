@@ -361,6 +361,14 @@ Jason mentioned a couple of links and flashed up a few QR codes during his talk 
 <td></td>
 <td></td>
 </tr>
+
+<tr>
+<td style="text-align:right" valign="top" nowrap><a href="https://people.cs.nott.ac.uk/blaramee/research/starterKit/"><strong>PVSK</strong></a></td>
+<td valign="top">Bob Laramee's PhD in Visualization Starter Kit</td>
+<td></td>
+<td></td>
+</tr>
+
 </tbody>
 </table>
 
