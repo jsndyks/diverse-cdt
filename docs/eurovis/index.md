@@ -119,7 +119,7 @@ We plan activities that will connect and be useful for all three groups :
 |--|-:|--|--|
 || **Session 01** || **Introductions, Updates & Brainstorming**
 |**14:00**| **Introductions** | *CT* | graphical introductions in a visual fast-forward |
-|**14:30**| **Updates** | *JD* | a focus on the [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/) PhD initiative |
+|**14:30**| **Updates** | *JD* | a focus on the [**DIVERSE-CDT**](https://diverse-cdt.ac.uk/) PhD initiative<br/>14:30ish - Talk<br/>14:45ish - Questions<br/>|
 |**15:00**| **Brainstorming**<br/>&amp; **Connecting** | *CT* | group work to connect, discuss experiences &amp; develop questions and priorities |
 || **Session 02** ||**Panel & Priorities**
 |**16:00**| **Panel 7x7** | *JD* |PhD perspectives and provocations in a 7x7 shootout! |
