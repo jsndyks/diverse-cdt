@@ -1,5 +1,6 @@
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>EuroVIS 2026 : You, Me & the VIS PhD</title>
 </head>
 <img src="./img/eurovisPhDlogo.004.png" width="95%" style="margin-left:2.5%;margin-right:2.5%">
 
