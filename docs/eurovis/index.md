@@ -415,7 +415,7 @@ But please bring and develop your questions of your own for collective action.
 
 <b>Jason Dykes</b><br/>
 <b>Cagatay Turkay</b><br/>
-<i>08/06/26</i>
+<i>09/06/26</i>
 <!-- <i>07/06/26</i> -->
 <!-- <i>03/05/26</i> -->
 <!-- <i>01/05/26</i> -->
