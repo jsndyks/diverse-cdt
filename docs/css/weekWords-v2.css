@@ -3,7 +3,7 @@
  */
 
 :root {
-  --ww-css-updated: "2026-09-25 16:58";
+  --ww-css-updated: "2026-09-25 17:06";
 
   --ww-yellow: #fffb36;
   --ww-ink: #171717;
@@ -19,9 +19,11 @@
 
    Markdown convention:
 
-   # Week Words : Template
+   # Main title
    ## Subtitle
-   ### 26MMDD
+   ### Date
+
+   Titles may contain a colon, but do not have to.
    ========================================================= */
 
 .ww-header {
@@ -39,26 +41,43 @@
 
   align-items: stretch;
 
-  min-height: var(--ww-header-height);
+  min-height:
+    var(--ww-header-height);
 
-  margin: 1.5rem 0 2.5rem;
-  padding: 3.75rem 3rem 2rem;
+  margin:
+    1.5rem
+    0
+    2.5rem;
 
-  background: var(--ww-yellow);
-  color: var(--ww-ink);
+  padding:
+    3.75rem
+    3rem
+    2rem;
 
-  border-top: 5px solid var(--ww-ink);
-  border-bottom: 1px solid var(--ww-ink);
+  background:
+    var(--ww-yellow);
 
-  box-sizing: border-box;
+  color:
+    var(--ww-ink);
+
+  border-top:
+    5px solid
+    var(--ww-ink);
+
+  border-bottom:
+    1px solid
+    var(--ww-ink);
+
+  box-sizing:
+    border-box;
 }
 
 
 /* =========================================================
    TOP LABELS
 
-   DIVERSE-CDT and date deliberately share the same
-   positioning and typography so their baselines align.
+   DIVERSE-CDT and date share exactly the same typography
+   and vertical position.
    ========================================================= */
 
 .ww-header > .ww-brand,
@@ -72,18 +91,32 @@
   margin: 0 !important;
   padding: 0 !important;
 
-  color: var(--ww-muted) !important;
+  color:
+    var(--ww-muted) !important;
 
-  font-family: inherit;
-  font-size: 0.8rem !important;
-  font-weight: 800 !important;
-  font-style: normal !important;
-  line-height: 1 !important;
+  font-family:
+    inherit;
 
-  letter-spacing: 0.16em !important;
-  text-transform: uppercase;
+  font-size:
+    0.8rem !important;
 
-  transform: none !important;
+  font-weight:
+    800 !important;
+
+  font-style:
+    normal !important;
+
+  line-height:
+    1 !important;
+
+  letter-spacing:
+    0.16em !important;
+
+  text-transform:
+    uppercase;
+
+  transform:
+    none !important;
 }
 
 
@@ -92,7 +125,8 @@
 .ww-header > .ww-brand {
   left: 2rem;
 
-  text-align: left;
+  text-align:
+    left;
 }
 
 
@@ -101,131 +135,234 @@
 .ww-header > .ww-date {
   right: 2rem;
 
-  text-align: right;
+  text-align:
+    right;
 }
 
 
 /* =========================================================
    MAIN TITLE
-
-   JavaScript converts:
-
-       Week Words : Template
-
-   into:
-
-       .ww-title-before
-       .ww-title-after
-
-   and puts the colon inside .ww-title-before.
    ========================================================= */
 
 .ww-header > h1.ww-main {
-  grid-area: main;
+  grid-area:
+    main;
 
-  display: grid !important;
+  display:
+    grid !important;
 
-  grid-template-columns: minmax(0, 1fr);
-  grid-template-rows: auto auto;
+  grid-template-columns:
+    minmax(0, 1fr);
 
-  align-content: center;
-  justify-items: stretch;
+  grid-auto-rows:
+    auto;
 
-  min-width: 0;
-  width: 100%;
+  align-content:
+    center;
 
-  margin: 0 !important;
-  padding: 1rem 2rem 1rem 0 !important;
+  justify-items:
+    stretch;
 
-  color: var(--ww-ink) !important;
+  min-width:
+    0;
 
-  font-size: clamp(2.2rem, 4vw, 4.2rem) !important;
-  font-weight: 850 !important;
-  line-height: 0.92 !important;
-  letter-spacing: -0.05em !important;
+  width:
+    100%;
 
-  text-align: right !important;
+  margin:
+    0 !important;
 
-  box-sizing: border-box;
+  padding:
+    1rem
+    2rem
+    1rem
+    0 !important;
+
+  color:
+    var(--ww-ink) !important;
+
+  font-size:
+    clamp(
+      2.2rem,
+      4vw,
+      4.2rem
+    ) !important;
+
+  font-weight:
+    850 !important;
+
+  line-height:
+    0.92 !important;
+
+  letter-spacing:
+    -0.05em !important;
+
+  text-align:
+    right !important;
+
+  box-sizing:
+    border-box;
 }
 
 
-/* ---------------------------------------------------------
-   Title before the colon
+/* =========================================================
+   TITLE WITH COLON — BEFORE COLON
+   ========================================================= */
 
-   Both title sections occupy the full width of the
-   title column, so their right edges are identical.
-   --------------------------------------------------------- */
+.ww-header
+> h1.ww-main
+> .ww-title-before {
+  position:
+    relative;
 
-.ww-header > h1.ww-main > .ww-title-before {
-  position: relative;
+  display:
+    block !important;
 
-  display: block !important;
+  width:
+    100%;
 
-  width: 100%;
-  min-width: 0;
+  min-width:
+    0;
 
-  margin: 0;
-  padding: 0;
+  margin:
+    0;
 
-  justify-self: stretch;
+  padding:
+    0;
 
-  color: inherit;
+  justify-self:
+    stretch;
 
-  font: inherit;
+  color:
+    inherit;
 
-  text-align: right !important;
+  font:
+    inherit;
+
+  text-align:
+    right !important;
 }
 
 
-/* ---------------------------------------------------------
-   Hanging colon
+/* =========================================================
+   HANGING COLON
 
-   Removed from normal text flow so it can extend beyond
-   the shared right edge of the title words.
-   --------------------------------------------------------- */
+   The colon has no layout width.
+   It hangs beyond the common right edge of the title text.
+   ========================================================= */
 
-.ww-header > h1.ww-main > .ww-title-before > .ww-colon {
-  position: absolute;
+.ww-header
+> h1.ww-main
+> .ww-title-before
+> .ww-colon {
+  position:
+    absolute;
 
-  right: -0.32em;
-  bottom: 0;
+  right:
+    -0.32em;
 
-  display: block;
+  bottom:
+    0;
 
-  margin: 0;
-  padding: 0;
+  display:
+    block;
 
-  color: inherit;
+  margin:
+    0;
 
-  font: inherit;
-  line-height: inherit;
+  padding:
+    0;
+
+  color:
+    inherit;
+
+  font:
+    inherit;
+
+  line-height:
+    inherit;
 }
 
 
-/* ---------------------------------------------------------
-   Title after colon — e.g. "Template"
+/* =========================================================
+   TITLE WITH COLON — AFTER COLON
 
-   This deliberately occupies the same full-width block
-   as the preceding title, giving both the same right edge.
-   --------------------------------------------------------- */
+   e.g. "Template"
 
-.ww-header > h1.ww-main > .ww-title-after {
-  display: block !important;
+   Occupies exactly the same width as the first title
+   section, so both share the same right edge.
+   ========================================================= */
 
-  width: 100%;
-  min-width: 0;
+.ww-header
+> h1.ww-main
+> .ww-title-after {
+  display:
+    block !important;
 
-  margin: 0.04em 0 0;
-  padding: 0;
+  width:
+    100%;
 
-  justify-self: stretch;
+  min-width:
+    0;
 
-  color: inherit;
+  margin:
+    0.04em
+    0
+    0;
 
-  font: inherit;
+  padding:
+    0;
 
-  text-align: right !important;
+  justify-self:
+    stretch;
+
+  color:
+    inherit;
+
+  font:
+    inherit;
+
+  text-align:
+    right !important;
+}
+
+
+/* =========================================================
+   TITLE WITHOUT COLON
+
+   A normal title gets its own explicit block so it behaves
+   identically to the colon-based title layout.
+   ========================================================= */
+
+.ww-header
+> h1.ww-main
+> .ww-title-single {
+  display:
+    block !important;
+
+  width:
+    100%;
+
+  min-width:
+    0;
+
+  margin:
+    0;
+
+  padding:
+    0;
+
+  justify-self:
+    stretch;
+
+  color:
+    inherit;
+
+  font:
+    inherit;
+
+  text-align:
+    right !important;
 }
 
 
@@ -234,58 +371,95 @@
    ========================================================= */
 
 .ww-header > h2.ww-sub {
-  grid-area: sub;
+  grid-area:
+    sub;
 
-  display: flex !important;
+  display:
+    flex !important;
 
-  align-items: center;
-  justify-content: flex-start;
+  align-items:
+    center;
 
-  min-width: 0;
+  justify-content:
+    flex-start;
 
-  margin: 0 !important;
-  padding: 1rem 0 1rem 2rem !important;
+  min-width:
+    0;
+
+  margin:
+    0 !important;
+
+  padding:
+    1rem
+    0
+    1rem
+    2rem !important;
 
   border-left:
     var(--ww-divider)
     solid
     var(--ww-ink);
 
-  color: var(--ww-muted) !important;
+  color:
+    var(--ww-muted) !important;
 
-  font-size: clamp(1rem, 1.6vw, 1.35rem) !important;
-  font-weight: 500 !important;
-  font-style: italic;
-  line-height: 1.25 !important;
-  letter-spacing: -0.01em !important;
+  font-size:
+    clamp(
+      1rem,
+      1.6vw,
+      1.35rem
+    ) !important;
 
-  text-align: left !important;
+  font-weight:
+    500 !important;
 
-  box-sizing: border-box;
+  font-style:
+    italic;
+
+  line-height:
+    1.25 !important;
+
+  letter-spacing:
+    -0.01em !important;
+
+  text-align:
+    left !important;
+
+  box-sizing:
+    border-box;
 }
 
 
 /* =========================================================
    CSS DEBUG / VERSION BANNER
 
-   Appears when the URL contains:
+   Appears when URL contains:
 
        ?css=1
-
-   JavaScript reads --ww-css-updated above.
    ========================================================= */
 
 .ww-css-info {
-  position: relative;
-  z-index: 9999;
+  position:
+    relative;
 
-  box-sizing: border-box;
+  z-index:
+    9999;
 
-  width: 100%;
-  padding: 0.45rem 1rem;
+  box-sizing:
+    border-box;
 
-  background: var(--ww-ink);
-  color: var(--ww-yellow);
+  width:
+    100%;
+
+  padding:
+    0.45rem
+    1rem;
+
+  background:
+    var(--ww-ink);
+
+  color:
+    var(--ww-yellow);
 
   font-family:
     ui-monospace,
@@ -296,12 +470,20 @@
     "Liberation Mono",
     monospace;
 
-  font-size: 0.75rem;
-  font-weight: 600;
-  line-height: 1.4;
-  letter-spacing: 0.02em;
+  font-size:
+    0.75rem;
 
-  text-align: right;
+  font-weight:
+    600;
+
+  line-height:
+    1.4;
+
+  letter-spacing:
+    0.02em;
+
+  text-align:
+    right;
 }
 
 
@@ -311,8 +493,12 @@
 
 td,
 th {
-  font-size: 120%;
-  padding: 0.5rem 0;
+  font-size:
+    120%;
+
+  padding:
+    0.5rem
+    0;
 }
 
 
@@ -328,31 +514,44 @@ th {
       minmax(12rem, 1fr)
       minmax(12rem, 1fr);
 
-    min-height: 16rem;
+    min-height:
+      16rem;
 
-    padding: 3.5rem 2rem 1.75rem;
+    padding:
+      3.5rem
+      2rem
+      1.75rem;
   }
 
 
   .ww-header > h1.ww-main {
-    padding-right: 1.5rem !important;
+    padding-right:
+      1.5rem !important;
 
-    font-size: clamp(2.1rem, 5.5vw, 3.6rem) !important;
+    font-size:
+      clamp(
+        2.1rem,
+        5.5vw,
+        3.6rem
+      ) !important;
   }
 
 
   .ww-header > h2.ww-sub {
-    padding-left: 1.5rem !important;
+    padding-left:
+      1.5rem !important;
   }
 
 
   .ww-header > .ww-brand {
-    left: 1.5rem;
+    left:
+      1.5rem;
   }
 
 
   .ww-header > .ww-date {
-    right: 1.5rem;
+    right:
+      1.5rem;
   }
 }
 
@@ -367,65 +566,102 @@ th {
 @media (max-width: 650px) {
 
   .ww-header {
-    grid-template-columns: 1fr;
+    grid-template-columns:
+      1fr;
 
     grid-template-areas:
       "main"
       "sub";
 
-    align-content: center;
+    align-content:
+      center;
 
-    min-height: 18rem;
+    min-height:
+      18rem;
 
-    padding: 4rem 1.5rem 1.75rem;
+    padding:
+      4rem
+      1.5rem
+      1.75rem;
   }
 
 
   /* Main title */
 
   .ww-header > h1.ww-main {
-    justify-items: stretch;
+    justify-items:
+      stretch;
 
-    padding: 1rem 0 !important;
+    padding:
+      1rem
+      0 !important;
 
-    font-size: clamp(2.3rem, 11vw, 3.8rem) !important;
+    font-size:
+      clamp(
+        2.3rem,
+        11vw,
+        3.8rem
+      ) !important;
 
-    text-align: left !important;
+    text-align:
+      left !important;
   }
 
 
-  .ww-header > h1.ww-main > .ww-title-before,
-  .ww-header > h1.ww-main > .ww-title-after {
-    text-align: left !important;
+  .ww-header
+  > h1.ww-main
+  > .ww-title-before,
+
+  .ww-header
+  > h1.ww-main
+  > .ww-title-after,
+
+  .ww-header
+  > h1.ww-main
+  > .ww-title-single {
+    text-align:
+      left !important;
   }
 
 
   /* Colon goes back into normal flow */
 
-  .ww-header > h1.ww-main > .ww-title-before > .ww-colon {
-    position: static;
+  .ww-header
+  > h1.ww-main
+  > .ww-title-before
+  > .ww-colon {
+    position:
+      static;
 
-    display: inline;
+    display:
+      inline;
 
-    margin-left: 0.08em;
+    margin-left:
+      0.08em;
   }
 
 
   /* Subtitle */
 
   .ww-header > h2.ww-sub {
-    justify-content: flex-start;
+    justify-content:
+      flex-start;
 
-    padding: 1rem 0 0 !important;
+    padding:
+      1rem
+      0
+      0 !important;
 
-    border-left: 0;
+    border-left:
+      0;
 
     border-top:
       var(--ww-divider)
       solid
       var(--ww-ink);
 
-    text-align: left !important;
+    text-align:
+      left !important;
   }
 
 
@@ -433,16 +669,19 @@ th {
 
   .ww-header > .ww-brand,
   .ww-header > .ww-date {
-    top: 1.2rem;
+    top:
+      1.2rem;
   }
 
 
   .ww-header > .ww-brand {
-    left: 1.5rem;
+    left:
+      1.5rem;
   }
 
 
   .ww-header > .ww-date {
-    right: 1.5rem;
+    right:
+      1.5rem;
   }
 }
