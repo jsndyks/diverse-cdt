@@ -3,14 +3,12 @@
  */
 
 :root {
-  --ww-css-updated: "2026-09-25 17:06";
-
   --ww-yellow: #fffb36;
   --ww-ink: #171717;
   --ww-muted: #353535;
 
   --ww-divider: 3px;
-  --ww-header-height: 18rem;
+  --ww-header-height: 17rem;
 }
 
 
@@ -27,6 +25,8 @@
    ========================================================= */
 
 .ww-header {
+  --ww-css-updated: "2026-09-25 17:12";
+
   position: relative;
 
   display: grid;
@@ -50,9 +50,9 @@
     2.5rem;
 
   padding:
-    3.75rem
+    3.5rem
     3rem
-    2rem;
+    1.75rem;
 
   background:
     var(--ww-yellow);
@@ -76,15 +76,15 @@
 /* =========================================================
    TOP LABELS
 
-   DIVERSE-CDT and date share exactly the same typography
-   and vertical position.
+   DIVERSE-CDT and date deliberately share all typography
+   and vertical positioning.
    ========================================================= */
 
 .ww-header > .ww-brand,
 .ww-header > .ww-date {
   position: absolute;
 
-  top: 1.35rem;
+  top: 1.25rem;
 
   display: block;
 
@@ -173,9 +173,9 @@
     0 !important;
 
   padding:
-    1rem
+    0.75rem
     2rem
-    1rem
+    0.75rem
     0 !important;
 
   color:
@@ -202,6 +202,12 @@
 
   box-sizing:
     border-box;
+
+  /*
+   * Lift title and subtitle pair slightly within masthead.
+   */
+  transform:
+    translateY(-0.6rem);
 }
 
 
@@ -247,8 +253,8 @@
 /* =========================================================
    HANGING COLON
 
-   The colon has no layout width.
-   It hangs beyond the common right edge of the title text.
+   The colon is removed from normal layout width and hangs
+   just beyond the common right edge of the title words.
    ========================================================= */
 
 .ww-header
@@ -289,8 +295,7 @@
 
    e.g. "Template"
 
-   Occupies exactly the same width as the first title
-   section, so both share the same right edge.
+   Uses exactly the same width/right edge as the text above.
    ========================================================= */
 
 .ww-header
@@ -329,9 +334,6 @@
 
 /* =========================================================
    TITLE WITHOUT COLON
-
-   A normal title gets its own explicit block so it behaves
-   identically to the colon-based title layout.
    ========================================================= */
 
 .ww-header
@@ -390,9 +392,9 @@
     0 !important;
 
   padding:
-    1rem
+    0.75rem
     0
-    1rem
+    0.75rem
     2rem !important;
 
   border-left:
@@ -427,15 +429,23 @@
 
   box-sizing:
     border-box;
+
+  /*
+   * Same lift as main title so divider remains aligned.
+   */
+  transform:
+    translateY(-0.6rem);
 }
 
 
 /* =========================================================
    CSS DEBUG / VERSION BANNER
 
-   Appears when URL contains:
+   Appears when the URL contains:
 
        ?css=1
+
+   The JavaScript reads --ww-css-updated from .ww-header.
    ========================================================= */
 
 .ww-css-info {
@@ -515,12 +525,12 @@ th {
       minmax(12rem, 1fr);
 
     min-height:
-      16rem;
+      15rem;
 
     padding:
-      3.5rem
+      3.25rem
       2rem
-      1.75rem;
+      1.5rem;
   }
 
 
@@ -560,7 +570,8 @@ th {
    MOBILE
 
    Title and subtitle stack.
-   Hanging punctuation returns to normal text flow.
+   Hanging punctuation returns to normal flow.
+   The desktop vertical lift is removed.
    ========================================================= */
 
 @media (max-width: 650px) {
@@ -605,6 +616,9 @@ th {
 
     text-align:
       left !important;
+
+    transform:
+      none;
   }
 
 
@@ -624,7 +638,7 @@ th {
   }
 
 
-  /* Colon goes back into normal flow */
+  /* Colon returns to normal flow */
 
   .ww-header
   > h1.ww-main
@@ -662,6 +676,9 @@ th {
 
     text-align:
       left !important;
+
+    transform:
+      none;
   }
 
 
