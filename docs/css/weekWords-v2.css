@@ -14,18 +14,11 @@
 
 /* =========================================================
    WEEK WORDS — PUBLICATION HEADER
-
-   Markdown convention:
-
-   # Main title
-   ## Subtitle
-   ### Date
-
-   Titles may contain a colon, but do not have to.
    ========================================================= */
 
 .ww-header {
-  --ww-css-updated: "2026-09-25 17:12";
+  --ww-date-block-width: 5rem;
+  --ww-date-right: 2rem;
 
   position: relative;
 
@@ -74,17 +67,14 @@
 
 
 /* =========================================================
-   TOP LABELS
-
-   DIVERSE-CDT and date deliberately share all typography
-   and vertical positioning.
+   DIVERSE-CDT — TOP LEFT
    ========================================================= */
 
-.ww-header > .ww-brand,
-.ww-header > .ww-date {
+.ww-header > .ww-brand {
   position: absolute;
 
   top: 1.25rem;
+  left: 2rem;
 
   display: block;
 
@@ -115,54 +105,109 @@
   text-transform:
     uppercase;
 
+  text-align:
+    left;
+
   transform:
     none !important;
 }
 
 
-/* DIVERSE-CDT */
+/* =========================================================
+   DATE — TOP RIGHT
 
-.ww-header > .ww-brand {
-  left: 2rem;
-
-  text-align:
-    left;
-}
-
-
-/* Date */
+   The date and SVG share the exact same width.
+   Wider tracking gives the YY MM DD effect.
+   ========================================================= */
 
 .ww-header > .ww-date {
-  right: 2rem;
+  position: absolute;
+
+  top: 1.25rem;
+  right: var(--ww-date-right);
+
+  display: block;
+
+  width:
+    var(--ww-date-block-width);
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  color:
+    var(--ww-muted) !important;
+
+  font-family:
+    inherit;
+
+  font-size:
+    0.8rem !important;
+
+  font-weight:
+    800 !important;
+
+  font-style:
+    normal !important;
+
+  line-height:
+    1 !important;
+
+  letter-spacing:
+    0.25em !important;
+
+  text-transform:
+    uppercase;
 
   text-align:
-    right;
+    center;
+
+  transform:
+    none !important;
 }
 
 
 /* =========================================================
-   SVG MARK — UNDER DATE
+   SVG MARK — DIRECTLY BELOW DATE
+
+   6 columns × 10 rows means a natural 6:10 aspect ratio.
+   Width exactly matches the date block.
    ========================================================= */
 
 .ww-header > .ww-mark {
   position: absolute;
 
   top: 2.45rem;
-  right: 2rem;
+  right: var(--ww-date-right);
 
-  width: 3rem;
-  height: 5rem;
+  width:
+    var(--ww-date-block-width);
 
-  color: var(--ww-ink);
+  height:
+    calc(
+      var(--ww-date-block-width)
+      * 10 / 6
+    );
 
-  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+  color:
+    var(--ww-ink);
+
+  overflow:
+    hidden;
 }
 
-.ww-header > .ww-mark svg {
-  display: block;
 
-  width: 100%;
-  height: 100%;
+.ww-header > .ww-mark svg {
+  display:
+    block;
+
+  width:
+    100%;
+
+  height:
+    100%;
 }
 
 
@@ -235,7 +280,7 @@
 
 
 /* =========================================================
-   TITLE WITH COLON — BEFORE COLON
+   TITLE — BEFORE COLON
    ========================================================= */
 
 .ww-header
@@ -311,7 +356,7 @@
 
 
 /* =========================================================
-   TITLE WITH COLON — AFTER COLON
+   TITLE — AFTER COLON
    ========================================================= */
 
 .ww-header
@@ -349,7 +394,7 @@
 
 
 /* =========================================================
-   TITLE WITHOUT COLON
+   TITLE — NO COLON
    ========================================================= */
 
 .ww-header
@@ -453,9 +498,19 @@
 
 /* =========================================================
    CSS DEBUG / VERSION BANNER
+
+   JavaScript only creates .ww-css-info.
+
+   The CSS itself supplies the timestamp, so if this
+   stylesheet is loaded, the timestamp is available too.
+
+   Update this timestamp whenever the CSS changes.
    ========================================================= */
 
 .ww-css-info {
+  --ww-css-updated:
+    "2026-09-25 17:27";
+
   position:
     relative;
 
@@ -504,6 +559,14 @@
 }
 
 
+.ww-css-info::before {
+  content:
+    "/* CSS updated: "
+    var(--ww-css-updated)
+    " */";
+}
+
+
 /* =========================================================
    TABLES
    ========================================================= */
@@ -526,6 +589,9 @@ th {
 @media (max-width: 900px) {
 
   .ww-header {
+    --ww-date-right: 1.5rem;
+    --ww-date-block-width: 4.5rem;
+
     grid-template-columns:
       0.25fr
       minmax(12rem, 1fr)
@@ -564,32 +630,19 @@ th {
     left:
       1.5rem;
   }
-
-
-  .ww-header > .ww-date {
-    right:
-      1.5rem;
-  }
-
-
-  .ww-header > .ww-mark {
-    right:
-      1.5rem;
-  }
 }
 
 
 /* =========================================================
    MOBILE
-
-   Title and subtitle stack.
-   Hanging punctuation returns to normal flow.
-   The desktop vertical lift is removed.
    ========================================================= */
 
 @media (max-width: 650px) {
 
   .ww-header {
+    --ww-date-right: 1.5rem;
+    --ww-date-block-width: 4rem;
+
     grid-template-columns:
       1fr;
 
@@ -695,38 +748,29 @@ th {
   }
 
 
-  /* Top labels */
+  /* Brand */
 
-  .ww-header > .ww-brand,
+  .ww-header > .ww-brand {
+    top:
+      1.2rem;
+
+    left:
+      1.5rem;
+  }
+
+
+  /* Date */
+
   .ww-header > .ww-date {
     top:
       1.2rem;
   }
 
 
-  .ww-header > .ww-brand {
-    left:
-      1.5rem;
-  }
-
-
-  .ww-header > .ww-date {
-    right:
-      1.5rem;
-  }
-
+  /* SVG directly below date */
 
   .ww-header > .ww-mark {
     top:
-      2.35rem;
-
-    right:
-      1.5rem;
-
-    width:
-      2.7rem;
-
-    height:
-      4.5rem;
+      2.3rem;
   }
 }
