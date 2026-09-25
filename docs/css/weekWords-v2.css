@@ -1,0 +1,116 @@
+/* ----------------------------------------
+   WEEK WORDS
+   ---------------------------------------- */
+
+.ww-header {
+  display: grid;
+
+  grid-template-columns:
+    minmax(4.5rem, 0.28fr)
+    minmax(0, 1fr);
+
+  grid-template-areas:
+    "date main"
+    "date sub";
+
+  margin: 1.5rem 0 3rem;
+
+  background: #ffe800;
+  color: #171717;
+
+  border-top: 6px solid currentColor;
+  border-bottom: 1px solid currentColor;
+}
+
+
+/* MAIN TITLE */
+
+.ww-header .ww-main {
+  grid-area: main;
+
+  margin: 0;
+  padding: 2.5rem 2.5rem 0.35rem;
+
+  font-size: clamp(3rem, 8vw, 7rem);
+  font-weight: 850;
+  line-height: 0.86;
+  letter-spacing: -0.06em;
+
+  color: #171717;
+}
+
+
+/* SUBTITLE */
+
+.ww-header .ww-sub {
+  grid-area: sub;
+
+  margin: 0;
+  padding: 0.6rem 2.5rem 2.5rem;
+
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-weight: 500;
+  line-height: 1.2;
+
+  color: #555;
+}
+
+
+/* DATE */
+
+.ww-header .ww-date {
+  grid-area: date;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 1rem;
+
+  border-right: 1px solid rgb(0 0 0 / 25%);
+
+  font-size: clamp(0.7rem, 1.2vw, 0.9rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.18em;
+
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+
+  .ww-header {
+    grid-template-columns: 1fr;
+
+    grid-template-areas:
+      "date"
+      "main"
+      "sub";
+  }
+
+  .ww-header .ww-date {
+    display: block;
+
+    padding: 1.25rem 1.5rem 0;
+
+    border-right: 0;
+
+    writing-mode: horizontal-tb;
+    transform: none;
+  }
+
+  .ww-header .ww-main {
+    padding: 1.25rem 1.5rem 0.4rem;
+
+    font-size: clamp(2.6rem, 14vw, 5rem);
+  }
+
+  .ww-header .ww-sub {
+    padding: 0.4rem 1.5rem 1.75rem;
+  }
+}
