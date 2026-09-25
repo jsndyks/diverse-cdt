@@ -141,6 +141,32 @@
 
 
 /* =========================================================
+   SVG MARK — UNDER DATE
+   ========================================================= */
+
+.ww-header > .ww-mark {
+  position: absolute;
+
+  top: 2.45rem;
+  right: 2rem;
+
+  width: 3rem;
+  height: 5rem;
+
+  color: var(--ww-ink);
+
+  overflow: hidden;
+}
+
+.ww-header > .ww-mark svg {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+}
+
+
+/* =========================================================
    MAIN TITLE
    ========================================================= */
 
@@ -203,9 +229,6 @@
   box-sizing:
     border-box;
 
-  /*
-   * Lift title and subtitle pair slightly within masthead.
-   */
   transform:
     translateY(-0.6rem);
 }
@@ -252,9 +275,6 @@
 
 /* =========================================================
    HANGING COLON
-
-   The colon is removed from normal layout width and hangs
-   just beyond the common right edge of the title words.
    ========================================================= */
 
 .ww-header
@@ -292,10 +312,6 @@
 
 /* =========================================================
    TITLE WITH COLON — AFTER COLON
-
-   e.g. "Template"
-
-   Uses exactly the same width/right edge as the text above.
    ========================================================= */
 
 .ww-header
@@ -430,9 +446,6 @@
   box-sizing:
     border-box;
 
-  /*
-   * Same lift as main title so divider remains aligned.
-   */
   transform:
     translateY(-0.6rem);
 }
@@ -440,12 +453,6 @@
 
 /* =========================================================
    CSS DEBUG / VERSION BANNER
-
-   Appears when the URL contains:
-
-       ?css=1
-
-   The JavaScript reads --ww-css-updated from .ww-header.
    ========================================================= */
 
 .ww-css-info {
@@ -560,6 +567,12 @@ th {
 
 
   .ww-header > .ww-date {
+    right:
+      1.5rem;
+  }
+
+
+  .ww-header > .ww-mark {
     right:
       1.5rem;
   }
@@ -700,5 +713,20 @@ th {
   .ww-header > .ww-date {
     right:
       1.5rem;
+  }
+
+
+  .ww-header > .ww-mark {
+    top:
+      2.35rem;
+
+    right:
+      1.5rem;
+
+    width:
+      2.7rem;
+
+    height:
+      4.5rem;
   }
 }
