@@ -3,7 +3,7 @@
  */
 
 :root {
-  --ww-css-updated: "2026-09-25 16:28";
+  --ww-css-updated: "2026-09-25 16:37";
 
   --ww-yellow: #fffb36;
   --ww-ink: #171717;
@@ -19,7 +19,7 @@
 
    Markdown convention:
 
-   # Main title
+   # Main title : continuation
    ## Subtitle
    ### Date
    ========================================================= */
@@ -54,95 +54,35 @@
 }
 
 
-/* ---------------------------------------------------------
-   Shared title / subtitle block
-   --------------------------------------------------------- */
+/* =========================================================
+   BRAND — TOP LEFT
+   ========================================================= */
 
-.ww-header .ww-main,
-.ww-header .ww-sub {
-  display: flex;
-  align-items: center;
+.ww-header .ww-brand {
+  position: absolute;
 
-  min-width: 0;
+  top: 1.5rem;
+  left: 2rem;
+
   margin: 0;
-
-  box-sizing: border-box;
-}
-
-
-/* ---------------------------------------------------------
-   Main title
-   --------------------------------------------------------- */
-
-.ww-header .ww-main {
-  grid-area: main;
-
-  justify-content: flex-end;
-
-  padding: 1.75rem 2rem 1.75rem 0;
-
-  color: var(--ww-ink);
-
-  font-size: clamp(2.6rem, 4.8vw, 5rem);
-  font-weight: 850;
-  line-height: 0.92;
-  letter-spacing: -0.05em;
-
-  text-align: right;
-
-  overflow-wrap: normal;
-  word-break: normal;
-}
-
-
-/* ---------------------------------------------------------
-   Hanging colon
-
-   The JavaScript wraps the first colon in:
-   <span class="ww-colon">:</span>
-
-   This lets the words remain right-aligned while the
-   punctuation hangs slightly into the divider space.
-   --------------------------------------------------------- */
-
-.ww-header .ww-colon {
-  display: inline-block;
-
-  margin-right: -0.28em;
-  transform: translateX(0.28em);
-}
-
-
-/* ---------------------------------------------------------
-   Subtitle
-   --------------------------------------------------------- */
-
-.ww-header .ww-sub {
-  grid-area: sub;
-
-  justify-content: flex-start;
-
-  padding: 1.75rem 0 1.75rem 2rem;
-
-  border-left:
-    var(--ww-divider)
-    solid
-    var(--ww-ink);
+  padding: 0;
 
   color: var(--ww-muted);
 
-  font-size: clamp(1rem, 1.7vw, 1.45rem);
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1;
+
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
 
   text-align: left;
 }
 
 
-/* ---------------------------------------------------------
-   Date
-   --------------------------------------------------------- */
+/* =========================================================
+   DATE — TOP RIGHT
+   ========================================================= */
 
 .ww-header .ww-date {
   position: absolute;
@@ -161,14 +101,142 @@
 
   letter-spacing: 0.16em;
   text-transform: uppercase;
+
+  text-align: right;
+}
+
+
+/* =========================================================
+   TITLE / SUBTITLE SHARED LAYOUT
+   ========================================================= */
+
+.ww-header .ww-main,
+.ww-header .ww-sub {
+  min-width: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   MAIN TITLE
+   ========================================================= */
+
+.ww-header .ww-main {
+  grid-area: main;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+  justify-content: center;
+
+  padding: 1.75rem 2rem 1.75rem 0;
+
+  color: var(--ww-ink);
+
+  font-size: clamp(2.6rem, 4.8vw, 5rem);
+  font-weight: 850;
+  line-height: 0.92;
+  letter-spacing: -0.05em;
+
+  text-align: right;
+
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+
+/* ---------------------------------------------------------
+   Title before colon
+
+   Example:
+
+          Week Words :
+             Template
+
+   The colon is absolutely positioned and therefore does
+   not alter the alignment of the title text.
+   --------------------------------------------------------- */
+
+.ww-header .ww-title-before {
+  position: relative;
+
+  display: block;
+
+  max-width: 100%;
+
+  text-align: right;
+}
+
+
+/* ---------------------------------------------------------
+   Hanging colon
+   --------------------------------------------------------- */
+
+.ww-header .ww-title-before .ww-colon {
+  position: absolute;
+
+  top: 0;
+  left: 100%;
+
+  margin-left: 0.10em;
+
+  font: inherit;
+}
+
+
+/* ---------------------------------------------------------
+   Text after colon
+   --------------------------------------------------------- */
+
+.ww-header .ww-title-after {
+  display: block;
+
+  max-width: 100%;
+
+  text-align: right;
+}
+
+
+/* =========================================================
+   SUBTITLE
+   ========================================================= */
+
+.ww-header .ww-sub {
+  grid-area: sub;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  padding: 1.75rem 0 1.75rem 2rem;
+
+  border-left:
+    var(--ww-divider)
+    solid
+    var(--ww-ink);
+
+  color: var(--ww-muted);
+
+  font-size: clamp(1rem, 1.7vw, 1.45rem);
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+
+  text-align: left;
 }
 
 
 /* =========================================================
    CSS DEBUG / VERSION BANNER
 
-   Appears when the JS creates .ww-css-info
-   and the URL contains ?css=1
+   Appears only when URL contains:
+
+   ?css=1
    ========================================================= */
 
 .ww-css-info {
@@ -238,6 +306,14 @@ th {
   .ww-header .ww-sub {
     padding-left: 1.5rem;
   }
+
+  .ww-header .ww-brand {
+    left: 1.5rem;
+  }
+
+  .ww-header .ww-date {
+    right: 1.5rem;
+  }
 }
 
 
@@ -261,8 +337,12 @@ th {
     padding: 4.5rem 1.5rem 2rem;
   }
 
+
+  /* Title becomes left-aligned on small screens */
+
   .ww-header .ww-main {
-    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
 
     padding: 1.25rem 0;
 
@@ -270,6 +350,23 @@ th {
 
     text-align: left;
   }
+
+  .ww-header .ww-title-before,
+  .ww-header .ww-title-after {
+    text-align: left;
+  }
+
+
+  /* Disable hanging punctuation on mobile */
+
+  .ww-header .ww-title-before .ww-colon {
+    position: static;
+
+    margin-left: 0.08em;
+  }
+
+
+  /* Subtitle moves underneath title */
 
   .ww-header .ww-sub {
     justify-content: flex-start;
@@ -285,17 +382,16 @@ th {
     text-align: left;
   }
 
+
+  /* Top labels */
+
+  .ww-header .ww-brand {
+    top: 1.25rem;
+    left: 1.5rem;
+  }
+
   .ww-header .ww-date {
     top: 1.25rem;
     right: 1.5rem;
-  }
-
-  /*
-   * Hanging punctuation is less useful once the title
-   * becomes left-aligned on narrow screens.
-   */
-  .ww-header .ww-colon {
-    margin-right: 0;
-    transform: none;
   }
 }
