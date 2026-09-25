@@ -1,38 +1,65 @@
 /*
  * Week Words CSS
+ * Updated: 2026-09-25 17:44
  */
 
 :root {
-  --ww-yellow: #fffb36;
-  --ww-ink: #171717;
-  --ww-muted: #353535;
+  --ww-css-info:
+    "/* CSS updated: 2026-09-25 17:44 */";
 
-  --ww-divider: 3px;
-  --ww-header-height: 17rem;
+  --ww-yellow:
+    #fffb36;
+
+  --ww-ink:
+    #171717;
+
+  --ww-muted:
+    #353535;
+
+  --ww-divider:
+    3px;
 }
 
 
 /* =========================================================
-   WEEK WORDS — PUBLICATION HEADER
+   HIDE ORIGINAL MARKDOWN HEADINGS
+
+   JS clones their text into the visible masthead.
+   The originals remain available for Observable to rerender.
+   ========================================================= */
+
+.ww-source-heading {
+  display:
+    none !important;
+}
+
+
+/* =========================================================
+   WEEK WORDS MASTHEAD
    ========================================================= */
 
 .ww-header {
-  --ww-date-block-width: 5rem;
-  --ww-date-right: 2rem;
+  --ww-header-height:
+    17rem;
 
-  position: relative;
+  --ww-side:
+    2rem;
 
-  display: grid;
+  --ww-art-width:
+    7.2rem;
 
-  grid-template-columns:
-    1fr
-    minmax(16rem, 1fr)
-    minmax(16rem, 1fr);
+  --ww-art-gap:
+    2rem;
 
-  grid-template-areas:
-    ". main sub";
+  --ww-content-top:
+    3.5rem;
 
-  align-items: stretch;
+  --ww-content-bottom:
+    1.5rem;
+
+
+  position:
+    relative;
 
   min-height:
     var(--ww-header-height);
@@ -41,11 +68,6 @@
     1.5rem
     0
     2.5rem;
-
-  padding:
-    3.5rem
-    3rem
-    1.75rem;
 
   background:
     var(--ww-yellow);
@@ -63,151 +85,171 @@
 
   box-sizing:
     border-box;
-}
-
-
-/* =========================================================
-   DIVERSE-CDT — TOP LEFT
-   ========================================================= */
-
-.ww-header > .ww-brand {
-  position: absolute;
-
-  top: 1.25rem;
-  left: 2rem;
-
-  display: block;
-
-  margin: 0 !important;
-  padding: 0 !important;
-
-  color:
-    var(--ww-muted) !important;
-
-  font-family:
-    inherit;
-
-  font-size:
-    0.8rem !important;
-
-  font-weight:
-    800 !important;
-
-  font-style:
-    normal !important;
-
-  line-height:
-    1 !important;
-
-  letter-spacing:
-    0.16em !important;
-
-  text-transform:
-    uppercase;
-
-  text-align:
-    left;
-
-  transform:
-    none !important;
-}
-
-
-/* =========================================================
-   DATE — TOP RIGHT
-
-   The date and SVG share the exact same width.
-   Wider tracking gives the YY MM DD effect.
-   ========================================================= */
-
-.ww-header > .ww-date {
-  position: absolute;
-
-  top: 1.25rem;
-  right: var(--ww-date-right);
-
-  display: block;
-
-  width:
-    var(--ww-date-block-width);
-
-  margin: 0 !important;
-  padding: 0 !important;
-
-  color:
-    var(--ww-muted) !important;
-
-  font-family:
-    inherit;
-
-  font-size:
-    0.8rem !important;
-
-  font-weight:
-    800 !important;
-
-  font-style:
-    normal !important;
-
-  line-height:
-    1 !important;
-
-  letter-spacing:
-    0.25em !important;
-
-  text-transform:
-    uppercase;
-
-  text-align:
-    center;
-
-  transform:
-    none !important;
-}
-
-
-/* =========================================================
-   SVG MARK — DIRECTLY BELOW DATE
-
-   6 columns × 10 rows means a natural 6:10 aspect ratio.
-   Width exactly matches the date block.
-   ========================================================= */
-
-.ww-header > .ww-mark {
-  position: absolute;
-
-  top: 2.45rem;
-  right: var(--ww-date-right);
-
-  width:
-    var(--ww-date-block-width);
-
-  height:
-    calc(
-      var(--ww-date-block-width)
-      * 10 / 6
-    );
-
-  margin: 0;
-  padding: 0;
-
-  color:
-    var(--ww-ink);
 
   overflow:
     hidden;
 }
 
 
-.ww-header > .ww-mark svg {
+/* =========================================================
+   DIVERSE-CDT
+   ========================================================= */
+
+.ww-header > .ww-brand {
+  position:
+    absolute;
+
+  top:
+    1.25rem;
+
+  left:
+    var(--ww-side);
+
+  margin:
+    0;
+
+  padding:
+    0;
+
+  color:
+    var(--ww-muted);
+
+  font-family:
+    inherit;
+
+  font-size:
+    0.8rem;
+
+  font-weight:
+    800;
+
+  font-style:
+    normal;
+
+  line-height:
+    1;
+
+  letter-spacing:
+    0.16em;
+
+  text-transform:
+    uppercase;
+
+  text-align:
+    left;
+}
+
+
+/* =========================================================
+   DATE
+
+   Same width as SVG.
+
+   JS puts every character in its own span.
+   space-between produces:
+
+       2   6   M   M   D   D
+   ========================================================= */
+
+.ww-header > .ww-date {
+  position:
+    absolute;
+
+  top:
+    1.2rem;
+
+  right:
+    var(--ww-side);
+
   display:
-    block;
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
 
   width:
-    100%;
+    var(--ww-art-width);
 
-  height:
-    100%;
+  margin:
+    0;
+
+  padding:
+    0;
+
+  color:
+    var(--ww-muted);
+
+  font-family:
+    inherit;
+
+  font-size:
+    0.82rem;
+
+  font-weight:
+    800;
+
+  font-style:
+    normal;
+
+  line-height:
+    1;
+
+  letter-spacing:
+    0;
+
+  text-transform:
+    uppercase;
+
+  white-space:
+    nowrap;
+}
+
+
+/* =========================================================
+   TITLE | SUBTITLE LOCKUP
+
+   Its available horizontal space ends BEFORE the SVG.
+
+   Equal left/right columns mean the divider — and therefore
+   the complete lockup — is centred in the usable space
+   between the left edge and the artwork.
+   ========================================================= */
+
+.ww-header > .ww-lockup {
+  position:
+    absolute;
+
+  top:
+    var(--ww-content-top);
+
+  bottom:
+    var(--ww-content-bottom);
+
+  left:
+    var(--ww-side);
+
+  right:
+    calc(
+      var(--ww-side)
+      + var(--ww-art-width)
+      + var(--ww-art-gap)
+    );
+
+  display:
+    grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+
+  align-items:
+    stretch;
+
+  min-width:
+    0;
 }
 
 
@@ -215,12 +257,9 @@
    MAIN TITLE
    ========================================================= */
 
-.ww-header > h1.ww-main {
-  grid-area:
-    main;
-
+.ww-header .ww-main {
   display:
-    grid !important;
+    grid;
 
   grid-template-columns:
     minmax(0, 1fr);
@@ -237,26 +276,26 @@
   min-width:
     0;
 
-  width:
-    100%;
-
   margin:
     0 !important;
 
   padding:
-    0.75rem
-    2rem
-    0.75rem
+    0.5rem
+    1.6rem
+    0.5rem
     0 !important;
 
   color:
     var(--ww-ink) !important;
 
+  font-family:
+    inherit;
+
   font-size:
     clamp(
-      2.2rem,
-      4vw,
-      4.2rem
+      2.15rem,
+      3.8vw,
+      4rem
     ) !important;
 
   font-weight:
@@ -273,24 +312,28 @@
 
   box-sizing:
     border-box;
-
-  transform:
-    translateY(-0.6rem);
 }
 
 
 /* =========================================================
    TITLE — BEFORE COLON
+
+   Kept on ONE line.
+
+   So:
+       Week Words
+   cannot break into:
+       Week
+       Words
    ========================================================= */
 
 .ww-header
-> h1.ww-main
-> .ww-title-before {
+.ww-title-before {
   position:
     relative;
 
   display:
-    block !important;
+    block;
 
   width:
     100%;
@@ -304,9 +347,6 @@
   padding:
     0;
 
-  justify-self:
-    stretch;
-
   color:
     inherit;
 
@@ -314,7 +354,10 @@
     inherit;
 
   text-align:
-    right !important;
+    right;
+
+  white-space:
+    nowrap;
 }
 
 
@@ -323,14 +366,13 @@
    ========================================================= */
 
 .ww-header
-> h1.ww-main
-> .ww-title-before
-> .ww-colon {
+.ww-title-before
+.ww-colon {
   position:
     absolute;
 
   right:
-    -0.32em;
+    -0.30em;
 
   bottom:
     0;
@@ -360,10 +402,9 @@
    ========================================================= */
 
 .ww-header
-> h1.ww-main
-> .ww-title-after {
+.ww-title-after {
   display:
-    block !important;
+    block;
 
   width:
     100%;
@@ -379,9 +420,6 @@
   padding:
     0;
 
-  justify-self:
-    stretch;
-
   color:
     inherit;
 
@@ -389,7 +427,7 @@
     inherit;
 
   text-align:
-    right !important;
+    right;
 }
 
 
@@ -398,10 +436,9 @@
    ========================================================= */
 
 .ww-header
-> h1.ww-main
-> .ww-title-single {
+.ww-title-single {
   display:
-    block !important;
+    block;
 
   width:
     100%;
@@ -415,9 +452,6 @@
   padding:
     0;
 
-  justify-self:
-    stretch;
-
   color:
     inherit;
 
@@ -425,20 +459,20 @@
     inherit;
 
   text-align:
-    right !important;
+    right;
 }
 
 
 /* =========================================================
    SUBTITLE
+
+   The border is the full-height vertical divider.
+   Its height exactly matches the SVG mark.
    ========================================================= */
 
-.ww-header > h2.ww-sub {
-  grid-area:
-    sub;
-
+.ww-header .ww-sub {
   display:
-    flex !important;
+    flex;
 
   align-items:
     center;
@@ -453,10 +487,10 @@
     0 !important;
 
   padding:
-    0.75rem
+    0.5rem
     0
-    0.75rem
-    2rem !important;
+    0.5rem
+    1.6rem !important;
 
   border-left:
     var(--ww-divider)
@@ -466,10 +500,13 @@
   color:
     var(--ww-muted) !important;
 
+  font-family:
+    inherit;
+
   font-size:
     clamp(
       1rem,
-      1.6vw,
+      1.55vw,
       1.35rem
     ) !important;
 
@@ -488,29 +525,74 @@
   text-align:
     left !important;
 
+  overflow-wrap:
+    anywhere;
+
   box-sizing:
     border-box;
-
-  transform:
-    translateY(-0.6rem);
 }
 
 
 /* =========================================================
-   CSS DEBUG / VERSION BANNER
+   SVG DOT MARK
 
-   JavaScript only creates .ww-css-info.
+   Same vertical extent as the title/subtitle divider.
 
-   The CSS itself supplies the timestamp, so if this
-   stylesheet is loaded, the timestamp is available too.
+   At 17rem masthead height:
+       3.5rem top
+       1.5rem bottom
+       = 12rem artwork height
 
-   Update this timestamp whenever the CSS changes.
+   7.2 × 12rem is exactly the SVG's 6:10 ratio.
+   ========================================================= */
+
+.ww-header > .ww-mark {
+  position:
+    absolute;
+
+  top:
+    var(--ww-content-top);
+
+  bottom:
+    var(--ww-content-bottom);
+
+  right:
+    var(--ww-side);
+
+  width:
+    var(--ww-art-width);
+
+  margin:
+    0;
+
+  padding:
+    0;
+
+  color:
+    var(--ww-ink);
+
+  overflow:
+    hidden;
+}
+
+
+.ww-header > .ww-mark svg {
+  display:
+    block;
+
+  width:
+    100%;
+
+  height:
+    100%;
+}
+
+
+/* =========================================================
+   CSS DEBUG BANNER
    ========================================================= */
 
 .ww-css-info {
-  --ww-css-updated:
-    "2026-09-25 17:27";
-
   position:
     relative;
 
@@ -561,9 +643,7 @@
 
 .ww-css-info::before {
   content:
-    "/* CSS updated: "
-    var(--ww-css-updated)
-    " */";
+    var(--ww-css-info);
 }
 
 
@@ -589,46 +669,42 @@ th {
 @media (max-width: 900px) {
 
   .ww-header {
-    --ww-date-right: 1.5rem;
-    --ww-date-block-width: 4.5rem;
-
-    grid-template-columns:
-      0.25fr
-      minmax(12rem, 1fr)
-      minmax(12rem, 1fr);
-
-    min-height:
+    --ww-header-height:
       15rem;
 
-    padding:
-      3.25rem
-      2rem
+    --ww-side:
       1.5rem;
+
+    --ww-art-width:
+      6.3rem;
+
+    --ww-art-gap:
+      1.5rem;
+
+    --ww-content-top:
+      3.25rem;
+
+    --ww-content-bottom:
+      1.25rem;
   }
 
 
-  .ww-header > h1.ww-main {
+  .ww-header .ww-main {
     padding-right:
-      1.5rem !important;
+      1.25rem !important;
 
     font-size:
       clamp(
-        2.1rem,
-        5.5vw,
-        3.6rem
+        2rem,
+        5vw,
+        3.4rem
       ) !important;
   }
 
 
-  .ww-header > h2.ww-sub {
+  .ww-header .ww-sub {
     padding-left:
-      1.5rem !important;
-  }
-
-
-  .ww-header > .ww-brand {
-    left:
-      1.5rem;
+      1.25rem !important;
   }
 }
 
@@ -640,76 +716,114 @@ th {
 @media (max-width: 650px) {
 
   .ww-header {
-    --ww-date-right: 1.5rem;
-    --ww-date-block-width: 4rem;
+    --ww-header-height:
+      26rem;
+
+    --ww-side:
+      1.25rem;
+
+    --ww-art-width:
+      4.8rem;
+
+    --ww-art-gap:
+      1rem;
+  }
+
+
+  .ww-header > .ww-brand {
+    top:
+      1.15rem;
+  }
+
+
+  .ww-header > .ww-date {
+    top:
+      1.1rem;
+  }
+
+
+  /*
+   * Artwork becomes a smaller top-right mark.
+   */
+
+  .ww-header > .ww-mark {
+    top:
+      2.4rem;
+
+    bottom:
+      auto;
+
+    width:
+      var(--ww-art-width);
+
+    height:
+      8rem;
+  }
+
+
+  /*
+   * Lockup moves below the artwork and stacks.
+   */
+
+  .ww-header > .ww-lockup {
+    top:
+      11rem;
+
+    bottom:
+      1.5rem;
+
+    left:
+      var(--ww-side);
+
+    right:
+      var(--ww-side);
 
     grid-template-columns:
       1fr;
 
-    grid-template-areas:
-      "main"
-      "sub";
-
-    align-content:
-      center;
-
-    min-height:
-      18rem;
-
-    padding:
-      4rem
-      1.5rem
-      1.75rem;
+    grid-template-rows:
+      1fr
+      auto;
   }
 
 
-  /* Main title */
-
-  .ww-header > h1.ww-main {
-    justify-items:
-      stretch;
-
+  .ww-header .ww-main {
     padding:
-      1rem
+      0.75rem
       0 !important;
 
     font-size:
       clamp(
-        2.3rem,
-        11vw,
-        3.8rem
+        2rem,
+        10vw,
+        3.2rem
       ) !important;
 
     text-align:
       left !important;
-
-    transform:
-      none;
   }
 
 
   .ww-header
-  > h1.ww-main
-  > .ww-title-before,
+  .ww-title-before,
 
   .ww-header
-  > h1.ww-main
-  > .ww-title-after,
+  .ww-title-after,
 
   .ww-header
-  > h1.ww-main
-  > .ww-title-single {
+  .ww-title-single {
     text-align:
-      left !important;
+      left;
   }
 
 
-  /* Colon returns to normal flow */
+  /*
+   * Colon returns to normal flow on mobile.
+   */
 
   .ww-header
-  > h1.ww-main
-  > .ww-title-before
-  > .ww-colon {
+  .ww-title-before
+  .ww-colon {
     position:
       static;
 
@@ -721,12 +835,7 @@ th {
   }
 
 
-  /* Subtitle */
-
-  .ww-header > h2.ww-sub {
-    justify-content:
-      flex-start;
-
+  .ww-header .ww-sub {
     padding:
       1rem
       0
@@ -739,38 +848,5 @@ th {
       var(--ww-divider)
       solid
       var(--ww-ink);
-
-    text-align:
-      left !important;
-
-    transform:
-      none;
-  }
-
-
-  /* Brand */
-
-  .ww-header > .ww-brand {
-    top:
-      1.2rem;
-
-    left:
-      1.5rem;
-  }
-
-
-  /* Date */
-
-  .ww-header > .ww-date {
-    top:
-      1.2rem;
-  }
-
-
-  /* SVG directly below date */
-
-  .ww-header > .ww-mark {
-    top:
-      2.3rem;
   }
 }
