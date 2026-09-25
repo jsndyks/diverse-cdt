@@ -3,21 +3,21 @@
  */
 
 :root {
-  --ww-css-updated: "2026-09-25 16:46";
+  --ww-css-updated: "2026-09-25 16:58";
 
   --ww-yellow: #fffb36;
   --ww-ink: #171717;
   --ww-muted: #353535;
 
   --ww-divider: 3px;
-  --ww-header-height: 24rem;
+  --ww-header-height: 18rem;
 }
 
 
 /* =========================================================
    WEEK WORDS — PUBLICATION HEADER
 
-   Markdown:
+   Markdown convention:
 
    # Week Words : Template
    ## Subtitle
@@ -41,8 +41,8 @@
 
   min-height: var(--ww-header-height);
 
-  margin: 1.5rem 0 3rem;
-  padding: 4.5rem 3rem 3rem;
+  margin: 1.5rem 0 2.5rem;
+  padding: 3.75rem 3rem 2rem;
 
   background: var(--ww-yellow);
   color: var(--ww-ink);
@@ -57,32 +57,33 @@
 /* =========================================================
    TOP LABELS
 
-   Brand and date deliberately share all typography and
-   vertical positioning so their baselines match.
+   DIVERSE-CDT and date deliberately share the same
+   positioning and typography so their baselines align.
    ========================================================= */
 
 .ww-header > .ww-brand,
 .ww-header > .ww-date {
   position: absolute;
-  top: 1.5rem;
+
+  top: 1.35rem;
 
   display: block;
 
   margin: 0 !important;
   padding: 0 !important;
 
-  color: var(--ww-muted);
+  color: var(--ww-muted) !important;
 
   font-family: inherit;
-  font-size: 0.8rem;
-  font-weight: 800;
-  font-style: normal;
-  line-height: 1;
+  font-size: 0.8rem !important;
+  font-weight: 800 !important;
+  font-style: normal !important;
+  line-height: 1 !important;
 
-  letter-spacing: 0.16em;
+  letter-spacing: 0.16em !important;
   text-transform: uppercase;
 
-  transform: none;
+  transform: none !important;
 }
 
 
@@ -106,12 +107,23 @@
 
 /* =========================================================
    MAIN TITLE
+
+   JavaScript converts:
+
+       Week Words : Template
+
+   into:
+
+       .ww-title-before
+       .ww-title-after
+
+   and puts the colon inside .ww-title-before.
    ========================================================= */
 
-.ww-header .ww-main {
+.ww-header > h1.ww-main {
   grid-area: main;
 
-  display: grid;
+  display: grid !important;
 
   grid-template-columns: minmax(0, 1fr);
   grid-template-rows: auto auto;
@@ -120,54 +132,60 @@
   justify-items: stretch;
 
   min-width: 0;
+  width: 100%;
 
-  margin: 0;
-  padding: 1.75rem 2rem 1.75rem 0;
+  margin: 0 !important;
+  padding: 1rem 2rem 1rem 0 !important;
 
-  color: var(--ww-ink);
+  color: var(--ww-ink) !important;
 
-  font-size: clamp(2.6rem, 4.8vw, 5rem);
-  font-weight: 850;
-  line-height: 0.92;
-  letter-spacing: -0.05em;
+  font-size: clamp(2.2rem, 4vw, 4.2rem) !important;
+  font-weight: 850 !important;
+  line-height: 0.92 !important;
+  letter-spacing: -0.05em !important;
 
-  text-align: right;
+  text-align: right !important;
 
   box-sizing: border-box;
 }
 
 
 /* ---------------------------------------------------------
-   Everything before the colon
+   Title before the colon
 
-       Week
-      Words :
-
-   The block occupies the full title-column width.
+   Both title sections occupy the full width of the
+   title column, so their right edges are identical.
    --------------------------------------------------------- */
 
-.ww-header .ww-title-before {
+.ww-header > h1.ww-main > .ww-title-before {
   position: relative;
 
-  display: block;
+  display: block !important;
 
   width: 100%;
   min-width: 0;
 
-  text-align: right;
+  margin: 0;
+  padding: 0;
+
+  justify-self: stretch;
+
+  color: inherit;
+
+  font: inherit;
+
+  text-align: right !important;
 }
 
 
 /* ---------------------------------------------------------
    Hanging colon
 
-   It is removed from text flow completely.
-
-   bottom: 0 aligns it with the final line of the
-   pre-colon title rather than the first line.
+   Removed from normal text flow so it can extend beyond
+   the shared right edge of the title words.
    --------------------------------------------------------- */
 
-.ww-header .ww-title-before .ww-colon {
+.ww-header > h1.ww-main > .ww-title-before > .ww-colon {
   position: absolute;
 
   right: -0.32em;
@@ -178,26 +196,36 @@
   margin: 0;
   padding: 0;
 
+  color: inherit;
+
   font: inherit;
   line-height: inherit;
 }
 
 
 /* ---------------------------------------------------------
-   Text after the colon
+   Title after colon — e.g. "Template"
 
-   Always begins on its own row.
+   This deliberately occupies the same full-width block
+   as the preceding title, giving both the same right edge.
    --------------------------------------------------------- */
 
-.ww-header .ww-title-after {
-  display: block;
+.ww-header > h1.ww-main > .ww-title-after {
+  display: block !important;
 
   width: 100%;
   min-width: 0;
 
-  margin-top: 0.04em;
+  margin: 0.04em 0 0;
+  padding: 0;
 
-  text-align: right;
+  justify-self: stretch;
+
+  color: inherit;
+
+  font: inherit;
+
+  text-align: right !important;
 }
 
 
@@ -205,33 +233,33 @@
    SUBTITLE
    ========================================================= */
 
-.ww-header .ww-sub {
+.ww-header > h2.ww-sub {
   grid-area: sub;
 
-  display: flex;
+  display: flex !important;
 
   align-items: center;
   justify-content: flex-start;
 
   min-width: 0;
 
-  margin: 0;
-  padding: 1.75rem 0 1.75rem 2rem;
+  margin: 0 !important;
+  padding: 1rem 0 1rem 2rem !important;
 
   border-left:
     var(--ww-divider)
     solid
     var(--ww-ink);
 
-  color: var(--ww-muted);
+  color: var(--ww-muted) !important;
 
-  font-size: clamp(1rem, 1.7vw, 1.45rem);
-  font-weight: 500;
+  font-size: clamp(1rem, 1.6vw, 1.35rem) !important;
+  font-weight: 500 !important;
   font-style: italic;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
+  line-height: 1.25 !important;
+  letter-spacing: -0.01em !important;
 
-  text-align: left;
+  text-align: left !important;
 
   box-sizing: border-box;
 }
@@ -239,6 +267,12 @@
 
 /* =========================================================
    CSS DEBUG / VERSION BANNER
+
+   Appears when the URL contains:
+
+       ?css=1
+
+   JavaScript reads --ww-css-updated above.
    ========================================================= */
 
 .ww-css-info {
@@ -290,28 +324,32 @@ th {
 
   .ww-header {
     grid-template-columns:
-      0.3fr
+      0.25fr
       minmax(12rem, 1fr)
       minmax(12rem, 1fr);
 
-    min-height: 21rem;
+    min-height: 16rem;
 
-    padding: 4.25rem 2rem 2.5rem;
+    padding: 3.5rem 2rem 1.75rem;
   }
 
-  .ww-header .ww-main {
-    padding-right: 1.5rem;
 
-    font-size: clamp(2.4rem, 6vw, 4rem);
+  .ww-header > h1.ww-main {
+    padding-right: 1.5rem !important;
+
+    font-size: clamp(2.1rem, 5.5vw, 3.6rem) !important;
   }
 
-  .ww-header .ww-sub {
-    padding-left: 1.5rem;
+
+  .ww-header > h2.ww-sub {
+    padding-left: 1.5rem !important;
   }
+
 
   .ww-header > .ww-brand {
     left: 1.5rem;
   }
+
 
   .ww-header > .ww-date {
     right: 1.5rem;
@@ -321,6 +359,9 @@ th {
 
 /* =========================================================
    MOBILE
+
+   Title and subtitle stack.
+   Hanging punctuation returns to normal text flow.
    ========================================================= */
 
 @media (max-width: 650px) {
@@ -334,32 +375,34 @@ th {
 
     align-content: center;
 
-    min-height: 20rem;
+    min-height: 18rem;
 
-    padding: 4.5rem 1.5rem 2rem;
+    padding: 4rem 1.5rem 1.75rem;
   }
 
 
-  .ww-header .ww-main {
+  /* Main title */
+
+  .ww-header > h1.ww-main {
     justify-items: stretch;
 
-    padding: 1.25rem 0;
+    padding: 1rem 0 !important;
 
-    font-size: clamp(2.5rem, 12vw, 4rem);
+    font-size: clamp(2.3rem, 11vw, 3.8rem) !important;
 
-    text-align: left;
+    text-align: left !important;
   }
 
 
-  .ww-header .ww-title-before,
-  .ww-header .ww-title-after {
-    text-align: left;
+  .ww-header > h1.ww-main > .ww-title-before,
+  .ww-header > h1.ww-main > .ww-title-after {
+    text-align: left !important;
   }
 
 
-  /* Put colon back into normal flow on mobile */
+  /* Colon goes back into normal flow */
 
-  .ww-header .ww-title-before .ww-colon {
+  .ww-header > h1.ww-main > .ww-title-before > .ww-colon {
     position: static;
 
     display: inline;
@@ -368,29 +411,36 @@ th {
   }
 
 
-  .ww-header .ww-sub {
+  /* Subtitle */
+
+  .ww-header > h2.ww-sub {
     justify-content: flex-start;
 
-    padding: 1.25rem 0 0;
+    padding: 1rem 0 0 !important;
 
     border-left: 0;
+
     border-top:
       var(--ww-divider)
       solid
       var(--ww-ink);
 
-    text-align: left;
+    text-align: left !important;
   }
 
+
+  /* Top labels */
 
   .ww-header > .ww-brand,
   .ww-header > .ww-date {
-    top: 1.25rem;
+    top: 1.2rem;
   }
+
 
   .ww-header > .ww-brand {
     left: 1.5rem;
   }
+
 
   .ww-header > .ww-date {
     right: 1.5rem;
