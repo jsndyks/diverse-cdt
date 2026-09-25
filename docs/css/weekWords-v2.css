@@ -1,17 +1,25 @@
+/*
+ * Week Words CSS
+ */
+
+:root {
+  --ww-css-updated: "2026-09-25 16:15";
+
+  --ww-yellow: #fffb36;
+  --ww-ink: #171717;
+  --ww-muted: #303030;
+}
+
+
 /* =========================================================
    WEEK WORDS — PUBLICATION HEADER
-   ---------------------------------------------------------
+
    Expected Markdown:
 
    # Week Words : Template
    ## Subtitle
    ### 260925
    ========================================================= */
-
-
-/* -----------------------------
-   Header container
-   ----------------------------- */
 
 .ww-header {
   position: relative;
@@ -33,19 +41,17 @@
   margin: 1.5rem 0 3rem;
   padding: 4.5rem 3rem 3rem;
 
-  background: #fffb36;
-  color: #171717;
+  background: var(--ww-yellow);
+  color: var(--ww-ink);
 
-  border-top: 5px solid #171717;
-  border-bottom: 1px solid #171717;
+  border-top: 5px solid var(--ww-ink);
+  border-bottom: 1px solid var(--ww-ink);
 
   box-sizing: border-box;
 }
 
 
-/* -----------------------------
-   Shared title / subtitle rules
-   ----------------------------- */
+/* Shared title / subtitle */
 
 .ww-header .ww-main,
 .ww-header .ww-sub {
@@ -58,18 +64,18 @@
 }
 
 
-/* -----------------------------
-   Main title
-   ----------------------------- */
+/* Main title */
 
 .ww-header .ww-main {
   grid-area: main;
 
   justify-content: flex-end;
 
+  max-width: 12ch;
+
   padding: 1.75rem 2rem 1.75rem 0;
 
-  color: #171717;
+  color: var(--ww-ink);
 
   font-size: clamp(2.6rem, 4.8vw, 5rem);
   font-weight: 850;
@@ -83,9 +89,7 @@
 }
 
 
-/* -----------------------------
-   Subtitle
-   ----------------------------- */
+/* Subtitle */
 
 .ww-header .ww-sub {
   grid-area: sub;
@@ -94,9 +98,9 @@
 
   padding: 1.75rem 0 1.75rem 2rem;
 
-  border-left: 3px solid #171717;
+  border-left: 3px solid var(--ww-ink);
 
-  color: #303030;
+  color: var(--ww-muted);
 
   font-size: clamp(1rem, 1.7vw, 1.45rem);
   font-weight: 500;
@@ -107,9 +111,7 @@
 }
 
 
-/* -----------------------------
-   Date
-   ----------------------------- */
+/* Date */
 
 .ww-header .ww-date {
   position: absolute;
@@ -120,7 +122,7 @@
   margin: 0;
   padding: 0;
 
-  color: #303030;
+  color: var(--ww-muted);
 
   font-size: 0.8rem;
   font-weight: 800;
@@ -131,19 +133,43 @@
 }
 
 
-/* -----------------------------
-   Optional refinement:
-   stop title becoming too wide
-   ----------------------------- */
+/* =========================================================
+   CSS DEBUG / UPDATE BANNER
 
-.ww-header .ww-main {
-  max-width: 12ch;
+   Shown only when JavaScript adds .ww-css-info,
+   e.g. when the URL contains ?css=1
+   ========================================================= */
+
+.ww-css-info {
+  position: relative;
+  z-index: 9999;
+
+  padding: 0.4rem 1rem;
+
+  background: var(--ww-ink);
+  color: var(--ww-yellow);
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    monospace;
+
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+
+  text-align: right;
 }
 
 
-/* -----------------------------
-   Tables
-   ----------------------------- */
+/* =========================================================
+   TABLES
+   ========================================================= */
 
 td,
 th {
@@ -166,10 +192,7 @@ th {
 
     min-height: 21rem;
 
-    padding:
-      4.25rem
-      2rem
-      2.5rem;
+    padding: 4.25rem 2rem 2.5rem;
   }
 
   .ww-header .ww-main {
@@ -201,43 +224,31 @@ th {
 
     min-height: 20rem;
 
-    padding:
-      4.5rem
-      1.5rem
-      2rem;
+    padding: 4.5rem 1.5rem 2rem;
   }
-
 
   .ww-header .ww-main {
     justify-content: flex-start;
 
     max-width: none;
 
-    padding:
-      1.25rem
-      0
-      1.25rem;
+    padding: 1.25rem 0;
 
     font-size: clamp(2.5rem, 12vw, 4rem);
 
     text-align: left;
   }
 
-
   .ww-header .ww-sub {
     justify-content: flex-start;
 
-    padding:
-      1.25rem
-      0
-      0;
+    padding: 1.25rem 0 0;
 
     border-left: 0;
-    border-top: 3px solid #171717;
+    border-top: 3px solid var(--ww-ink);
 
     text-align: left;
   }
-
 
   .ww-header .ww-date {
     top: 1.25rem;
