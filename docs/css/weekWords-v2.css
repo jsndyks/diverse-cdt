@@ -1,6 +1,6 @@
 /*
  * Week Words CSS
- * Updated: 2026-09-25 17:55
+ * Updated: 2026-09-25 18:08
  */
 
 :root {
@@ -15,8 +15,8 @@
 /* =========================================================
    SOURCE MARKDOWN HEADINGS
 
-   Observable keeps these in its own Markdown cells.
-   The JS creates the visible presentation equivalents.
+   Observable keeps these as the editable source.
+   JS creates the visible masthead equivalents.
    ========================================================= */
 
 .ww-source-heading {
@@ -27,15 +27,17 @@
 /* =========================================================
    WEEK WORDS MASTHEAD
 
-   Desktop grid:
+   Desktop structure:
 
-          spacer | TITLE | SUBTITLE | spacer | gap | SVG
-                           |
-                       divider
+    spacer | TITLE | SUBTITLE | spacer | gap | SVG
+                      |
+                   divider
 
-   The two spacer columns are equal, so TITLE | SUBTITLE
-   is centred within all the available space to the LEFT
-   of the SVG.
+   The two spacer columns are equal.
+
+   Therefore TITLE | SUBTITLE is centred within the usable
+   space between the left edge of the yellow masthead and
+   the left edge of the SVG.
    ========================================================= */
 
 .ww-header {
@@ -66,14 +68,11 @@
 
   column-gap: 0;
 
-  row-gap:
-    0.75rem;
+  row-gap: 0.75rem;
 
-  align-items:
-    stretch;
+  align-items: stretch;
 
-  min-width:
-    0;
+  min-width: 0;
 
   margin:
     1.5rem
@@ -108,22 +107,18 @@
 
 
 /* =========================================================
-   TOP LINE — SHARED TYPOGRAPHY
+   TOP LINE
 
-   Brand and date occupy the SAME grid row, so their
-   baselines are naturally aligned.
+   Brand and date occupy the same grid row so their
+   vertical alignment is shared.
    ========================================================= */
 
 .ww-header > .ww-brand,
 .ww-header > .ww-date {
-  align-self:
-    center;
+  align-self: center;
 
-  margin:
-    0;
-
-  padding:
-    0;
+  margin: 0;
+  padding: 0;
 
   color:
     var(--ww-muted);
@@ -170,10 +165,11 @@
 /* =========================================================
    DATE
 
-   Exact same width as SVG column.
+   Same width as the SVG.
 
-   JS creates one span per character and space-between
-   distributes them evenly:
+   JS creates one span for every character.
+
+   space-between gives:
 
        2     6     M     M     D     D
    ========================================================= */
@@ -191,11 +187,11 @@
   justify-content:
     space-between;
 
-  width:
-    100%;
-
   justify-self:
     stretch;
+
+  width:
+    100%;
 
   letter-spacing:
     0;
@@ -241,8 +237,8 @@
     0 !important;
 
   /*
-   * More bottom than top padding shifts the actual
-   * title text slightly upward without moving the box.
+   * Slightly more padding below than above gives the
+   * title/subtitle pair a subtle upward optical shift.
    */
 
   padding:
@@ -284,9 +280,13 @@
 /* =========================================================
    TITLE — BEFORE COLON
 
-   Kept together on one line.
+   Kept on one line.
 
-   e.g. "Week Words" will never become:
+   So:
+
+       Week Words
+
+   cannot break into:
 
        Week
        Words
@@ -330,8 +330,8 @@
 /* =========================================================
    HANGING COLON
 
-   Has no layout width, so Template and the other title
-   words all share the same right edge.
+   It occupies no layout width, so all title words share
+   the same right edge.
    ========================================================= */
 
 .ww-header
@@ -438,9 +438,9 @@
 /* =========================================================
    SUBTITLE
 
-   Border spans exactly the same grid row as the SVG,
-   therefore the vertical rule and artwork are identical
-   in height.
+   Its left border occupies the same grid row as the SVG,
+   so the vertical rule and artwork are exactly the same
+   height.
    ========================================================= */
 
 .ww-header > h2.ww-sub {
@@ -464,10 +464,6 @@
 
   margin:
     0 !important;
-
-  /*
-   * Matches the title's slight upward optical shift.
-   */
 
   padding:
     0.15rem
@@ -519,14 +515,12 @@
 /* =========================================================
    SVG MARK
 
-   Same grid row as TITLE | SUBTITLE.
-
-   8rem × 13.333rem = exact 6 : 10 aspect ratio.
+   8rem × 13.333rem is exactly the SVG's 6:10 ratio.
 
    Therefore:
-   - same width as date
-   - same height as vertical divider
-   - circles remain circles
+   - date and SVG have exactly the same width
+   - SVG and vertical divider have exactly the same height
+   - circles remain circular
    ========================================================= */
 
 .ww-header > .ww-mark {
@@ -577,10 +571,13 @@
 /* =========================================================
    CSS DEBUG / VERSION BANNER
 
-   Add ?css=1 to the URL.
+   Add:
 
-   The text comes directly from THIS stylesheet, so there
-   is no JavaScript/computed-style timing dependency.
+       ?css=1
+
+   to the URL.
+
+   Version text is produced directly by this stylesheet.
    ========================================================= */
 
 .ww-css-info {
@@ -634,7 +631,7 @@
 
 .ww-css-info::before {
   content:
-    "/* CSS updated: 2026-09-25 17:55 */";
+    "/* CSS updated: 2026-09-25 18:08 */";
 }
 
 
@@ -785,7 +782,7 @@ th {
   }
 
 
-  /* Hanging colon returns to normal flow on mobile */
+  /* Colon returns to normal flow on mobile */
 
   .ww-header
   > h1.ww-main
