@@ -3,7 +3,7 @@
  */
 
 :root {
-  --ww-css-updated: "2026-09-25 16:22";
+  --ww-css-updated: "2026-09-25 16:28";
 
   --ww-yellow: #fffb36;
   --ww-ink: #171717;
@@ -96,6 +96,24 @@
 
 
 /* ---------------------------------------------------------
+   Hanging colon
+
+   The JavaScript wraps the first colon in:
+   <span class="ww-colon">:</span>
+
+   This lets the words remain right-aligned while the
+   punctuation hangs slightly into the divider space.
+   --------------------------------------------------------- */
+
+.ww-header .ww-colon {
+  display: inline-block;
+
+  margin-right: -0.28em;
+  transform: translateX(0.28em);
+}
+
+
+/* ---------------------------------------------------------
    Subtitle
    --------------------------------------------------------- */
 
@@ -148,7 +166,9 @@
 
 /* =========================================================
    CSS DEBUG / VERSION BANNER
-   Appears only when JS creates .ww-css-info
+
+   Appears when the JS creates .ww-css-info
+   and the URL contains ?css=1
    ========================================================= */
 
 .ww-css-info {
@@ -268,5 +288,14 @@ th {
   .ww-header .ww-date {
     top: 1.25rem;
     right: 1.5rem;
+  }
+
+  /*
+   * Hanging punctuation is less useful once the title
+   * becomes left-aligned on narrow screens.
+   */
+  .ww-header .ww-colon {
+    margin-right: 0;
+    transform: none;
   }
 }
