@@ -1,116 +1,246 @@
-/* ----------------------------------------
-   WEEK WORDS
-   ---------------------------------------- */
+/* =========================================================
+   WEEK WORDS — PUBLICATION HEADER
+   ---------------------------------------------------------
+   Expected Markdown:
+
+   # Week Words : Template
+   ## Subtitle
+   ### 260925
+   ========================================================= */
+
+
+/* -----------------------------
+   Header container
+   ----------------------------- */
 
 .ww-header {
+  position: relative;
+
   display: grid;
 
   grid-template-columns:
-    minmax(4.5rem, 0.28fr)
-    minmax(0, 1fr);
+    1fr
+    minmax(16rem, 1fr)
+    minmax(16rem, 1fr);
 
   grid-template-areas:
-    "date main"
-    "date sub";
+    ". main sub";
+
+  align-items: stretch;
+
+  min-height: 24rem;
 
   margin: 1.5rem 0 3rem;
+  padding: 4.5rem 3rem 3rem;
 
-  background: #ffe800;
+  background: #fffb36;
   color: #171717;
 
-  border-top: 6px solid currentColor;
-  border-bottom: 1px solid currentColor;
+  border-top: 5px solid #171717;
+  border-bottom: 1px solid #171717;
+
+  box-sizing: border-box;
 }
 
 
-/* MAIN TITLE */
+/* -----------------------------
+   Shared title / subtitle rules
+   ----------------------------- */
+
+.ww-header .ww-main,
+.ww-header .ww-sub {
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+
+/* -----------------------------
+   Main title
+   ----------------------------- */
 
 .ww-header .ww-main {
   grid-area: main;
 
-  margin: 0;
-  padding: 2.5rem 2.5rem 0.35rem;
+  justify-content: flex-end;
 
-  font-size: clamp(3rem, 8vw, 7rem);
-  font-weight: 850;
-  line-height: 0.86;
-  letter-spacing: -0.06em;
+  padding: 1.75rem 2rem 1.75rem 0;
 
   color: #171717;
+
+  font-size: clamp(2.6rem, 4.8vw, 5rem);
+  font-weight: 850;
+  line-height: 0.92;
+  letter-spacing: -0.05em;
+
+  text-align: right;
+
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 
-/* SUBTITLE */
+/* -----------------------------
+   Subtitle
+   ----------------------------- */
 
 .ww-header .ww-sub {
   grid-area: sub;
 
-  margin: 0;
-  padding: 0.6rem 2.5rem 2.5rem;
+  justify-content: flex-start;
 
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  padding: 1.75rem 0 1.75rem 2rem;
+
+  border-left: 3px solid #171717;
+
+  color: #303030;
+
+  font-size: clamp(1rem, 1.7vw, 1.45rem);
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
 
-  color: #555;
+  text-align: left;
 }
 
 
-/* DATE */
+/* -----------------------------
+   Date
+   ----------------------------- */
 
 .ww-header .ww-date {
-  grid-area: date;
+  position: absolute;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  top: 1.5rem;
+  right: 2rem;
 
   margin: 0;
-  padding: 1rem;
+  padding: 0;
 
-  border-right: 1px solid rgb(0 0 0 / 25%);
+  color: #303030;
 
-  font-size: clamp(0.7rem, 1.2vw, 0.9rem);
+  font-size: 0.8rem;
   font-weight: 800;
   line-height: 1;
-  letter-spacing: 0.18em;
 
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
 }
 
 
-/* MOBILE */
+/* -----------------------------
+   Optional refinement:
+   stop title becoming too wide
+   ----------------------------- */
+
+.ww-header .ww-main {
+  max-width: 12ch;
+}
+
+
+/* -----------------------------
+   Tables
+   ----------------------------- */
+
+td,
+th {
+  font-size: 120%;
+  padding: 0.5rem 0;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .ww-header {
+    grid-template-columns:
+      0.35fr
+      minmax(12rem, 1fr)
+      minmax(12rem, 1fr);
+
+    min-height: 21rem;
+
+    padding:
+      4.25rem
+      2rem
+      2.5rem;
+  }
+
+  .ww-header .ww-main {
+    padding-right: 1.5rem;
+
+    font-size: clamp(2.4rem, 6vw, 4rem);
+  }
+
+  .ww-header .ww-sub {
+    padding-left: 1.5rem;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
 
 @media (max-width: 650px) {
 
   .ww-header {
+    display: grid;
+
     grid-template-columns: 1fr;
 
     grid-template-areas:
-      "date"
       "main"
       "sub";
+
+    min-height: 20rem;
+
+    padding:
+      4.5rem
+      1.5rem
+      2rem;
   }
 
-  .ww-header .ww-date {
-    display: block;
-
-    padding: 1.25rem 1.5rem 0;
-
-    border-right: 0;
-
-    writing-mode: horizontal-tb;
-    transform: none;
-  }
 
   .ww-header .ww-main {
-    padding: 1.25rem 1.5rem 0.4rem;
+    justify-content: flex-start;
 
-    font-size: clamp(2.6rem, 14vw, 5rem);
+    max-width: none;
+
+    padding:
+      1.25rem
+      0
+      1.25rem;
+
+    font-size: clamp(2.5rem, 12vw, 4rem);
+
+    text-align: left;
   }
 
+
   .ww-header .ww-sub {
-    padding: 0.4rem 1.5rem 1.75rem;
+    justify-content: flex-start;
+
+    padding:
+      1.25rem
+      0
+      0;
+
+    border-left: 0;
+    border-top: 3px solid #171717;
+
+    text-align: left;
+  }
+
+
+  .ww-header .ww-date {
+    top: 1.25rem;
+    right: 1.5rem;
   }
 }
