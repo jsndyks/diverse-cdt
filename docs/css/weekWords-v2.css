@@ -1,6 +1,6 @@
 /*
  * Week Words CSS
- * Updated: 2026-09-25 18:08
+ * Updated: 2026-09-30 11:01
  */
 
 :root {
@@ -27,17 +27,19 @@
 /* =========================================================
    WEEK WORDS MASTHEAD
 
-   Desktop structure:
+   Desktop:
 
-    spacer | TITLE | SUBTITLE | spacer | gap | SVG
-                      |
-                   divider
+    DATE   | WEEK WORDS |            | DIVERSE-CDT
+    -------+------------+------------+------------
+    spacer | TITLE      | SUBTITLE   | spacer | SVG
+                           |
+                        divider
 
-   The two spacer columns are equal.
+   The two invisible spacer columns around TITLE | SUBTITLE
+   are equal.
 
-   Therefore TITLE | SUBTITLE is centred within the usable
-   space between the left edge of the yellow masthead and
-   the left edge of the SVG.
+   Therefore the complete title lockup is centred in the
+   usable space to the LEFT of the artwork.
    ========================================================= */
 
 .ww-header {
@@ -63,16 +65,20 @@
     var(--ww-art-height);
 
   grid-template-areas:
-    "brand brand brand brand . date"
-    ".     main  sub   .     . art";
+    "date  series .   . . brand"
+    ".     main   sub . . art";
 
-  column-gap: 0;
+  column-gap:
+    0;
 
-  row-gap: 0.75rem;
+  row-gap:
+    0.75rem;
 
-  align-items: stretch;
+  align-items:
+    stretch;
 
-  min-width: 0;
+  min-width:
+    0;
 
   margin:
     1.5rem
@@ -107,18 +113,23 @@
 
 
 /* =========================================================
-   TOP LINE
+   TOP LINE — SHARED TYPOGRAPHY
 
-   Brand and date occupy the same grid row so their
-   vertical alignment is shared.
+   DATE, WEEK WORDS and DIVERSE-CDT all occupy the same
+   grid row and therefore align vertically.
    ========================================================= */
 
-.ww-header > .ww-brand,
-.ww-header > .ww-date {
-  align-self: center;
+.ww-header > .ww-date,
+.ww-header > .ww-series,
+.ww-header > .ww-brand {
+  align-self:
+    center;
 
-  margin: 0;
-  padding: 0;
+  margin:
+    0;
+
+  padding:
+    0;
 
   color:
     var(--ww-muted);
@@ -140,22 +151,30 @@
 
   text-transform:
     uppercase;
+
+  white-space:
+    nowrap;
 }
 
 
 /* =========================================================
-   DIVERSE-CDT
+   DATE — TOP LEFT
+
+   No artificial character spacing.
    ========================================================= */
 
-.ww-header > .ww-brand {
+.ww-header > .ww-date {
   grid-area:
-    brand;
+    date;
 
   justify-self:
     start;
 
+  width:
+    auto;
+
   letter-spacing:
-    0.16em;
+    0.08em;
 
   text-align:
     left;
@@ -163,20 +182,54 @@
 
 
 /* =========================================================
-   DATE
+   WEEK WORDS — ABOVE MAIN TITLE
 
-   Same width as the SVG.
+   This occupies exactly the same grid column as the H1.
+
+   Its right padding matches the H1's right padding, so its
+   right edge aligns with the actual TITLE TEXT — not with
+   the hanging colon and not with the divider.
+   ========================================================= */
+
+.ww-header > .ww-series {
+  grid-area:
+    series;
+
+  justify-self:
+    stretch;
+
+  width:
+    100%;
+
+  padding-right:
+    1.6rem;
+
+  box-sizing:
+    border-box;
+
+  letter-spacing:
+    0.16em;
+
+  text-align:
+    right;
+}
+
+
+/* =========================================================
+   DIVERSE-CDT — TOP RIGHT
 
    JS creates one span for every character.
 
-   space-between gives:
+   This element occupies exactly the same grid column as
+   the SVG beneath it.
 
-       2     6     M     M     D     D
+   space-between therefore stretches DIVERSE-CDT across
+   exactly the same width as the artwork.
    ========================================================= */
 
-.ww-header > .ww-date {
+.ww-header > .ww-brand {
   grid-area:
-    date;
+    brand;
 
   display:
     flex;
@@ -196,8 +249,8 @@
   letter-spacing:
     0;
 
-  white-space:
-    nowrap;
+  text-align:
+    right;
 }
 
 
@@ -237,8 +290,8 @@
     0 !important;
 
   /*
-   * Slightly more padding below than above gives the
-   * title/subtitle pair a subtle upward optical shift.
+   * More space below than above gives the title a slight
+   * upward optical shift.
    */
 
   padding:
@@ -280,13 +333,11 @@
 /* =========================================================
    TITLE — BEFORE COLON
 
-   Kept on one line.
-
-   So:
+   Kept on one line, so:
 
        Week Words
 
-   cannot break into:
+   cannot become:
 
        Week
        Words
@@ -330,8 +381,10 @@
 /* =========================================================
    HANGING COLON
 
-   It occupies no layout width, so all title words share
-   the same right edge.
+   Colon occupies no layout width.
+
+   Therefore WEEK WORDS above aligns with the title words,
+   rather than with the punctuation.
    ========================================================= */
 
 .ww-header
@@ -439,7 +492,7 @@
    SUBTITLE
 
    Its left border occupies the same grid row as the SVG,
-   so the vertical rule and artwork are exactly the same
+   so the vertical rule and artwork have exactly the same
    height.
    ========================================================= */
 
@@ -515,12 +568,16 @@
 /* =========================================================
    SVG MARK
 
-   8rem × 13.333rem is exactly the SVG's 6:10 ratio.
+   Same grid column as DIVERSE-CDT.
+
+   Same grid row as TITLE | SUBTITLE.
+
+   8rem × 13.333rem = exact 6 : 10 aspect ratio.
 
    Therefore:
-   - date and SVG have exactly the same width
+   - DIVERSE-CDT and SVG have exactly the same width
    - SVG and vertical divider have exactly the same height
-   - circles remain circular
+   - circles stay circular
    ========================================================= */
 
 .ww-header > .ww-mark {
@@ -577,7 +634,7 @@
 
    to the URL.
 
-   Version text is produced directly by this stylesheet.
+   The text comes directly from this stylesheet.
    ========================================================= */
 
 .ww-css-info {
@@ -631,7 +688,7 @@
 
 .ww-css-info::before {
   content:
-    "/* CSS updated: 2026-09-25 18:08 */";
+    "/* CSS updated: 2026-09-30 11:01 */";
 }
 
 
@@ -679,6 +736,12 @@ th {
   }
 
 
+  .ww-header > .ww-series {
+    padding-right:
+      1.25rem;
+  }
+
+
   .ww-header > h1.ww-main {
     padding-right:
       1.25rem !important;
@@ -717,6 +780,7 @@ th {
 
 
     grid-template-columns:
+      auto
       minmax(0, 1fr)
       var(--ww-art-width);
 
@@ -726,9 +790,9 @@ th {
       auto;
 
     grid-template-areas:
-      "brand date"
-      "main  art"
-      "sub   art";
+      "date series brand"
+      "main main   art"
+      "sub  sub    art";
 
     row-gap:
       0.8rem;
@@ -743,11 +807,18 @@ th {
   }
 
 
-  .ww-header > .ww-date {
-    width:
-      100%;
+  /* Top WEEK WORDS label */
+
+  .ww-header > .ww-series {
+    padding-right:
+      0;
+
+    text-align:
+      right;
   }
 
+
+  /* Main title */
 
   .ww-header > h1.ww-main {
     padding:
@@ -782,7 +853,7 @@ th {
   }
 
 
-  /* Colon returns to normal flow on mobile */
+  /* Colon returns to normal flow */
 
   .ww-header
   > h1.ww-main
@@ -798,6 +869,8 @@ th {
       0.08em;
   }
 
+
+  /* Subtitle */
 
   .ww-header > h2.ww-sub {
     padding:
@@ -817,6 +890,8 @@ th {
       left !important;
   }
 
+
+  /* Artwork */
 
   .ww-header > .ww-mark {
     align-self:
