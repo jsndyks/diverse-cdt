@@ -1,6 +1,6 @@
 /*
  * Week Words CSS
- * Updated: 2026-09-30 11:01
+ * Updated: 2026-09-30 11:22
  */
 
 :root {
@@ -29,11 +29,11 @@
 
    Desktop:
 
-    DATE   | WEEK WORDS |            | DIVERSE-CDT
-    -------+------------+------------+------------
-    spacer | TITLE      | SUBTITLE   | spacer | SVG
-                           |
-                        divider
+    DATE      | WEEK WORDS |            | DIVERSE-CDT
+    ----------+------------+------------+------------
+    spacer    | TITLE      | SUBTITLE   | spacer | SVG
+                              |
+                           divider
 
    The two invisible spacer columns around TITLE | SUBTITLE
    are equal.
@@ -160,24 +160,61 @@
 /* =========================================================
    DATE — TOP LEFT
 
-   No artificial character spacing.
+   Displayed as:
+
+       YY | MM | DD
+
+   with the same tracked editorial feel as the other labels.
    ========================================================= */
 
 .ww-header > .ww-date {
   grid-area:
     date;
 
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    flex-start;
+
   justify-self:
     start;
+
+  gap:
+    0.45em;
 
   width:
     auto;
 
   letter-spacing:
-    0.08em;
+    0.16em;
 
   text-align:
     left;
+
+  white-space:
+    nowrap;
+}
+
+
+.ww-header > .ww-date-part {
+  display:
+    inline-block;
+}
+
+
+.ww-header > .ww-date-divider {
+  display:
+    inline-block;
+
+  letter-spacing:
+    0;
+
+  opacity:
+    0.75;
 }
 
 
@@ -688,7 +725,7 @@
 
 .ww-css-info::before {
   content:
-    "/* CSS updated: 2026-09-30 11:01 */";
+    "/* CSS updated: 2026-09-30 11:22 */";
 }
 
 
@@ -815,6 +852,17 @@ th {
 
     text-align:
       right;
+  }
+
+
+  /* Date */
+
+  .ww-header > .ww-date {
+    gap:
+      0.30em;
+
+    letter-spacing:
+      0.10em;
   }
 
 
