@@ -1,3 +1,4 @@
+/*
  * Week Words CSS
  * Version: 2.1.0 — Updated: 2026-11-05
  * Change: Wider desktop title column so long words align
@@ -55,7 +56,6 @@
 
   grid-template-columns:
     minmax(0, 1fr)
-    minmax(14rem, 23rem)
     minmax(14rem, 20rem)
     minmax(0, 1fr)
     var(--ww-art-gap)
